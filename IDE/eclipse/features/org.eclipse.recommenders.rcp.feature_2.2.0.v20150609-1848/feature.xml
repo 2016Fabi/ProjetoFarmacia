@@ -1,0 +1,194 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feature
+      id="org.eclipse.recommenders.rcp.feature"
+      label="%label"
+      version="2.2.0.v20150609-1848"
+      provider-name="%provider-name"
+      plugin="org.eclipse.recommenders.rcp">
+
+   <description url="http://www.eclipse.org/recommenders/">
+      %description
+   </description>
+
+   <copyright>
+      %copyright
+   </copyright>
+
+   <license url="%licenseURL">
+      %license
+   </license>
+
+   <requires>
+      <import feature="org.eclipse.aether.feature" version="1.0.0" match="compatible"/>
+      <import feature="org.eclipse.aether.connector.basic.feature" version="1.0.0" match="compatible"/>
+      <import feature="org.eclipse.aether.maven.feature" version="3.1.0" match="compatible"/>
+      <import feature="org.eclipse.aether.transport.file.feature" version="1.0.0" match="compatible"/>
+      <import feature="org.eclipse.aether.transport.http.feature" version="1.0.0" match="compatible"/>
+      <import plugin="ch.qos.logback.classic" version="1.0.0" match="compatible"/>
+      <import plugin="ch.qos.logback.core" version="1.0.0" match="compatible"/>
+      <import plugin="ch.qos.logback.slf4j" version="1.0.0" match="compatible"/>
+      <import plugin="com.google.inject.multibindings" version="3.0.0" match="compatible"/>
+   </requires>
+
+   <plugin
+         id="org.eclipse.recommenders.rcp"
+         download-size="210"
+         install-size="393"
+         version="2.2.0.v20150609-1848"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.recommenders.apidocs"
+         download-size="25"
+         install-size="48"
+         version="2.2.0.v20150609-1848"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.recommenders.apidocs.rcp"
+         download-size="104"
+         install-size="223"
+         version="2.2.0.v20150609-1848"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.recommenders.calls"
+         download-size="26"
+         install-size="53"
+         version="2.2.0.v20150609-1848"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.recommenders.calls.rcp"
+         download-size="75"
+         install-size="159"
+         version="2.2.0.v20150609-1848"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.recommenders.chain.rcp"
+         download-size="54"
+         install-size="112"
+         version="2.2.0.v20150609-1848"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.recommenders.completion.rcp"
+         download-size="224"
+         install-size="528"
+         version="2.2.0.v20150609-1848"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.recommenders.constructors"
+         download-size="12"
+         install-size="18"
+         version="2.2.0.v20150609-1848"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.recommenders.constructors.rcp"
+         download-size="25"
+         install-size="44"
+         version="2.2.0.v20150609-1848"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.recommenders.coordinates"
+         download-size="39"
+         install-size="75"
+         version="2.2.0.v20150609-1848"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.recommenders.coordinates.rcp"
+         download-size="91"
+         install-size="196"
+         version="2.2.0.v20150609-1848"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.recommenders.injection"
+         download-size="15"
+         install-size="24"
+         version="2.2.0.v20150609-1848"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.recommenders.jayes"
+         download-size="94"
+         install-size="183"
+         version="2.2.0.v20150609-1848"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.recommenders.jayes.io"
+         download-size="42"
+         install-size="72"
+         version="2.2.0.v20150609-1848"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.recommenders.jdt"
+         download-size="26"
+         install-size="52"
+         version="2.2.0.v20150609-1848"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.recommenders.models"
+         download-size="58"
+         install-size="120"
+         version="2.2.0.v20150609-1848"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.recommenders.models.rcp"
+         download-size="117"
+         install-size="263"
+         version="2.2.0.v20150609-1848"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.recommenders.net"
+         download-size="10"
+         install-size="14"
+         version="2.2.0.v20150609-1848"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.recommenders.overrides"
+         download-size="21"
+         install-size="38"
+         version="2.2.0.v20150609-1848"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.recommenders.overrides.rcp"
+         download-size="23"
+         install-size="40"
+         version="2.2.0.v20150609-1848"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.recommenders.subwords.rcp"
+         download-size="31"
+         install-size="54"
+         version="2.2.0.v20150609-1848"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.recommenders.types.rcp"
+         download-size="41"
+         install-size="76"
+         version="2.2.0.v20150609-1848"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.recommenders.utils"
+         download-size="105"
+         install-size="209"
+         version="2.2.0.v20150609-1848"
+         unpack="false"/>
+
+</feature>

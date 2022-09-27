@@ -1,0 +1,67 @@
+Manifest-Version: 1.0
+Bundle-SymbolicName: org.eclipse.epp.package.jee;singleton:=true
+Archiver-Version: Plexus Archiver
+Built-By: genie.packaging
+Require-Bundle: org.eclipse.platform,org.eclipse.equinox.app
+Bundle-RequiredExecutionEnvironment: JavaSE-1.6
+Eclipse-SourceReferences: scm:git:git://git.eclipse.org/gitroot/epp/or
+ g.eclipse.epp.packages.git;path="packages/org.eclipse.epp.package.jee
+ ";commitId=a4058ff22bbbf8525135d2adc498f98942c8c36e
+Bundle-ManifestVersion: 2
+Bundle-Vendor: %Bundle-Vendor
+Bundle-Name: %Bundle-Name
+Bundle-Version: 4.5.0.20150621-1200
+Created-By: Apache Maven 3.3.1
+Build-Jdk: 1.7.0_75
+Eclipse-BundleShape: dir
+
+Name: plugin_customization.ini
+SHA-256-Digest: bY12e2752xPzF5gX/+2iUGPouYRj47f2j0NiR8ZNxT8=
+
+Name: about.properties
+SHA-256-Digest: /PIhxRXijtDAf7crjzO92STWe1ALQGNqvhG6Dy5xFd0=
+
+Name: plugin.xml
+SHA-256-Digest: Ig6HAgnJTnKbTzWksL8Jrh9sQAG2p3h2lATc1RUqPUU=
+
+Name: about.html
+SHA-256-Digest: UTaB7jny234ewRnQ2UOoGM8hk+k1vS982d8D3YQUB6k=
+
+Name: wtp_logo_2010.png
+SHA-256-Digest: vs1kT1suFfOYvJDHf7DcYx0kne9M4xoFoEEkOP1PrYM=
+
+Name: javaee-ide_x48.png
+SHA-256-Digest: Idrb8sbzpriQP5HedJp7z36k3OviO7Nz/qaox3JzvTk=
+
+Name: helpData.xml
+SHA-256-Digest: KhrsA0KEFupnGg4+iUF7QZohnxID5wZyu/TMdV3M78g=
+
+Name: aboutgears_115x.png
+SHA-256-Digest: BwTET8Dz4Ps4CeFdODWtNrhC4hleqGvZvGKG0+nrIQ8=
+
+Name: about.mappings
+SHA-256-Digest: WzkCmP3LZzH59M3ieJfT9oiwW9+JX+KMyolsB8xoPgg=
+
+Name: javaee-ide_x16.png
+SHA-256-Digest: WmB7TkyQVStO5nWtuqddF8R8ehqPHOszV17PEIfmT9o=
+
+Name: META-INF/maven/org.eclipse.epp/org.eclipse.epp.package.jee/pom.x
+ ml
+SHA-256-Digest: afZjr6rTLQ//+Api8dLmv5bjIGNPEMeRqst16Jtd1XM=
+
+Name: javaee-ide_x32.png
+SHA-256-Digest: GM8V+NJP7XHNxUS/jmzwiBbwZ3Ae5Gu3f1quns02m3I=
+
+Name: about.ini
+SHA-256-Digest: eC6buObM9oSiCyroTRTyprFx1gyduQyQl4dL1yobcqQ=
+
+Name: META-INF/maven/org.eclipse.epp/org.eclipse.epp.package.jee/pom.p
+ roperties
+SHA-256-Digest: QP7rqbDYhOi10ud8v4bVcjtQ9uoQsBc3fddOvRoSb/o=
+
+Name: OSGI-INF/l10n/bundle.properties
+SHA-256-Digest: XoyPyQqBvdcQj3++lKM6Y5PLh85ia92U2QRWsFHKwAI=
+
+Name: wtp_logo_96.png
+SHA-256-Digest: FvDLd3bBHpQj6+QAA3fKYWqahFzNc4dGbuYeXyo6fds=
+

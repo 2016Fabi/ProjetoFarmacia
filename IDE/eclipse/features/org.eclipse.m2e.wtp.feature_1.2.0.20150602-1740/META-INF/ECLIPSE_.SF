@@ -1,0 +1,29 @@
+Signature-Version: 1.0
+SHA-256-Digest-Manifest-Main-Attributes: sYQGL/vgGz1OmcQ3nh86DGQXfUo2b
+ FCN6yK3/l04MHM=
+SHA-256-Digest-Manifest: nBTpN2k71lM3SmywLxTOnGWrGtxq4T0eqJGV5si3TEE=
+Created-By: 1.8.0_40 (Oracle Corporation)
+
+Name: p2.inf
+SHA-256-Digest: rOYNIpo7PsntckNYtqQgd11pe1Dg2qhcvnxZk8CNhHU=
+
+Name: epl-v10.html
+SHA-256-Digest: 8GSw4aNBim+4CHFc1TYSYQy3Ei4T2BVP57HxmJUvTBs=
+
+Name: feature.xml
+SHA-256-Digest: UWBiRdPw8fm+joMyauVa1im5jC4d8nfXg4OcQgOf40E=
+
+Name: feature.properties
+SHA-256-Digest: LkfwFnNGgBx2MrXrAkztqklNSx+CEh8HGzKjHiiyFCQ=
+
+Name: META-INF/maven/org.eclipse.m2e.wtp/org.eclipse.m2e.wtp.feature/p
+ om.xml
+SHA-256-Digest: OFP+RfNszHt4DSN/W92T+iueHkFnZAj0pYCcmSLgnWE=
+
+Name: license.html
+SHA-256-Digest: gb5ZzrbOyFArzDLUIG4huZV/GHHBYb0EtixuMKXnhqs=
+
+Name: META-INF/maven/org.eclipse.m2e.wtp/org.eclipse.m2e.wtp.feature/p
+ om.properties
+SHA-256-Digest: jtf09BMN3YgmeywEfLwCxUvU6GEaxWXQPz3ssqdwWSI=
+

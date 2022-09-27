@@ -1,0 +1,10 @@
+
+set 10, 2022 21:47:42.35 NEW SESSION
+set 10, 2022 21:47:42.35 [2022-09-11T00:47:42Z ERROR viaduct::backend::ffi] Missing HTTP status
+set 10, 2022 21:47:42.35 [2022-09-11T00:47:42Z ERROR viaduct::backend::ffi] Missing HTTP status
+
+set 10, 2022 21:58:00.32 NEW SESSION
+set 10, 2022 21:58:00.32 [2022-09-11T00:58:00Z ERROR viaduct::backend::ffi] Missing HTTP status
+set 10, 2022 21:58:00.32 [2022-09-11T00:58:00Z ERROR viaduct::backend::ffi] Missing HTTP status
+set 10, 2022 21:58:00.57 [Parent 7656, IPC I/O Parent] WARNING: DuplicateHandle failed for handle 0 in TransferHandles: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:723
+set 10, 2022 21:58:00.69 [Parent 7656, IPC I/O Parent] WARNING: file /builds/worker/checkouts/gecko/ipc/chromium/src/base/process_util_win.cc:167
