@@ -1,0 +1,52 @@
+
+set 10, 2022 21:47:42.35 NEW SESSION
+set 10, 2022 21:47:42.35 [2022-09-11T00:47:42Z ERROR viaduct::backend::ffi] Missing HTTP status
+set 10, 2022 21:47:42.35 [2022-09-11T00:47:42Z ERROR viaduct::backend::ffi] Missing HTTP status
+
+set 10, 2022 21:58:00.32 NEW SESSION
+set 10, 2022 21:58:00.32 [2022-09-11T00:58:00Z ERROR viaduct::backend::ffi] Missing HTTP status
+set 10, 2022 21:58:00.32 [2022-09-11T00:58:00Z ERROR viaduct::backend::ffi] Missing HTTP status
+set 10, 2022 21:58:00.57 [Parent 7656, IPC I/O Parent] WARNING: DuplicateHandle failed for handle 0 in TransferHandles: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:723
+set 10, 2022 21:58:00.69 [Parent 7656, IPC I/O Parent] WARNING: file /builds/worker/checkouts/gecko/ipc/chromium/src/base/process_util_win.cc:167
+
+nov 21, 2022 18:59:42.19 NEW SESSION
+nov 21, 2022 18:59:42.19 [2022-11-21T21:59:42Z ERROR glean_core::metrics::ping] Invalid reason code startup for ping background-update
+nov 21, 2022 19:00:04.67 [2022-11-21T22:00:04Z ERROR viaduct::backend::ffi] Missing HTTP status
+nov 21, 2022 19:00:04.68 [2022-11-21T22:00:04Z ERROR viaduct::backend::ffi] Missing HTTP status
+nov 21, 2022 19:00:04.68 [2022-11-21T22:00:04Z ERROR viaduct::backend::ffi] Missing HTTP status
+
+mar 30, 2023 22:03:16.50 NEW SESSION
+mar 30, 2023 22:03:16.50 [ERROR viaduct::backend::ffi] Missing HTTP status
+mar 30, 2023 22:03:16.59 [ERROR viaduct::backend::ffi] Missing HTTP status
+mar 30, 2023 22:06:30.59 [ERROR viaduct::backend::ffi] Missing HTTP status
+mar 30, 2023 22:06:30.64 [ERROR viaduct::backend::ffi] Missing HTTP status
+
+jul 21, 2023 17:55:55.80 NEW SESSION
+jul 21, 2023 17:55:55.80 [ERROR viaduct::backend::ffi] Missing HTTP status
+jul 21, 2023 17:55:56.05 [ERROR viaduct::backend::ffi] Missing HTTP status
+
+ago. 16, 2023 23:41:49.238 NEW SESSION
+ago. 16, 2023 23:41:49.238 [Parent 18852, IPC I/O Parent] WARNING: DuplicateHandle failed for handle 0 in TransferHandles: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:621
+ago. 16, 2023 23:41:49.423 [GPU 16620, IPC I/O Child] WARNING: pipe error: 232: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:443
+ago. 16, 2023 23:42:16.64 [Parent 18852, IPC I/O Parent] WARNING: DuplicateHandle failed for handle 0 in TransferHandles: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:621
+ago. 16, 2023 23:42:16.291 [GPU 16620, IPC I/O Child] WARNING: pipe error: 232: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:443
+ago. 16, 2023 23:42:16.291 [Parent 18852, IPC I/O Parent] WARNING: DuplicateHandle failed for handle 0 in TransferHandles: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:621
+ago. 16, 2023 23:42:16.292 [GPU 16620, IPC I/O Child] WARNING: pipe error: 232: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:443
+ago. 16, 2023 23:42:17.984 [Parent 18852, IPC I/O Parent] WARNING: DuplicateHandle failed for handle 0 in TransferHandles: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:621
+ago. 16, 2023 23:42:17.984 [GPU 16620, IPC I/O Child] WARNING: pipe error: 232: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:443
+ago. 16, 2023 23:42:18.26 [Parent 18852, IPC I/O Parent] WARNING: DuplicateHandle failed for handle 0 in TransferHandles: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:621
+ago. 16, 2023 23:42:18.48 [GPU 16620, IPC I/O Child] WARNING: pipe error: 232: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:443
+
+ago. 18, 2023 19:39:10.838 NEW SESSION
+ago. 18, 2023 19:39:10.838 [Parent 13296, IPC I/O Parent] WARNING: DuplicateHandle failed for handle 0 in TransferHandles: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:621
+ago. 18, 2023 19:39:10.917 [GPU 17160, IPC I/O Child] WARNING: pipe error: 232: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:443
+ago. 18, 2023 19:39:10.917 [Parent 13296, IPC I/O Parent] WARNING: DuplicateHandle failed for handle 0 in TransferHandles: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:621
+ago. 18, 2023 19:39:10.917 [GPU 17160, IPC I/O Child] WARNING: pipe error: 232: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:443
+ago. 18, 2023 19:39:11.12 [Parent 13296, IPC I/O Parent] WARNING: DuplicateHandle failed for handle 0 in TransferHandles: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:621
+ago. 18, 2023 19:39:11.12 [GPU 17160, IPC I/O Child] WARNING: pipe error: 232: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:443
+ago. 18, 2023 19:39:11.16 [Parent 13296, IPC I/O Parent] WARNING: DuplicateHandle failed for handle 0 in TransferHandles: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:621
+ago. 18, 2023 19:39:11.16 [GPU 17160, IPC I/O Child] WARNING: pipe error: 232: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:443
+ago. 18, 2023 19:39:11.20 [Parent 13296, IPC I/O Parent] WARNING: DuplicateHandle failed for handle 0 in TransferHandles: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:621
+ago. 18, 2023 19:39:11.21 [GPU 17160, IPC I/O Child] WARNING: pipe error: 232: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:443
+ago. 18, 2023 19:39:11.21 [Parent 13296, IPC I/O Parent] WARNING: DuplicateHandle failed for handle 0 in TransferHandles: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:621
+ago. 18, 2023 19:39:11.22 [GPU 17160, IPC I/O Child] WARNING: pipe error: 232: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:443

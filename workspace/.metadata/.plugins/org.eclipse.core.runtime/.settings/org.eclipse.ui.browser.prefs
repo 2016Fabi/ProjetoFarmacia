@@ -1,0 +1,4 @@
+browser-choice=1
+browsers=<?xml version\="1.0" encoding\="UTF-8"?>\r\n<web-browsers current\="1">\r\n<system/>\r\n<external location\="C\:\\Program Files\\Mozilla Firefox\\firefox.exe" name\="Firefox"/>\r\n<external location\="C\:\\Program Files\\Internet Explorer\\iexplore.exe" name\="Internet Explorer"/>\r\n</web-browsers>
+eclipse.preferences.version=1
+internalWebBrowserHistory=http\://localhost\:8082/Farmacia/faces/includes/menu.xhtml|*|http\://localhost\:8082/Farmacia/faces/pages/produtos.xhtml|*|http\://localhost\:8082/Farmacia/faces/pages/fornecedores.xhtml;jsessionid\=946D84564BB40E2FB43B579B9AC4ECFF|*|http\://localhost\:8082/Farmacia/|*|http\://localhost\:8082/Farmacia/faces/pages/fornecedores.xhtml;jsessionid\=2133D8831FBF3DD74E28F31A43D8DD8D|*|http\://localhost\:8080/Farmacia/faces/templates/modeloSistema.xhtml|*|

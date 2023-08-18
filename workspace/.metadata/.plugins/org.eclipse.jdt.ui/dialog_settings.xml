@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<section name="SourceActionDialog.methods">
+		<item key="IgnoreDefault" value="true"/>
+		<item key="SynchronizedModifier" value="false"/>
+		<item key="Comments" value="false"/>
+		<item key="StringStyle" value="0"/>
+		<item key="ToStringTemplateSelected" value="0"/>
+		<item key="LimitElements" value="false"/>
+		<item key="SkipNull" value="false"/>
+		<item key="LimitValue" value="10"/>
+		<item key="FinalModifier" value="false"/>
+	</section>
+	<section name="NewClassWizardPage">
+		<item key="create_constructor" value="false"/>
+		<item key="create_unimplemented" value="true"/>
+	</section>
+	<section name="OptionalMessageDialog.hide.">
+		<item key="org.eclipse.jdt.ui.typecomment.deprecated" value="true"/>
+	</section>
+	<section name="NewPackageWizardPage">
+		<item key="create_package_info_java" value="false"/>
+	</section>
+	<section name="quick_assist_proposal_size">
+	</section>
+	<section name="BuildPathsPropertyPage">
+		<item key="pageIndex" value="3"/>
+	</section>
+	<section name="completion_proposal_size">
+	</section>
+	<section name="DialogBounds_GenerateToStringDialog">
+		<item key="DIALOG_WIDTH" value="678"/>
+		<item key="DIALOG_FONT_NAME" value="1|Segoe UI|9.0|0|WINDOWS|1|-15|0|0|0|400|0|0|0|1|0|0|0|0|Segoe UI"/>
+		<item key="DIALOG_HEIGHT" value="877"/>
+		<item key="DIALOG_X_ORIGIN" value="630"/>
+		<item key="DIALOG_Y_ORIGIN" value="9"/>
+	</section>
+	<section name="JavaElementSearchActions">
+	</section>
+</section>
