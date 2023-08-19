@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+    Copyright (c) 2011, 2019 IBM Corporation and others.
+    This program and the accompanying materials
+    are made available under the terms of the Eclipse Public License 2.0
+    which accompanies this distribution, and is available at
+    https://www.eclipse.org/legal/epl-2.0/
+
+    SPDX-License-Identifier: EPL-2.0
+
+    Contributors:
+        IBM Corporation - initial API and implementation
+ -->
+<feature
+      id="org.eclipse.jpt.jpa.feature"
+      label="%featureName"
+      version="3.7.0.v202305092307"
+      provider-name="%providerName"
+      plugin="org.eclipse.jpt.jpa.branding">
+
+   <description>
+      %description
+   </description>
+
+   <copyright>
+      %copyright
+   </copyright>
+
+   <license url="%licenseURL">
+      %license
+   </license>
+
+   <requires>
+      <import feature="org.eclipse.jpt.common.feature" version="1.2.0"/>
+      <import feature="org.eclipse.datatools.enablement.feature" version="2"/>
+      <import feature="org.eclipse.datatools.sqldevtools.feature" version="2"/>
+      <import feature="org.eclipse.datatools.connectivity.feature" version="2"/>
+   </requires>
+
+   <plugin
+         id="javax.persistence"
+         download-size="198"
+         install-size="645"
+         version="2.2.1.v201807122140"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.jpt.jpa.annotate"
+         download-size="60"
+         install-size="166"
+         version="1.0.101.v201902121834"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.jpt.jpa.core"
+         download-size="3125"
+         install-size="8100"
+         version="3.6.1.v202301061019"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.jpt.jpa.db"
+         download-size="118"
+         install-size="296"
+         version="2.2.201.v202301061019"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.jpt.jpa.db.ui"
+         download-size="17"
+         install-size="71"
+         version="2.1.201.v201902121834"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.jpt.jpa.gen"
+         download-size="101"
+         install-size="254"
+         version="2.3.201.v202301061019"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.jpt.jpa.ui"
+         download-size="2232"
+         install-size="5241"
+         version="3.6.100.v202305092307"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.jpt.doc.user"
+         download-size="1836"
+         install-size="2545"
+         version="3.2.101.v201902121834"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.persistence.jpa.jpql"
+         download-size="1405"
+         install-size="3622"
+         version="2.7.3.v20180807-4be1041"
+         unpack="false"/>
+
+   <plugin
+         id="org.apache.commons.collections"
+         download-size="624"
+         install-size="1250"
+         version="3.2.2.v20220405-1659"
+         unpack="false"/>
+
+   <plugin
+         id="org.apache.commons.lang"
+         download-size="300"
+         install-size="627"
+         version="2.6.0.v20220406-2305"
+         unpack="false"/>
+
+   <plugin
+         id="org.apache.velocity"
+         download-size="419"
+         install-size="871"
+         version="1.5.0.v200905192330"
+         unpack="false"/>
+
+   <plugin
+         id="org.jdom"
+         download-size="178"
+         install-size="371"
+         version="1.1.1.v201101151400"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.jpt.jpa.branding"
+         download-size="18"
+         install-size="22"
+         version="3.4.1.v201902121834"
+         unpack="false"/>
+
+</feature>

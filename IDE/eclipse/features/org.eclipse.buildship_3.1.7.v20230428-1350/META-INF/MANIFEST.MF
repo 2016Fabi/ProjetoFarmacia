@@ -1,0 +1,14 @@
+Manifest-Version: 1.0
+
+Name: feature.xml
+SHA-256-Digest: uEvtG/ijlsLd1XK+ba1DSCzVC8Tv0ju1f3Yab2sT+Ss=
+
+Name: epl-v20.html
+SHA-256-Digest: hUNhi7ZpZ11mZX+f5PIrB0vhIsJZdD2sROZ/bzFy/5A=
+
+Name: feature.properties
+SHA-256-Digest: m0ELit6XhlzKb7QMo+CbvY5w9RSW1kd92y2wxWn5sbg=
+
+Name: license.html
+SHA-256-Digest: 7LSgKPyNdcDipyOz5Q8SdQNquHewRslFc9xuvxZVcI0=
+

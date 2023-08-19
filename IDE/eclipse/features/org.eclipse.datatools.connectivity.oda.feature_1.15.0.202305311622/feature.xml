@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feature
+      id="org.eclipse.datatools.connectivity.oda.feature"
+      label="%featureName"
+      version="1.15.0.202305311622"
+      provider-name="%providerName"
+      plugin="org.eclipse.datatools.connectivity.oda">
+
+   <description>
+      %description
+   </description>
+
+   <copyright>
+      %featureCopyright
+   </copyright>
+
+   <license url="%licenseURL">
+      %license
+   </license>
+
+   <plugin
+         id="org.eclipse.datatools.connectivity.oda.consumer"
+         download-size="127"
+         install-size="296"
+         version="3.5.0.202305310959"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.datatools.connectivity.oda.design"
+         download-size="355"
+         install-size="1046"
+         version="3.6.0.202305311622"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.datatools.connectivity.oda.profile"
+         download-size="47"
+         install-size="90"
+         version="3.5.0.202305310959"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.datatools.connectivity.oda"
+         download-size="254"
+         install-size="606"
+         version="3.7.0.202305310959"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.datatools.connectivity"
+         download-size="275"
+         install-size="609"
+         version="1.15.0.202305310959"
+         unpack="false"/>
+
+</feature>

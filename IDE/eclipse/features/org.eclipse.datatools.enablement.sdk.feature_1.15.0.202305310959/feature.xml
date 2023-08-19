@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feature
+      id="org.eclipse.datatools.enablement.sdk.feature"
+      label="%featureName"
+      version="1.15.0.202305310959"
+      provider-name="%providerName"
+      plugin="org.eclipse.datatools.enablement.finfo">
+
+   <description>
+      %description
+   </description>
+
+   <copyright>
+      %featureCopyright
+   </copyright>
+
+   <license url="%licenseURL">
+      %license
+   </license>
+
+   <requires>
+     <import feature="org.eclipse.datatools.enablement.feature"/>
+  </requires>
+
+</feature>

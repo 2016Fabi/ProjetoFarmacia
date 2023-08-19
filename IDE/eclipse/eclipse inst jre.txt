@@ -1,1 +1,0 @@
-eclipse ins jre win 64.exe

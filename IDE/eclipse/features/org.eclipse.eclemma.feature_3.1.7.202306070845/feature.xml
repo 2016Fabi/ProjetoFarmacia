@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feature
+      id="org.eclipse.eclemma.feature"
+      label="%featureName"
+      version="3.1.7.202306070845"
+      provider-name="%providerName"
+      plugin="org.eclipse.eclemma.ui">
+
+   <description url="http://www.eclemma.org/">
+      Java code coverage analysis for the Eclipse IDE based on the JaCoCo code coverage library ( http://www.jacoco.org/jacoco )
+   </description>
+
+   <copyright url="http://www.eclemma.org/">
+      Copyright (c) 2006, 2020 Mountainminds GmbH &amp; Co. KG and Contributors
+   </copyright>
+
+   <license url="%licenseURL">
+      %license
+   </license>
+
+   <url>
+      <update label="EclEmma Updates" url="http://update.eclemma.org/"/>
+   </url>
+
+   <requires>
+      <import feature="org.eclipse.jdt" version="3.8.0" match="greaterOrEqual"/>
+      <import feature="org.eclipse.rcp" version="3.8.0" match="greaterOrEqual"/>
+      <import feature="org.eclipse.platform" version="3.8.0" match="greaterOrEqual"/>
+   </requires>
+
+   <plugin
+         id="org.eclipse.eclemma.core"
+         download-size="102"
+         install-size="207"
+         version="3.1.7.202306070845"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.eclemma.doc"
+         download-size="225"
+         install-size="268"
+         version="3.1.7.202306070845"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.eclemma.ui"
+         download-size="309"
+         install-size="555"
+         version="3.1.7.202306070845"
+         unpack="false"/>
+
+   <plugin
+         id="org.jacoco.agent"
+         download-size="265"
+         install-size="301"
+         version="0.8.10.202304240956"
+         unpack="false"/>
+
+   <plugin
+         id="org.jacoco.core"
+         download-size="199"
+         install-size="368"
+         version="0.8.10.202304240956"
+         unpack="false"/>
+
+   <plugin
+         id="org.jacoco.report"
+         download-size="128"
+         install-size="275"
+         version="0.8.10.202304240956"
+         unpack="false"/>
+
+   <plugin
+         id="org.objectweb.asm"
+         download-size="119"
+         install-size="239"
+         version="9.5.0"
+         unpack="false"/>
+
+   <plugin
+         id="org.objectweb.asm.commons"
+         download-size="70"
+         install-size="148"
+         version="9.5.0"
+         unpack="false"/>
+
+   <plugin
+         id="org.objectweb.asm.tree"
+         download-size="50"
+         install-size="102"
+         version="9.5.0"
+         unpack="false"/>
+
+</feature>

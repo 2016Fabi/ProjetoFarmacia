@@ -1,0 +1,29 @@
+{
+  "name": "@angular/language-server",
+  "description": "LSP server for Angular Language Service",
+  "version": "16.0.0",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/angular/vscode-ng-language-service.git"
+  },
+  "author": "Angular",
+  "license": "MIT",
+  "engines": {
+    "node": "^14.15.0 || >=16.10.0"
+  },
+  "bin": {
+    "ngserver": "./bin/ngserver"
+  },
+  "dependencies": {
+    "@angular/language-service": "16.0.0",
+    "vscode-html-languageservice": "^4.2.5",
+    "vscode-jsonrpc": "6.0.0",
+    "vscode-languageserver": "7.0.0",
+    "vscode-languageserver-textdocument": "^1.0.7",
+    "vscode-uri": "3.0.7",
+    "test": "3.3.0"
+  },
+  "publishConfig": {
+    "registry": "https://wombat-dressing-room.appspot.com"
+  }
+}

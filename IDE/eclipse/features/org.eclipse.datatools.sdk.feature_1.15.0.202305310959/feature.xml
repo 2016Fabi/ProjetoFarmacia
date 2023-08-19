@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feature
+      id="org.eclipse.datatools.sdk.feature"
+      label="%featureName"
+      version="1.15.0.202305310959"
+      provider-name="%providerName"
+      plugin="org.eclipse.datatools.sdk">
+
+   <description>
+      %description
+   </description>
+
+   <copyright>
+      %featureCopyright
+   </copyright>
+
+   <license url="%licenseURL">
+      %license
+   </license>
+
+   <requires>
+     <import feature="org.eclipse.pde" version="3.4.0" match="greaterOrEqual"/>
+
+     <import feature="org.eclipse.datatools.intro"/>
+     <import feature="org.eclipse.datatools.doc.user"/>
+     <import feature="org.eclipse.datatools.common.doc.user"/>
+     <import feature="org.eclipse.datatools.connectivity.doc.user"/>
+     <import feature="org.eclipse.datatools.sqltools.doc.user"/>
+   </requires>
+
+   <plugin
+         id="org.eclipse.datatools.doc.isv"
+         download-size="206"
+         install-size="538"
+         version="1.15.0.202305310959"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.datatools.sdk"
+         download-size="16"
+         install-size="28"
+         version="1.10.0.202305310959"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.datatools.connectivity.ui.templates"
+         download-size="77"
+         install-size="146"
+         version="1.3.0.202305310959"
+         unpack="false"/>
+
+</feature>

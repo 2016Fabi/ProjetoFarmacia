@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feature
+      id="org.eclipse.wst.common_ui.feature"
+      label="%featureName"
+      version="3.29.0.v202304222306"
+      provider-name="%providerName">
+
+   <description>
+      %description
+   </description>
+
+   <copyright>
+      %copyright
+   </copyright>
+
+   <license url="%licenseURL">
+      %license
+   </license>
+
+   <requires>
+      <import feature="org.eclipse.wst.common_core.feature"/>
+   </requires>
+   
+   <plugin
+         id="org.eclipse.wst.common.frameworks.ui"
+         download-size="157"
+         install-size="328"
+         version="1.2.401.v202007142017"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.wst.common.infopop"
+         download-size="12"
+         install-size="19"
+         version="1.0.301.v202007142017"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.wst.common.snippets"
+         download-size="294"
+         install-size="603"
+         version="1.2.701.v202304222306"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.wst.common.ui"
+         download-size="153"
+         install-size="317"
+         version="1.2.401.v202304222306"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.wst.common.modulecore.ui"
+         download-size="142"
+         install-size="316"
+         version="1.0.302.v202007142017"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.wst.internet.cache"
+         download-size="54"
+         install-size="113"
+         version="1.1.0.v202011161431"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.wst.validation.ui"
+         download-size="163"
+         install-size="360"
+         version="1.2.601.v202007142017"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.wst.validation.infopop"
+         download-size="14"
+         install-size="21"
+         version="1.0.300.v202007131715"
+         unpack="false"/>
+
+</feature>

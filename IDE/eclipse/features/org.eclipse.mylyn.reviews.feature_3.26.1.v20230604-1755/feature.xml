@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+    Copyright (c) 2011, 2022 Tasktop Technologies and others.
+ 
+    This program and the accompanying materials are made available under the
+    terms of the Eclipse Public License v. 2.0 which is available at
+    https://www.eclipse.org/legal/epl-2.0
+ 
+    SPDX-License-Identifier: EPL-2.0
+
+    Contributors:
+         Tasktop Technologies - initial API and implementation
+         ArSysOp - adapt to SimRel 2022-12
+ -->
+<feature
+      id="org.eclipse.mylyn.reviews.feature"
+      label="%featureName"
+      version="3.26.1.v20230604-1755"
+      provider-name="%providerName"
+      plugin="org.eclipse.mylyn.reviews.core">
+
+   <description url="https://eclipse.org/mylyn/reviews">
+      %description
+   </description>
+
+   <copyright>
+      %copyright
+   </copyright>
+
+   <license url="%licenseURL">
+      %license
+   </license>
+
+   <requires>
+      <import feature="org.eclipse.mylyn_feature"/>
+   </requires>
+
+   <plugin
+         id="org.eclipse.mylyn.reviews.core"
+         download-size="172"
+         install-size="396"
+         version="3.26.1.v20230604-1755"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.mylyn.reviews.edit"
+         download-size="95"
+         install-size="192"
+         version="3.26.1.v20230604-1755"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.mylyn.reviews.ui"
+         download-size="318"
+         install-size="662"
+         version="3.26.1.v20230604-1755"
+         unpack="false"/>
+         
+</feature>

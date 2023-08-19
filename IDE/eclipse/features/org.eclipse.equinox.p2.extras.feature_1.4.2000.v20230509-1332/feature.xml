@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feature
+      id="org.eclipse.equinox.p2.extras.feature"
+      label="%featureName"
+      version="1.4.2000.v20230509-1332"
+      provider-name="%providerName">
+
+   <description>
+      %description
+   </description>
+
+   <copyright>
+      %copyright
+   </copyright>
+
+   <license url="%licenseURL">
+      %license
+   </license>
+
+   <includes
+         id="org.eclipse.equinox.p2.core.feature"
+         version="1.6.1800.v20230509-1332"/>
+
+   <plugin
+         id="org.eclipse.equinox.p2.director.app"
+         download-size="61"
+         install-size="108"
+         version="1.3.0.v20230330-0930"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.equinox.p2.directorywatcher"
+         download-size="33"
+         install-size="67"
+         version="1.4.0.v20230330-0930"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.equinox.p2.reconciler.dropins"
+         download-size="51"
+         install-size="106"
+         version="1.5.0.v20230330-0930"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.equinox.p2.publisher"
+         download-size="102"
+         install-size="227"
+         version="1.8.0.v20230330-1254"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.equinox.p2.extensionlocation"
+         download-size="37"
+         install-size="76"
+         version="1.5.0.v20230330-0930"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.equinox.p2.repository.tools"
+         download-size="256"
+         install-size="518"
+         version="2.4.0.v20230330-1254"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.equinox.p2.publisher.eclipse"
+         download-size="246"
+         install-size="503"
+         version="1.5.0.v20230330-1254"
+         unpack="false"/>
+
+</feature>

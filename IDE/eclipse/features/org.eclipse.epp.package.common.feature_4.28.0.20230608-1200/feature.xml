@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feature
+      id="org.eclipse.epp.package.common.feature"
+      label="Eclipse Packaging Project Common Feature"
+      version="4.28.0.20230608-1200"
+      provider-name="Eclipse Packaging Project">
+
+   <description url="http://eclipse.org/epp">
+      %description
+   </description>
+
+   <copyright>
+      %copyright
+   </copyright>
+
+   <license url="%licenseURL">
+      %license
+   </license>
+
+   <plugin
+         id="org.eclipse.epp.package.common"
+         download-size="300"
+         install-size="573"
+         version="4.28.0.20230608-1200"
+         unpack="true"/>
+
+</feature>

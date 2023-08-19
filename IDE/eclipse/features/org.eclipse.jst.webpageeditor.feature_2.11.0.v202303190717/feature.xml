@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+    Copyright (c) 2007, 2019 IBM Corporation and others.
+    This program and the accompanying materials
+    are made available under the terms of the Eclipse Public License 2.0
+    which accompanies this distribution, and is available at
+    https://www.eclipse.org/legal/epl-2.0/
+
+    SPDX-License-Identifier: EPL-2.0
+
+    Contributors:
+        IBM Corporation - initial API and implementation
+ -->
+<feature
+      id="org.eclipse.jst.webpageeditor.feature"
+      label="%featureName"
+      version="2.11.0.v202303190717"
+      provider-name="%providerName"
+      image="eclipse_update_120.jpg">
+
+   <description>
+      %description
+   </description>
+
+   <copyright>
+      %copyright
+   </copyright>
+
+   <license url="%licenseURL">
+      %license
+   </license>
+
+   <plugin
+         id="org.eclipse.jst.pagedesigner"
+         download-size="1682"
+         install-size="3401"
+         version="1.10.0.v202303190717"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.jst.pagedesigner.jsf.ui"
+         download-size="315"
+         install-size="668"
+         version="1.6.0.v202303190717"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.jst.pagedesigner.jsp.core"
+         download-size="38"
+         install-size="109"
+         version="1.6.0.v202303190717"
+         unpack="false"/>
+
+</feature>

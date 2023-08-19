@@ -1,0 +1,28 @@
+Signature-Version: 1.0
+Created-By: 11.0.18 (Eclipse Adoptium)
+SHA-256-Digest-Manifest: hkd4QxmEn2UlAL8q7zfcUAWaqcCw0rJivGA/n2F3444=
+SHA-256-Digest-Manifest-Main-Attributes: dhLJoLxP8d/xJuxPqpznQ8uK/7imGTG
+ eI2WgHWAfoKA=
+
+Name: about.html
+SHA-256-Digest: C7XypkffeSwtq7vIRLt3ekAZV27DOarVqYK+BTCpY9o=
+
+Name: plugin.xml
+SHA-256-Digest: D2bvIMt49bjsS9TX4qQ3IkiZDU1CNnF1QzNU29XBijE=
+
+Name: META-INF/maven/org.eclipse.m2e/org.eclipse.m2e.sourcelookup/pom.xm
+ l
+SHA-256-Digest: 2cI+LJrIV6KC6aq2ljG/zOrPukNPZq43jHOCuQgWs74=
+
+Name: META-INF/maven/org.eclipse.m2e/org.eclipse.m2e.sourcelookup/pom.pr
+ operties
+SHA-256-Digest: H+F2d25PY9K9WStENqQWhrnwfbbVc4nMTePQcaVmFDg=
+
+Name: org/eclipse/m2e/sourcelookup/internal/launch/MavenSourceContainerR
+ esolver.class
+SHA-256-Digest: 0hUHWPtMD6vFLwI3mMm21pyhbHtEj1OAP5sjFiITX0Y=
+
+Name: org/eclipse/m2e/sourcelookup/internal/launch/MavenSourceLookupPart
+ icipant.class
+SHA-256-Digest: /wU8+RhLUXhFlC++lemoQCDayeuDqpF9irksT1Mh9So=
+
