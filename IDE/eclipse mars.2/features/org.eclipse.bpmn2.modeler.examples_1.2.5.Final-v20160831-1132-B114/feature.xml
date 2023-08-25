@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feature
+      id="org.eclipse.bpmn2.modeler.examples"
+      label="BPMN2 Modeler - Examples"
+      version="1.2.5.Final-v20160831-1132-B114"
+      provider-name="%providerName">
+
+   <description>
+      Example plug-ins demonstrating various features of the BPMN2 Modeler Extension Point API.
+   </description>
+
+   <copyright>
+      %copyright
+   </copyright>
+
+   <license url="license.html">
+      %license
+   </license>
+
+   <requires>
+      <import plugin="org.eclipse.bpmn2.modeler.core"/>
+      <import plugin="org.eclipse.bpmn2.modeler.ui"/>
+   </requires>
+
+   <plugin
+         id="org.eclipse.bpmn2.modeler.examples.customtask"
+         download-size="78"
+         install-size="170"
+         version="1.2.5.Final-v20160831-1132-B114"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.bpmn2.modeler.examples.dynamic"
+         download-size="79"
+         install-size="126"
+         version="1.2.5.Final-v20160831-1132-B114"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.bpmn2.modeler.examples.modelreader"
+         download-size="12"
+         install-size="16"
+         version="1.2.5.Final-v20160831-1132-B114"
+         unpack="false"/>
+
+</feature>

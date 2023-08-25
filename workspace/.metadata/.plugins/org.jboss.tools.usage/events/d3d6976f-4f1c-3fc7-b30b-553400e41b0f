@@ -1,11 +1,11 @@
-#Fri Aug 18 19:38:39 BRT 2023
-a=finishWizard
-c=0
-cl=org.eclipse.wst.server.ui.internal.wizard.RunOnServerWizard
-cmp=usage
-ct=jbt
-d=1692398319394
-l=Wizard class name
-s=1
-v=2.2.400
+#Wed Aug 23 17:38:04 BRT 2023
 vl=How many times the 'Finish' button pressed during the day
+l=Wizard class name
+ct=jbt
+d=1692823084227
+c=0
+cmp=usage
+a=finishWizard
+cl=org.eclipse.wst.server.ui.internal.wizard.RunOnServerWizard
+v=2.2.400
+s=0

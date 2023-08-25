@@ -1,0 +1,12 @@
+<?compositeMetadataRepository version='1.0.0'?>
+<repository name="JBoss Central" type="org.eclipse.equinox.internal.p2.metadata.repository.CompositeMetadataRepository"
+  version="1.0.0">
+  <properties size="2">
+    <property name="p2.compressed" value="true" />
+    <property name="p2.timestamp" value="1439396191000" />
+  </properties>
+  <children size="2">
+    <child location="site" />
+    <child location="targetplatform" />
+  </children>
+</repository>

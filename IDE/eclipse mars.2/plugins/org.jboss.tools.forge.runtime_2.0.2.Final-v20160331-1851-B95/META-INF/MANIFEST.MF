@@ -1,0 +1,69 @@
+Manifest-Version: 1.0
+Bundle-SymbolicName: org.jboss.tools.forge.runtime;singleton:=true
+Archiver-Version: Plexus Archiver
+Built-By: hudson
+Bundle-ManifestVersion: 2
+Bundle-RequiredExecutionEnvironment: JavaSE-1.8
+Eclipse-SourceReferences: scm:git:https://github.com/jbosstools/jbosst
+ ools-forge.git;path="plugins/org.jboss.tools.forge.runtime";commitId=
+ ee1e4d2b7ddc8545cbc3f9f78b278926c87b34a1
+Bundle-Vendor: %BundleProvider
+Export-Package: bootpath,org.jboss.forge.addon.convert,org.jboss.forge
+ .addon.convert.exception,org.jboss.forge.addon.database.tools.connect
+ ions,org.jboss.forge.addon.dependencies;uses:="org.jboss.forge.furnac
+ e.util,org.jboss.forge.addon.resource",org.jboss.forge.addon.facets,o
+ rg.jboss.forge.addon.projects; uses:="org.jboss.forge.furnace.spi,  o
+ rg.jboss.forge.addon.facets,  org.jboss.forge.furnace.util,  org.jbos
+ s.forge.addon.resource",org.jboss.forge.addon.projects.facets; uses:=
+ "org.jboss.forge.addon.projects.building,  org.jboss.forge.addon.proj
+ ects,  org.jboss.forge.addon.dependencies,  org.jboss.forge.addon.res
+ ource",org.jboss.forge.addon.projects.stacks,org.jboss.forge.addon.re
+ source;uses:="org.jboss.forge.addon.resource.events,org.jboss.forge.a
+ ddon.facets",org.jboss.forge.addon.resource.monitor,org.jboss.forge.a
+ ddon.resource.transaction,org.jboss.forge.addon.shell.spi,org.jboss.f
+ orge.addon.shell.spi.command,org.jboss.forge.addon.ui; uses:="org.jbo
+ ss.forge.addon.ui.metadata,  org.jboss.forge.addon.ui.context,  org.j
+ boss.forge.addon.ui.result,  org.jboss.forge.addon.ui.util",org.jboss
+ .forge.addon.ui.command,org.jboss.forge.addon.ui.context;uses:="org.j
+ boss.forge.addon.ui.input",org.jboss.forge.addon.ui.controller,org.jb
+ oss.forge.addon.ui.facets;uses:="org.jboss.forge.addon.ui.hints,org.j
+ boss.forge.addon.facets",org.jboss.forge.addon.ui.hints;uses:="org.jb
+ oss.forge.addon.environment",org.jboss.forge.addon.ui.input;uses:="or
+ g.jboss.forge.addon.convert,org.jboss.forge.addon.ui.context,org.jbos
+ s.forge.addon.facets",org.jboss.forge.addon.ui.metadata;uses:="org.jb
+ oss.forge.addon.ui.hints",org.jboss.forge.addon.ui.output,org.jboss.f
+ orge.addon.ui.progress,org.jboss.forge.addon.ui.result,org.jboss.forg
+ e.addon.ui.util; uses:="org.jboss.forge.addon.ui.input,  org.jboss.fo
+ rge.addon.ui.metadata,  org.jboss.forge.addon.convert,  org.jboss.for
+ ge.addon.ui.hints,  org.jboss.forge.addon.ui.context",org.jboss.forge
+ .addon.ui.validate,org.jboss.forge.addon.ui.wizard;uses:="org.jboss.f
+ orge.addon.ui.context,org.jboss.forge.addon.ui.result,org.jboss.forge
+ .addon.ui",org.jboss.forge.furnace; uses:="org.jboss.forge.furnace.ve
+ rsions,  org.jboss.forge.furnace.addons,  org.jboss.forge.furnace.spi
+ ,  org.jboss.forge.furnace.lock,  org.jboss.forge.furnace.repositorie
+ s",org.jboss.forge.furnace.addons;uses:="org.jboss.forge.furnace.vers
+ ions,org.jboss.forge.furnace.services,org.jboss.forge.furnace.reposit
+ ories",org.jboss.forge.furnace.event,org.jboss.forge.furnace.exceptio
+ n,org.jboss.forge.furnace.lock,org.jboss.forge.furnace.proxy;uses:="j
+ avassist.util.proxy,new org.jboss.forge.furnace.proxy",org.jboss.forg
+ e.furnace.proxy.javassist.util.proxy,org.jboss.forge.furnace.reposito
+ ries;uses:="org.jboss.forge.furnace.addons,org.jboss.forge.furnace.ve
+ rsions",org.jboss.forge.furnace.se;uses:="org.jboss.forge.furnace",or
+ g.jboss.forge.furnace.services,org.jboss.forge.furnace.spi;uses:="org
+ .jboss.forge.furnace",org.jboss.forge.furnace.util;uses:="org.jboss.f
+ orge.furnace.addons",org.jboss.forge.furnace.versions;uses:="org.jbos
+ s.forge.furnace.exception"
+Bundle-Name: %BundleName
+Bundle-Version: 2.0.2.Final-v20160331-1851-B95
+Bundle-Localization: plugin
+Bundle-ClassPath: lib/forge-javassist-2.jar,lib/furnace-proxy-2.23.4.F
+ inal.jar,lib/furnace-api-2.23.4.Final.jar,lib/furnace-se-2.23.4.Final
+ .jar,lib/ui-api-3.0.1.Final.jar,lib/convert-api-3.0.1.Final.jar,lib/u
+ i-spi-3.0.1.Final.jar,lib/facets-api-3.0.1.Final.jar,lib/resources-ap
+ i-3.0.1.Final.jar,lib/projects-api-3.0.1.Final.jar,lib/dependencies-a
+ pi-3.0.1.Final.jar,lib/shell-spi-3.0.1.Final.jar,lib/database-tools-a
+ pi-3.0.1.Final.jar,.
+Created-By: Apache Maven 3.2.5
+Build-Jdk: 1.8.0_71
+Eclipse-BundleShape: dir
+

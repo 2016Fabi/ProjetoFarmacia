@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feature id="org.hibernate.eclipse.feature.source" version="5.0.1.Final-v20160331-1852-B88" plugin="org.hibernate.eclipse" label="%featureName" provider-name="%providerName">
+  <includes id="org.hibernate.eclipse.feature" version="5.0.1.Final-v20160331-1852-B88"/>
+  <description url="http://tools.hibernate.org">
+      %description
+   </description>
+  <copyright>
+      %copyright
+   </copyright>
+  <license url="%licenseURL">
+      %license
+   </license>
+  <plugin id="org.hibernate.eclipse.source" version="5.0.1.Final-v20160331-1852-B88" download-size="0" install-size="0" unpack="false"/>
+  <plugin id="org.hibernate.eclipse.console.source" version="5.0.1.Final-v20160331-1852-B88" download-size="0" install-size="0" unpack="false"/>
+  <plugin id="org.hibernate.eclipse.help.source" version="5.0.1.Final-v20160331-1852-B88" download-size="0" install-size="0" unpack="false"/>
+  <plugin id="org.hibernate.eclipse.jdt.ui.source" version="5.0.1.Final-v20160331-1852-B88" download-size="0" install-size="0" unpack="false"/>
+  <plugin id="org.hibernate.eclipse.mapper.source" version="5.0.1.Final-v20160331-1852-B88" download-size="0" install-size="0" unpack="false"/>
+  <plugin id="org.jboss.tools.hibernate.runtime.common.source" version="5.0.1.Final-v20160331-1852-B88" download-size="0" install-size="0" unpack="false"/>
+  <plugin id="org.jboss.tools.hibernate.runtime.v_3_5.source" version="5.0.1.Final-v20160331-1852-B88" download-size="0" install-size="0" unpack="false"/>
+  <plugin id="org.jboss.tools.hibernate.runtime.v_3_6.source" version="5.0.1.Final-v20160331-1852-B88" download-size="0" install-size="0" unpack="false"/>
+  <plugin id="org.jboss.tools.hibernate.runtime.v_4_0.source" version="5.0.1.Final-v20160331-1852-B88" download-size="0" install-size="0" unpack="false"/>
+  <plugin id="org.jboss.tools.hibernate.runtime.v_4_3.source" version="5.0.1.Final-v20160331-1852-B88" download-size="0" install-size="0" unpack="false"/>
+  <plugin id="org.jboss.tools.hibernate.runtime.v_5_0.source" version="5.0.1.Final-v20160331-1852-B88" download-size="0" install-size="0" unpack="false"/>
+  <plugin id="org.jboss.tools.hibernate.jpt.core.source" version="5.0.1.Final-v20160331-1852-B88" download-size="0" install-size="0" unpack="false"/>
+  <plugin id="org.jboss.tools.hibernate.jpt.ui.source" version="5.0.1.Final-v20160331-1852-B88" download-size="0" install-size="0" unpack="false"/>
+  <plugin id="org.jboss.tools.hibernate.libs.antlr.v_2_7_7.source" version="5.0.1.Final-v20160331-1852-B88" download-size="0" install-size="0" unpack="false"/>
+  <plugin id="org.jboss.tools.hibernate.libs.bsh.v_2_0_b4.source" version="5.0.1.Final-v20160331-1852-B88" download-size="0" install-size="0" unpack="false"/>
+  <plugin id="org.jboss.tools.hibernate.libs.dom4j.v_1_6_1.source" version="5.0.1.Final-v20160331-1852-B88" download-size="0" install-size="0" unpack="false"/>
+  <plugin id="org.jboss.tools.hibernate.libs.freemarker.v_2_3_8.source" version="5.0.1.Final-v20160331-1852-B88" download-size="0" install-size="0" unpack="false"/>
+  <plugin id="org.jboss.tools.hibernate.libs.jtidy.v_r8-20060801.source" version="5.0.1.Final-v20160331-1852-B88" download-size="0" install-size="0" unpack="false"/>
+  <plugin id="org.jboss.tools.hibernate.runtime.spi.source" version="5.0.1.Final-v20160331-1852-B88" download-size="0" install-size="0" unpack="false"/>
+  <plugin id="org.jboss.tools.hibernate.ui.source" version="5.0.1.Final-v20160331-1852-B88" download-size="0" install-size="0" unpack="false"/>
+  <plugin id="org.jboss.tools.hibernate.xml.source" version="5.0.1.Final-v20160331-1852-B88" download-size="0" install-size="0" unpack="false"/>
+  <plugin id="org.jboss.tools.hibernate.xml.ui.source" version="5.0.1.Final-v20160331-1852-B88" download-size="0" install-size="0" unpack="false"/>
+  <plugin id="org.jboss.tools.hibernate.runtime.v_5_1.source" version="5.0.1.Final-v20160331-1852-B88" download-size="0" install-size="0" unpack="false"/>
+</feature>

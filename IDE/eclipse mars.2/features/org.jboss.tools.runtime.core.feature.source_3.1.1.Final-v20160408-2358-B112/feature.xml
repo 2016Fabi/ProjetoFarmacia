@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feature id="org.jboss.tools.runtime.core.feature.source" version="3.1.1.Final-v20160408-2358-B112" plugin="org.jboss.tools.runtime.core" label="%featureName" provider-name="%providerName">
+  <includes id="org.jboss.tools.runtime.core.feature" version="3.1.1.Final-v20160408-2358-B112"/>
+  <description>
+      %description
+   </description>
+  <copyright>
+      %copyright
+   </copyright>
+  <license url="%licenseURL">
+      %license
+   </license>
+  <plugin id="org.jboss.tools.runtime.core.source" version="3.1.1.Final-v20160408-2358-B112" download-size="0" install-size="0" unpack="false"/>
+  <plugin id="org.jboss.tools.runtime.ui.source" version="3.1.1.Final-v20160408-2358-B112" download-size="0" install-size="0" unpack="false"/>
+</feature>

@@ -1,0 +1,32 @@
+Manifest-Version: 1.0
+Build-Jdk: 1.7.0_51
+Built-By: build
+Archiver-Version: Plexus Archiver
+Created-By: Apache Maven 3.0.5
+
+Name: epl-v10.html
+SHA1-Digest: pTOyybcpEe+Y8lkSVUtarMleXqE=
+
+Name: META-INF/maven/org.eclipse.birt.features/org.eclipse.birt.report
+ .designer.editor.xml.wtp/pom.properties
+SHA1-Digest: iGbiQX2rZ1T+ebr2ybwggoBb2GA=
+
+Name: META-INF/eclipse.inf
+SHA1-Digest: 09gN05tobgS/MdtqyTNQhOhB73M=
+
+Name: eclipse_update_120.jpg
+SHA1-Digest: xstAqMgs/a5AsQXQZSdDQ79veOA=
+
+Name: META-INF/maven/org.eclipse.birt.features/org.eclipse.birt.report
+ .designer.editor.xml.wtp/pom.xml
+SHA1-Digest: a4HDgz0zWQcGr2pFYdV4C7wYtCM=
+
+Name: license.html
+SHA1-Digest: Z5WKoRSIDCgQNswUpOU/oSPE2a0=
+
+Name: feature.properties
+SHA1-Digest: 3yf+brYPwtQTP4IZaKa3B31EUsY=
+
+Name: feature.xml
+SHA1-Digest: m3Zfy1Yi8fUJUSHQeimTdp+JLJ0=
+

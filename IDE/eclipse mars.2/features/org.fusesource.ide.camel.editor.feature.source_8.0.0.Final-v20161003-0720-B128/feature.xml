@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feature id="org.fusesource.ide.camel.editor.feature.source" version="8.0.0.Final-v20161003-0720-B128" plugin="org.fusesource.ide.tooling" label="%featureName" provider-name="%providerName">
+  <includes id="org.fusesource.ide.camel.editor.feature" version="8.0.0.Final-v20161003-0720-B128"/>
+  <description url="http://tools.jboss.org/features/apachecamel.html">
+      %description
+   </description>
+  <copyright url="http://redhat.com/">
+      %copyright
+   </copyright>
+  <license url="%licenseURL">
+      %license
+   </license>
+  <plugin id="org.fusesource.ide.branding.source" version="8.0.0.Final-v20161003-0720-B128" download-size="0" install-size="0" unpack="false"/>
+  <plugin id="org.fusesource.ide.camel.editor.source" version="8.0.0.Final-v20161003-0720-B128" download-size="0" install-size="0" unpack="false"/>
+  <plugin id="org.fusesource.ide.catalogs.source" version="8.0.0.Final-v20161003-0720-B128" download-size="0" install-size="0" unpack="false"/>
+  <plugin id="org.fusesource.ide.launcher.source" version="8.0.0.Final-v20161003-0720-B128" download-size="0" install-size="0" unpack="false"/>
+  <plugin id="org.fusesource.ide.launcher.ui.source" version="8.0.0.Final-v20161003-0720-B128" download-size="0" install-size="0" unpack="false"/>
+  <plugin id="org.fusesource.ide.project.source" version="8.0.0.Final-v20161003-0720-B128" download-size="0" install-size="0" unpack="false"/>
+  <plugin id="org.fusesource.ide.projecttemplates.source" version="8.0.0.Final-v20161003-0720-B128" download-size="0" install-size="0" unpack="false"/>
+</feature>

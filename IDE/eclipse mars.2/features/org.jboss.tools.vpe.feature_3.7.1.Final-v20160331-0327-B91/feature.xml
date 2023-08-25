@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feature
+      id="org.jboss.tools.vpe.feature"
+      label="%featureName"
+      version="3.7.1.Final-v20160331-0327-B91"
+      provider-name="%providerName">
+
+   <description url="http://www.jboss.org/tools">
+      %description
+   </description>
+
+   <copyright>
+      %copyright
+   </copyright>
+
+   <license url="%licenseURL">
+      %license
+   </license>
+
+   <includes
+         id="org.jboss.tools.vpe.preview.feature"
+         version="3.7.1.Final-v20160331-0327-B91"/>
+
+   <plugin
+         id="org.jboss.tools.vpe"
+         download-size="793"
+         install-size="906"
+         version="3.7.1.Final-v20160331-0327-B91"/>
+
+   <plugin
+         id="org.jboss.tools.vpe.docbook"
+         download-size="20"
+         install-size="94"
+         version="3.7.1.Final-v20160331-0327-B91"/>
+
+   <plugin
+         id="org.jboss.tools.vpe.html"
+         download-size="20"
+         install-size="116"
+         version="3.7.1.Final-v20160331-0327-B91"/>
+
+   <plugin
+         id="org.jboss.tools.vpe.jsp"
+         download-size="5"
+         install-size="8"
+         version="3.7.1.Final-v20160331-0327-B91"/>
+
+   <plugin
+         id="org.jboss.tools.vpe.resref"
+         download-size="56"
+         install-size="101"
+         version="3.7.1.Final-v20160331-0327-B91"/>
+
+   <plugin
+         id="org.jboss.tools.vpe.ui.palette"
+         download-size="4"
+         install-size="4"
+         version="3.7.1.Final-v20160331-0327-B91"/>
+
+   <plugin
+         id="org.jboss.tools.vpe.xulrunner"
+         download-size="77"
+         install-size="188"
+         version="3.7.1.Final-v20160331-0327-B91"/>
+
+   <plugin
+         id="org.jboss.tools.vpe.spring"
+         download-size="12"
+         install-size="29"
+         version="3.7.1.Final-v20160331-0327-B91"/>
+
+   <plugin
+         id="org.jboss.tools.xulrunner.initializer"
+         download-size="13"
+         install-size="16"
+         version="3.7.1.Final-v20160331-0327-B91"
+         fragment="true"/>
+
+</feature>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feature id="org.jboss.tools.xulrunner.feature.source" version="3.7.1.Final-v20160331-0327-B91" plugin="org.jboss.tools.xulrunner" label="%featureName" provider-name="%providerName">
+  <includes id="org.jboss.tools.xulrunner.feature" version="3.7.1.Final-v20160331-0327-B91"/>
+  <description>
+      %description
+   </description>
+  <copyright>
+      %copyright
+   </copyright>
+  <license url="%licenseURL">
+      %license
+   </license>
+  <plugin id="org.mozilla.xpcom.source" version="1.9.2.16" download-size="0" install-size="0" unpack="false"/>
+  <plugin id="org.mozilla.xulrunner.gtk.linux.x86.source" version="1.9.2.16b" download-size="0" install-size="0" os="linux" ws="gtk" arch="x86" unpack="false"/>
+  <plugin id="org.mozilla.xulrunner.gtk.linux.x86_64.source" version="1.9.2.19pre" download-size="0" install-size="0" os="linux" ws="gtk" arch="x86_64" unpack="false"/>
+  <plugin id="org.mozilla.xulrunner.win32.win32.x86.source" version="1.9.2.16b" download-size="0" install-size="0" os="win32" ws="win32" arch="x86" unpack="false"/>
+  <plugin id="org.jboss.tools.xulrunner.initializer.source" version="3.7.1.Final-v20160331-0327-B91" download-size="0" install-size="0" unpack="false"/>
+  <plugin id="org.jboss.tools.xulrunner.source" version="3.7.1.Final-v20160331-0327-B91" download-size="0" install-size="0" unpack="false"/>
+</feature>

@@ -1,0 +1,42 @@
+Manifest-Version: 1.0
+Bundle-SymbolicName: org.hibernate.eclipse;singleton:=true
+Archiver-Version: Plexus Archiver
+Built-By: hudson
+Require-Bundle: org.eclipse.core.runtime;bundle-version="3.10.0",org.e
+ clipse.ui.console;bundle-version="3.6.0",org.eclipse.jface;bundle-ver
+ sion="3.11.0",org.eclipse.jdt.apt.core;bundle-version="3.3.700",org.e
+ clipse.datatools.connectivity;bundle-version="1.2.11",org.jboss.tools
+ .hibernate.runtime.spi;bundle-version="5.0.0",org.apache.log4j;bundle
+ -version="1.2.15",org.apache.commons.logging;bundle-version="1.1.1",o
+ rg.slf4j.api;bundle-version="1.7.2",org.eclipse.debug.core;bundle-ver
+ sion="3.10.0",org.eclipse.ui.views;bundle-version="3.7.100",org.eclip
+ se.jface.text;bundle-version="3.10.0",org.eclipse.core.variables;bund
+ le-version="3.2.800",org.eclipse.ui;bundle-version="3.107.0",org.ecli
+ pse.jdt.core;bundle-version="3.11.0",org.jboss.tools.hibernate.libs.d
+ om4j.v_1_6_1;bundle-version="5.0.0",org.jboss.tools.hibernate.libs.bs
+ h.v_2_0_b4;bundle-version="5.0.0"
+Bundle-ManifestVersion: 2
+Bundle-ActivationPolicy: lazy
+Bundle-RequiredExecutionEnvironment: JavaSE-1.7
+Eclipse-SourceReferences: scm:git:https://github.com/jbosstools/jbosst
+ ools-hibernate.git;path="plugins/org.hibernate.eclipse";commitId=40d7
+ 0e779b0f4e3d2e423b65d799166dc1f0036b
+Eclipse-BuddyPolicy: registered
+Bundle-Vendor: %Bundle-Vendor.0
+Export-Package: org.hibernate.console,org.hibernate.console.execution,
+ org.hibernate.console.node,org.hibernate.console.preferences,org.hibe
+ rnate.eclipse,org.hibernate.eclipse.console,org.hibernate.eclipse.con
+ sole.common,org.hibernate.eclipse.console.model.impl,org.hibernate.ec
+ lipse.console.utils,org.hibernate.eclipse.console.workbench,org.hiber
+ nate.eclipse.launch,org.hibernate.eclipse.logging,org.hibernate.eclip
+ se.logging.xpl,org.hibernate.util.xpl,org.jboss.tools.hibernate.excep
+ tion,org.jboss.tools.hibernate.util
+Bundle-Name: %Bundle-Name.0
+Bundle-Version: 5.0.1.Final-v20160331-1852-B88
+Bundle-ClassPath: org.hibernate.eclipse.jar
+Bundle-Localization: plugin
+Bundle-Activator: org.hibernate.eclipse.HibernatePlugin
+Created-By: Apache Maven 3.2.5
+Build-Jdk: 1.8.0_71
+Eclipse-BundleShape: dir
+

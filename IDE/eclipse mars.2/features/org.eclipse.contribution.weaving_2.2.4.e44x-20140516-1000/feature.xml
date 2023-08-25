@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feature
+      id="org.eclipse.contribution.weaving"
+      label="%featureName"
+      version="2.2.4.e44x-20140516-1000"
+      provider-name="%providerName">
+
+   <description url="http://eclipse.org/ajdt">
+      %description
+   </description>
+
+   <copyright>
+      %copyright
+   </copyright>
+
+   <license url="%licenseURL">
+      %license
+   </license>
+
+   <includes
+         id="org.eclipse.contribution.weaving.source"
+         version="0.0.0"
+         name=""
+         optional="true"/>
+
+   <includes
+         id="org.eclipse.equinox.weaving.sdk"
+         version="1.1.0.I20140501-0200"
+         name="Equinox Aspects"
+         optional="true"/>
+         
+   <requires>
+      <import plugin="org.eclipse.osgi" />
+      <import plugin="org.eclipse.core.runtime"  />
+      <import plugin="org.eclipse.jdt.core" />
+      <import plugin="org.eclipse.jdt.ui" />
+      <import plugin="org.eclipse.jface"  />
+      <import plugin="org.eclipse.ui"  />
+      <import plugin="org.eclipse.ui.browser"/>
+      <import plugin="org.eclipse.ui.forms" />
+   </requires>
+
+   <plugin
+         id="org.eclipse.contribution.weaving.jdt"
+         download-size="0"
+         install-size="0"
+         version="2.2.4.e44x-20140516-1000"
+         unpack="false"/>
+
+   <plugin
+         id="org.aspectj.runtime"
+         download-size="0"
+         install-size="0"
+         version="1.8.1.20140516080300"
+         unpack="false"/>
+
+</feature>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feature id="org.eclipse.bpel.feature.source" version="1.0.5.Final-v20160115-1558" label="%name" provider-name="%providerName">
+  <includes id="org.eclipse.bpel.feature" version="1.0.5.Final-v20160115-1558"/>
+  <description url="http://www.eclipse.org/bpel/">
+      %description
+   </description>
+  <copyright url="http://www.eclipse.org/legal/">
+      %copyright
+   </copyright>
+  <license url="%licenseURL">
+      %license
+   </license>
+  <plugin id="org.eclipse.bpel.apache.ode.deploy.model.source" version="1.0.5.Final-v20160115-1558" download-size="0" install-size="0" unpack="false"/>
+  <plugin id="org.eclipse.bpel.apache.ode.deploy.ui.source" version="1.0.5.Final-v20160115-1558" download-size="0" install-size="0" unpack="false"/>
+  <plugin id="org.eclipse.bpel.cheatsheet.source" version="1.0.5.Final-v20160115-1558" download-size="0" install-size="0" unpack="false"/>
+  <plugin id="org.eclipse.bpel.help.source" version="1.0.5.Final-v20160115-1558" download-size="0" install-size="0" unpack="false"/>
+  <plugin id="org.eclipse.bpel.common.model.source" version="1.0.5.Final-v20160115-1558" download-size="0" install-size="0" unpack="false"/>
+  <plugin id="org.eclipse.bpel.common.ui.source" version="1.0.5.Final-v20160115-1558" download-size="0" install-size="0" unpack="false"/>
+  <plugin id="org.eclipse.bpel.model.source" version="1.0.5.Final-v20160115-1558" download-size="0" install-size="0" unpack="false"/>
+  <plugin id="org.eclipse.bpel.runtimes.source" version="1.0.5.Final-v20160115-1558" download-size="0" install-size="0" unpack="false"/>
+  <plugin id="org.eclipse.bpel.ui.source" version="1.0.5.Final-v20160115-1558" download-size="0" install-size="0" unpack="false"/>
+  <plugin id="org.eclipse.bpel.validator.source" version="1.0.5.Final-v20160115-1558" download-size="0" install-size="0" unpack="false"/>
+  <plugin id="org.eclipse.bpel.wsil.model.source" version="1.0.5.Final-v20160115-1558" download-size="0" install-size="0" unpack="false"/>
+  <plugin id="org.eclipse.bpel.xpath10.source" version="1.0.5.Final-v20160115-1558" download-size="0" install-size="0" unpack="false"/>
+</feature>

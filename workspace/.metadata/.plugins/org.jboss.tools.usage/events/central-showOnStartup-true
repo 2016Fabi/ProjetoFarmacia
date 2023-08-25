@@ -1,10 +1,10 @@
-#Fri Aug 18 19:45:58 BRT 2023
-a=showOnStartup
-c=2
-cl=true
-cmp=usage
-ct=central
-d=1692398758097
+#Wed Aug 23 17:38:04 BRT 2023
 l=true|false|N/A
-s=0
+ct=central
+d=1692823084230
+c=1
+cmp=usage
+a=showOnStartup
+cl=true
 v=2.2.400.v20220119-0810
+s=0

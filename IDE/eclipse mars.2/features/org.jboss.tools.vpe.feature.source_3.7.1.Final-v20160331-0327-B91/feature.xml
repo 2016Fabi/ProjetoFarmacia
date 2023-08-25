@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feature id="org.jboss.tools.vpe.feature.source" version="3.7.1.Final-v20160331-0327-B91" label="%featureName" provider-name="%providerName">
+  <includes id="org.jboss.tools.vpe.feature" version="3.7.1.Final-v20160331-0327-B91"/>
+  <description url="http://www.jboss.org/tools">
+      %description
+   </description>
+  <copyright>
+      %copyright
+   </copyright>
+  <license url="%licenseURL">
+      %license
+   </license>
+  <plugin id="org.jboss.tools.vpe.source" version="3.7.1.Final-v20160331-0327-B91" download-size="0" install-size="0" unpack="false"/>
+  <plugin id="org.jboss.tools.vpe.docbook.source" version="3.7.1.Final-v20160331-0327-B91" download-size="0" install-size="0" unpack="false"/>
+  <plugin id="org.jboss.tools.vpe.html.source" version="3.7.1.Final-v20160331-0327-B91" download-size="0" install-size="0" unpack="false"/>
+  <plugin id="org.jboss.tools.vpe.jsp.source" version="3.7.1.Final-v20160331-0327-B91" download-size="0" install-size="0" unpack="false"/>
+  <plugin id="org.jboss.tools.vpe.resref.source" version="3.7.1.Final-v20160331-0327-B91" download-size="0" install-size="0" unpack="false"/>
+  <plugin id="org.jboss.tools.vpe.ui.palette.source" version="3.7.1.Final-v20160331-0327-B91" download-size="0" install-size="0" unpack="false"/>
+  <plugin id="org.jboss.tools.vpe.xulrunner.source" version="3.7.1.Final-v20160331-0327-B91" download-size="0" install-size="0" unpack="false"/>
+  <plugin id="org.jboss.tools.vpe.spring.source" version="3.7.1.Final-v20160331-0327-B91" download-size="0" install-size="0" unpack="false"/>
+  <plugin id="org.jboss.tools.xulrunner.initializer.source" version="3.7.1.Final-v20160331-0327-B91" download-size="0" install-size="0" unpack="false"/>
+  <includes id="org.jboss.tools.vpe.preview.feature.source" version="3.7.1.Final-v20160331-0327-B91"/>
+</feature>

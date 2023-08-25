@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feature id="org.fusesource.ide.jmx.feature.source" version="8.0.0.Final-v20161003-0720-B128" plugin="org.fusesource.ide.tooling" label="%featureName" provider-name="%providerName">
+  <includes id="org.fusesource.ide.jmx.feature" version="8.0.0.Final-v20161003-0720-B128"/>
+  <description url="http://tools.jboss.org/features/apachecamel.html">
+      %description
+   </description>
+  <copyright url="http://redhat.com/">
+      %copyright
+   </copyright>
+  <license url="%licenseURL">
+      %license
+   </license>
+  <plugin id="org.fusesource.ide.jmx.activemq.source" version="8.0.0.Final-v20161003-0720-B128" download-size="0" install-size="0" unpack="false"/>
+  <plugin id="org.fusesource.ide.jmx.camel.source" version="8.0.0.Final-v20161003-0720-B128" download-size="0" install-size="0" unpack="false"/>
+  <plugin id="org.fusesource.ide.jmx.karaf.source" version="8.0.0.Final-v20161003-0720-B128" download-size="0" install-size="0" unpack="false"/>
+  <plugin id="org.fusesource.ide.jmx.commons.source" version="8.0.0.Final-v20161003-0720-B128" download-size="0" install-size="0" unpack="false"/>
+  <plugin id="org.fusesource.ide.jmx.diagram.view.source" version="8.0.0.Final-v20161003-0720-B128" download-size="0" install-size="0" unpack="false"/>
+</feature>

@@ -1,0 +1,10 @@
+127.0.0.1 - - [22/Aug/2023:19:16:39 -0300] "GET / HTTP/1.1" 404 951
+127.0.0.1 - - [22/Aug/2023:19:16:56 -0300] "GET /Farmacia/faces/pages/fornecedores.xhtml HTTP/1.1" 200 29165
+127.0.0.1 - - [22/Aug/2023:19:16:57 -0300] "GET /Farmacia/faces/javax.faces.resource/style.css;jsessionid=8A5A08DC1F6ACB02D3E7AB8ED7217ED5?ln=css HTTP/1.1" 200 258
+127.0.0.1 - - [22/Aug/2023:19:16:58 -0300] "GET /Farmacia/faces/javax.faces.resource/layout/layout.css;jsessionid=8A5A08DC1F6ACB02D3E7AB8ED7217ED5?ln=primefaces&v=4.0 HTTP/1.1" 200 542
+127.0.0.1 - - [22/Aug/2023:19:16:58 -0300] "GET /Farmacia/faces/javax.faces.resource/scripts.js;jsessionid=8A5A08DC1F6ACB02D3E7AB8ED7217ED5?ln=js HTTP/1.1" 200 252
+127.0.0.1 - - [22/Aug/2023:19:16:58 -0300] "GET /Farmacia/faces/javax.faces.resource/jquery/jquery.js;jsessionid=8A5A08DC1F6ACB02D3E7AB8ED7217ED5?ln=primefaces&v=4.0 HTTP/1.1" 200 105493
+127.0.0.1 - - [22/Aug/2023:19:16:58 -0300] "GET /Farmacia/faces/javax.faces.resource/jquery/jquery-plugins.js;jsessionid=8A5A08DC1F6ACB02D3E7AB8ED7217ED5?ln=primefaces&v=4.0 HTTP/1.1" 200 220747
+127.0.0.1 - - [22/Aug/2023:19:16:58 -0300] "GET /Farmacia/faces/javax.faces.resource/primefaces.js;jsessionid=8A5A08DC1F6ACB02D3E7AB8ED7217ED5?ln=primefaces&v=4.0 HTTP/1.1" 200 277201
+127.0.0.1 - - [22/Aug/2023:19:16:58 -0300] "GET /Farmacia/faces/javax.faces.resource/layout/layout.js;jsessionid=8A5A08DC1F6ACB02D3E7AB8ED7217ED5?ln=primefaces&v=4.0 HTTP/1.1" 200 87653
+127.0.0.1 - - [22/Aug/2023:19:16:58 -0300] "GET /Farmacia/faces/javax.faces.resource/primefaces.css;jsessionid=8A5A08DC1F6ACB02D3E7AB8ED7217ED5?ln=primefaces&v=4.0 HTTP/1.1" 200 53386

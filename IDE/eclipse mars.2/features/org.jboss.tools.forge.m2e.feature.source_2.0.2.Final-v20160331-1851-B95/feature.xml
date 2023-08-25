@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feature id="org.jboss.tools.forge.m2e.feature.source" version="2.0.2.Final-v20160331-1851-B95" plugin="org.jboss.tools.forge.m2e" label="%featureName" provider-name="%featureProvider">
+  <includes id="org.jboss.tools.forge.m2e.feature" version="2.0.2.Final-v20160331-1851-B95"/>
+  <description>
+      %description
+   </description>
+  <copyright>
+      %copyright
+   </copyright>
+  <license url="%licenseURL">
+      %license
+   </license>
+  <plugin id="org.jboss.tools.forge.m2e.source" version="2.0.2.Final-v20160331-1851-B95" download-size="0" install-size="0" unpack="false"/>
+</feature>

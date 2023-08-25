@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feature id="org.jboss.tools.seam.feature.source" version="3.7.1.Final-v20160330-2256-B84" plugin="org.jboss.tools.seam.core" label="%featureName" provider-name="%featureProvider">
+  <includes id="org.jboss.tools.seam.feature" version="3.7.1.Final-v20160330-2256-B84"/>
+  <description url="http://www.jboss.org/tools">
+      %description
+  </description>
+  <copyright>
+      %copyright
+  </copyright>
+  <license url="%licenseURL">
+      %license
+  </license>
+  <plugin id="org.jboss.tools.seam.core.source" version="3.7.1.Final-v20160330-2256-B84" download-size="0" install-size="0" unpack="false"/>
+  <plugin id="org.jboss.tools.seam.ui.source" version="3.7.1.Final-v20160330-2256-B84" download-size="0" install-size="0" unpack="false"/>
+  <plugin id="org.jboss.tools.seam.xml.source" version="3.7.1.Final-v20160330-2256-B84" download-size="0" install-size="0" unpack="false"/>
+  <plugin id="org.jboss.tools.seam.xml.ui.source" version="3.7.1.Final-v20160330-2256-B84" download-size="0" install-size="0" unpack="false"/>
+  <plugin id="org.jboss.tools.seam.text.ext.source" version="3.7.1.Final-v20160330-2256-B84" download-size="0" install-size="0" unpack="false"/>
+  <plugin id="org.jboss.tools.seam.pages.xml.source" version="3.7.1.Final-v20160330-2256-B84" download-size="0" install-size="0" unpack="false"/>
+  <plugin id="org.jboss.tools.seam.ui.pages.source" version="3.7.1.Final-v20160330-2256-B84" download-size="0" install-size="0" unpack="false"/>
+  <plugin id="org.jboss.tools.seam.vpe.source" version="3.7.1.Final-v20160330-2256-B84" download-size="0" install-size="0" unpack="false"/>
+</feature>

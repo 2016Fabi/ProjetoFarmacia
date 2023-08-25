@@ -1,0 +1,51 @@
+Signature-Version: 1.0
+SHA-256-Digest-Manifest-Main-Attributes: QB7DsgM8lZNIwFmLtl4v5n6LGyj9Z
+ XdzaXt2vlQuUwk=
+SHA-256-Digest-Manifest: BKT0+9r7T9pJOxXxKSmZRnRamrbEnC8KX6RKSwhdbcg=
+Created-By: 1.7.0_55 (Oracle Corporation)
+
+Name: archive/spacewar.jar
+SHA-256-Digest: 5bhtQmqEBUBkZiJJ7cuNRgiP8yMUrNifCF+DVH4uIvA=
+
+Name: META-INF/eclipse.inf
+SHA-256-Digest: ak2bzOGDjLurhLXRsFA/N7TRhvaP+YA1QdnivLjcXtk=
+
+Name: archive/bean.jar
+SHA-256-Digest: oC94fZ/GjO8p8Hq6I7Gkx2/28nQ20RXbBJ5YlotI3EY=
+
+Name: archive/introduction.jar
+SHA-256-Digest: anHkGrPHxN2sGhMnCE6CHhkR/cN7AKVJLmPjcjje0TY=
+
+Name: archive/tjp.jar
+SHA-256-Digest: 4EtZV8kQQqIBgl3G3qWgmIiTJLFcTUKWxBtRwVU2iWs=
+
+Name: plugin.properties
+SHA-256-Digest: 77wnqo7Dh3fJUHhwNIPiIpChAktVyl461C1gM3/xI2g=
+
+Name: schema/projectsetup.exsd
+SHA-256-Digest: /hhIDS4FS09TfqiqcQXXuzPxHTou3ykdodk2bF3WKXw=
+
+Name: plugin.xml
+SHA-256-Digest: AEZAnLALkrHuQmbQGCNWY/8/tPJJFVNwkBFwQcNuTsE=
+
+Name: about.html
+SHA-256-Digest: sgprG/uS3i5o2f6uN0qDXxVd4sFo2GlZrNr+9ymaT0E=
+
+Name: archive/tracing.jar
+SHA-256-Digest: oljn3wj2G7wh0rVjmTaJMWSWWq/YkxBFBMHpaEaiUJI=
+
+Name: icons/newajprj_wiz.gif
+SHA-256-Digest: 5Vg/PCyvTYZjR3WSNMSXvuNFbsMMI/yWw3QSRULl5Js=
+
+Name: archive/telecom.jar
+SHA-256-Digest: zkCqdSfXQvH6CObeLg2Z7/zfKrhjNVvuWC3Sq9zIFpk=
+
+Name: ajdtExamples.jar
+SHA-256-Digest: LPv6QetUHZHGTY1isKSBB+phcRlQEf13q0SuJq5DVX4=
+
+Name: archive/org.eclipse.ajdt.examples.progressmon.jar
+SHA-256-Digest: myGC4rhWa1waI59gwZ8hLuL+JjQhyh5FjmzwZB9xFNM=
+
+Name: archive/observer.jar
+SHA-256-Digest: ECnjvB5AgahVli80Xxud9Xs5BRnCyu+sJOSaVY/IUaA=
+

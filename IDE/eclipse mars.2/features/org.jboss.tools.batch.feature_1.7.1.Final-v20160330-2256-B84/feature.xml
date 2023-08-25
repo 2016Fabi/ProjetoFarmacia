@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feature
+      id="org.jboss.tools.batch.feature"
+      label="%featureName"
+      version="1.7.1.Final-v20160330-2256-B84"
+      provider-name="%featureProvider"
+      plugin="org.jboss.tools.batch.ui">
+
+   <description>
+      %description
+   </description>
+
+   <copyright>
+      %copyright
+   </copyright>
+
+   <license url="%licenseURL">
+      %license
+   </license>
+
+   <requires>
+      <import feature="org.eclipse.sapphire.java.jdt" version="9.0.0.201505051659" match="greaterOrEqual"/>
+   </requires>
+
+   <plugin
+         id="org.jboss.tools.batch.core"
+         download-size="137"
+         install-size="296"
+         version="1.7.1.Final-v20160330-2256-B84"
+         unpack="false"/>
+
+   <plugin
+         id="org.jboss.tools.batch.ui"
+         download-size="218"
+         install-size="478"
+         version="1.7.1.Final-v20160330-2256-B84"
+         unpack="false"/>
+
+</feature>

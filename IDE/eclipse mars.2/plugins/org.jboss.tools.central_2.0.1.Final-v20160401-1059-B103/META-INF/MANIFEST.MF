@@ -1,0 +1,56 @@
+Manifest-Version: 1.0
+Bundle-SymbolicName: org.jboss.tools.central; singleton:=true
+Archiver-Version: Plexus Archiver
+Built-By: hudson
+Require-Bundle: org.eclipse.ui;bundle-version="3.7.0",org.eclipse.core
+ .runtime;bundle-version="3.7.0",org.eclipse.jface.text;bundle-version
+ ="3.7.0",org.eclipse.core.resources;bundle-version="3.7.0",org.eclips
+ e.ui.editors;bundle-version="3.7.0",org.eclipse.ui.ide;bundle-version
+ ="3.7.0",org.eclipse.ui.forms;bundle-version="3.5.100",org.eclipse.ui
+ .browser;bundle-version="3.3.100",com.sun.syndication;bundle-version=
+ "0.9.0",org.jdom;bundle-version="1.0.0",org.apache.commons.lang;bundl
+ e-version="2.4.0",org.jboss.tools.project.examples;bundle-version="2.
+ 0.0";visibility:=reexport,org.eclipse.mylyn.commons.core;bundle-versi
+ on="3.6.0",org.eclipse.mylyn.discovery.ui;bundle-version="3.6.0",org.
+ eclipse.mylyn.discovery.core;bundle-version="3.6.0",org.eclipse.mylyn
+ .commons.ui;bundle-version="[3.6.0,4.0.0)",org.eclipse.equinox.p2.ui.
+ sdk;bundle-version="1.0.200",org.eclipse.equinox.p2.core;bundle-versi
+ on="2.1.0",org.eclipse.equinox.p2.engine;bundle-version="2.1.0",org.e
+ clipse.mylyn.commons.workbench;bundle-version="3.8.0",org.jboss.tools
+ .common.core;bundle-version="3.5.0",org.apache.commons.io;bundle-vers
+ ion="2.0.0",org.jboss.tools.foundation.core;bundle-version="1.0.0",or
+ g.eclipse.equinox.p2.ui;bundle-version="2.3.0",org.eclipse.equinox.p2
+ .operations;bundle-version="2.3.0",org.eclipse.equinox.p2.metadata;bu
+ ndle-version="2.2.0",org.eclipse.equinox.p2.repository;bundle-version
+ ="2.3.0",org.eclipse.equinox.p2.director;bundle-version="2.3.0",org.e
+ clipse.e4.ui.model.workbench;bundle-version="1.0.0",org.eclipse.e4.ui
+ .workbench;bundle-version="1.0.0",org.eclipse.core.filesystem,org.ecl
+ ipse.ui.net,org.jboss.tools.discovery.core;bundle-version="1.0.0",org
+ .jboss.tools.foundation.help.ui;bundle-version="1.2.0",com.google.gua
+ va;bundle-version="15.0.0",org.jboss.ide.eclipse.as.dmr;bundle-versio
+ n="3.0.1",org.eclipse.equinox.preferences,org.eclipse.e4.core.context
+ s;bundle-version="1.3.100",org.eclipse.e4.ui.css.swt.theme;bundle-ver
+ sion="0.9.300",org.jboss.tools.usage
+Bundle-ManifestVersion: 2
+Bundle-ActivationPolicy: lazy
+Bundle-RequiredExecutionEnvironment: JavaSE-1.7
+Eclipse-SourceReferences: scm:git:https://github.com/jbosstools/jbosst
+ ools-central.git;path="central/plugins/org.jboss.tools.central";commi
+ tId=52703f5ff40595999fa08639714368259cbec97b
+Bundle-Vendor: %BundleVendor
+Export-Package: org.jboss.tools.central,org.jboss.tools.central.action
+ s,org.jboss.tools.central.configurators,org.jboss.tools.central.edito
+ rs,org.jboss.tools.central.editors.xpl,org.jboss.tools.central.intern
+ al;x-friends:="org.jboss.tools.central.test",org.jboss.tools.central.
+ internal.discovery.wizards;x-friends:="org.jboss.tools.central.test",
+ org.jboss.tools.central.jobs,org.jboss.tools.central.model,org.jboss.
+ tools.central.preferences
+Bundle-Name: %BundleName
+Bundle-Version: 2.0.1.Final-v20160401-1059-B103
+Bundle-Localization: plugin
+Bundle-ClassPath: lib/ocpsoft-pretty-time-1.0.7.jar,.
+Bundle-Activator: org.jboss.tools.central.JBossCentralActivator
+Created-By: Apache Maven 3.2.5
+Build-Jdk: 1.8.0_71
+Eclipse-BundleShape: dir
+

@@ -1,0 +1,26 @@
+Signature-Version: 1.0
+SHA-256-Digest-Manifest-Main-Attributes: nf5gY+4FQOvL3AXnC5KFwqLtak6m4
+ mvzUTZhO2tRmTw=
+SHA-256-Digest-Manifest: BFMwjBAD2ufAMKLmKC4qTFYRIkCXdeBUBlSu86N1Slk=
+Created-By: 1.8.0_51 (Oracle Corporation)
+
+Name: META-INF/maven/org.eclipse.mylyn.github/org.eclipse.mylyn.github
+ .feature/pom.properties
+SHA-256-Digest: sNPa9bLFIEZY2DBiX/eQbyrs0XUxCUl4lAngbdNw6F8=
+
+Name: epl-v10.html
+SHA-256-Digest: ivPTM3phc3zNk5zAa0eKwnKMIkhfBeiYvWu+PXfq0DI=
+
+Name: META-INF/maven/org.eclipse.mylyn.github/org.eclipse.mylyn.github
+ .feature/pom.xml
+SHA-256-Digest: +jaFn02/XsguCK2ZgOWre0n9kGTI5hzEesrutiTg3sw=
+
+Name: feature.xml
+SHA-256-Digest: kQ8iF8THJWXWOLO+XMG/3Y/gyIi4+ExYMvDQ4UkvR+I=
+
+Name: feature.properties
+SHA-256-Digest: wyRZIYHrKzYi0qoNj56aHXQKl9PVxAP8Sv3FqjO0kPQ=
+
+Name: license.html
+SHA-256-Digest: ZbE5GHQ1iNeTAnPMjqq4ZqZ7fRClcw5W7xzwIgPQ8cY=
+

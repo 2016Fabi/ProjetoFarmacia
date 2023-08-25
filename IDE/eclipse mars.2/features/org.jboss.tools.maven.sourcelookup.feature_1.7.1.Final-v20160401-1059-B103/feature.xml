@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feature
+      id="org.jboss.tools.maven.sourcelookup.feature"
+      label="%featureName"
+      version="1.7.1.Final-v20160401-1059-B103"
+      provider-name="%providerName"
+      plugin="org.jboss.tools.maven.sourcelookup.core">
+
+   <description>
+      %description
+   </description>
+
+   <copyright>
+      %copyright
+   </copyright>
+
+   <license url="%licenseURL">
+      %license
+   </license>
+
+   <requires>
+      <import feature="org.eclipse.m2e.feature" version="1.5.0" match="greaterOrEqual"/>
+      <import feature="org.jboss.tools.maven.feature" version="1.6.0" match="greaterOrEqual"/>
+   </requires>
+   
+   <plugin
+         id="org.jboss.tools.maven.sourcelookup.core"
+         download-size="22"
+         install-size="41"
+         version="1.7.1.Final-v20160401-1059-B103"
+         unpack="false"/>
+
+   <plugin
+         id="org.jboss.tools.maven.sourcelookup.ui"
+         download-size="28"
+         install-size="51"
+         version="1.7.1.Final-v20160401-1059-B103"
+         unpack="false"/>
+
+</feature>

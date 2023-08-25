@@ -1,0 +1,35 @@
+Manifest-Version: 1.0
+Bundle-SymbolicName: net.sf.eclipsecs.core;singleton:=true
+Archiver-Version: Plexus Archiver
+Built-By: Lars
+Require-Bundle: net.sf.eclipsecs.checkstyle;visibility:=reexport
+Bundle-ManifestVersion: 2
+Bundle-RequiredExecutionEnvironment: JavaSE-1.7
+Bundle-ActivationPolicy: lazy
+Eclipse-BuddyPolicy: registered
+Bundle-Vendor: http://eclipse-cs.sf.net/
+Import-Package: org.eclipse.core.filebuffers,org.eclipse.core.resource
+ s,org.eclipse.core.runtime,org.eclipse.core.runtime.jobs,org.eclipse.
+ core.runtime.preferences,org.eclipse.equinox.security.storage,org.ecl
+ ipse.jdt.core,org.eclipse.jdt.internal.corext.fix,org.eclipse.jdt.int
+ ernal.ui.preferences,org.eclipse.jdt.internal.ui.preferences.cleanup,
+ org.eclipse.jdt.internal.ui.preferences.formatter,org.eclipse.jface.t
+ ext,org.eclipse.osgi.util,org.eclipse.team.core;resolution:=optional,
+ org.eclipse.team.core.subscribers;resolution:=optional,org.eclipse.te
+ am.core.synchronize;resolution:=optional,org.osgi.framework,org.osgi.
+ service.prefs
+Export-Package: net.sf.eclipsecs.core,net.sf.eclipsecs.core.builder,ne
+ t.sf.eclipsecs.core.config,net.sf.eclipsecs.core.config.configtypes,n
+ et.sf.eclipsecs.core.config.meta,net.sf.eclipsecs.core.jobs,net.sf.ec
+ lipsecs.core.nature,net.sf.eclipsecs.core.projectconfig,net.sf.eclips
+ ecs.core.projectconfig.filters,net.sf.eclipsecs.core.util,org.apache.
+ commons.io,org.apache.commons.lang
+Bundle-Name: Checkstyle Plug-in
+Bundle-Version: 6.5.0.201504121610
+Bundle-ClassPath: .,lib/commons-lang-2.3.jar,lib/commons-io-1.2.jar,li
+ b/dom4j-1.6.1.jar
+Bundle-Localization: core
+Bundle-Activator: net.sf.eclipsecs.core.CheckstylePlugin
+Created-By: Apache Maven 3.2.3
+Build-Jdk: 1.8.0_40
+

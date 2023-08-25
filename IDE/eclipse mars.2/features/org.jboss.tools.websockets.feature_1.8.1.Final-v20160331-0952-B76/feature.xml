@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feature
+      id="org.jboss.tools.websockets.feature"
+      label="%featureName"
+      version="1.8.1.Final-v20160331-0952-B76"
+      provider-name="%providerName"
+      plugin="org.jboss.tools.websockets.ui">
+
+   <description>
+      %description
+   </description>
+
+   <copyright>
+      %copyright
+   </copyright>
+
+   <license url="%licenseURL">
+      %license
+   </license>
+
+   <plugin
+         id="org.jboss.tools.websockets.core"
+         download-size="5"
+         install-size="4"
+         version="1.8.1.Final-v20160331-0952-B76"
+         unpack="false"/>
+
+   <plugin
+         id="org.jboss.tools.websockets.ui"
+         download-size="23"
+         install-size="45"
+         version="1.8.1.Final-v20160331-0952-B76"
+         unpack="false"/>
+
+</feature>

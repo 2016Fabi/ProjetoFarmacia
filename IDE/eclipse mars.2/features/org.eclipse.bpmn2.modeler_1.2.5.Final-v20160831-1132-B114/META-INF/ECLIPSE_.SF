@@ -1,0 +1,29 @@
+Signature-Version: 1.0
+SHA-256-Digest-Manifest-Main-Attributes: Z0kxZz4RBIclkpytXNfh1XsKX5Wg4
+ P/KI428gxoZfw0=
+SHA-256-Digest-Manifest: pjjnQ8p0GHecJrpHtL2y+fYbPcjPAlq21KPAB9+nCDM=
+Created-By: 1.8.0_51 (Oracle Corporation)
+
+Name: about.html
+SHA-256-Digest: A50llnfEsbUJBD6bLKV9IN7wPAuWXwrwZ2YriRtx4YI=
+
+Name: epl-v10.html
+SHA-256-Digest: hY6JpC1xeKUM+PneDomhyWjVJwV6cdlsAC/sw/mczbQ=
+
+Name: feature.xml
+SHA-256-Digest: aUXwGcfbKFU1jcGqeIHQn2OTeaD7oc2dXYkP2mDrg60=
+
+Name: META-INF/maven/org.eclipse.bpmn2.modeler.features/org.eclipse.bp
+ mn2.modeler/pom.xml
+SHA-256-Digest: R5ePxA/Cd85UtaqoIL6HkSKia/VEAmQKQShP3NXbVX8=
+
+Name: feature.properties
+SHA-256-Digest: 6agSE/wkQ9/C2D5hEgLa3ExZuPPQrzW1P3LKPb5ahjw=
+
+Name: license.html
+SHA-256-Digest: 6trd6JofsB6VeLIfDYf/RH51d8LLZ1mgYDaTC5wbdiA=
+
+Name: META-INF/maven/org.eclipse.bpmn2.modeler.features/org.eclipse.bp
+ mn2.modeler/pom.properties
+SHA-256-Digest: +MbHg1Qo0NLMV+iQn1/XL2eki4g7wLk+WxUlAiyP78Y=
+

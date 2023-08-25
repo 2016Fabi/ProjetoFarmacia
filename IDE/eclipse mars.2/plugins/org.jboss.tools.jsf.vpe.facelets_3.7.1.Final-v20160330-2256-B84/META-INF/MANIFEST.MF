@@ -1,0 +1,27 @@
+Manifest-Version: 1.0
+Bundle-SymbolicName: org.jboss.tools.jsf.vpe.facelets; singleton:=true
+Archiver-Version: Plexus Archiver
+Built-By: hudson
+Require-Bundle: org.eclipse.ui;bundle-version="3.7.0",org.eclipse.core
+ .runtime;bundle-version="3.7.0",org.jboss.tools.common,org.jboss.tool
+ s.vpe,org.eclipse.core.resources;bundle-version="3.7.100",org.jboss.t
+ ools.jst.web.ui,org.mozilla.xpcom,org.eclipse.jface.text;bundle-versi
+ on="3.7.0"
+Bundle-ActivationPolicy: lazy
+Bundle-ManifestVersion: 2
+Bundle-RequiredExecutionEnvironment: JavaSE-1.6
+Eclipse-SourceReferences: scm:git:https://github.com/jbosstools/jbosst
+ ools-javaee.git;path="jsf/plugins/org.jboss.tools.jsf.vpe.facelets";c
+ ommitId=2d520a947a6ecd8022406477b17865307dddffb1
+Bundle-Vendor: %providerName
+Export-Package: org.jboss.tools.jsf.vpe.facelets,   org.jboss.tools.js
+ f.vpe.facelets.template
+Bundle-Name: %pluginName
+Bundle-Version: 3.7.1.Final-v20160330-2256-B84
+Bundle-ClassPath: vpefacelets.jar
+Bundle-Localization: plugin
+Bundle-Activator: org.jboss.tools.jsf.vpe.facelets.FaceletsPlugin
+Created-By: Apache Maven 3.2.5
+Build-Jdk: 1.8.0_71
+Eclipse-BundleShape: dir
+

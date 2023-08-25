@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feature
+      id="org.jboss.tools.community.central.feature"
+      label="%featureName"
+      version="2.0.1.Final-v20160401-1059-B103"
+      provider-name="%providerName"
+      plugin="org.jboss.tools.community.central">
+
+   <description>
+      %description
+   </description>
+
+   <copyright>
+      %copyright
+   </copyright>
+
+   <license url="%licenseURL">
+      %license
+   </license>
+
+   <requires>
+      <import feature="org.jboss.tools.central.feature" version="1.1.0" match="greaterOrEqual"/>
+      <import feature="org.jboss.tools.project.examples.feature" version="1.4.0" match="greaterOrEqual"/>
+      <import feature="org.jboss.tools.community.project.examples.feature" version="1.4.0" match="greaterOrEqual"/>
+      <import feature="org.jboss.tools.maven.project.examples.feature" version="1.4.0" match="greaterOrEqual"/>
+      <import feature="org.jboss.ide.eclipse.as.feature" version="2.4.0" match="greaterOrEqual"/>
+      <import feature="org.jboss.tools.runtime.core.feature" version="2.0.0" match="greaterOrEqual"/>
+      <!-- JBIDE-21377 -->
+      <import plugin="org.dadacoalition.yedit" version="1.0.18" match="greaterOrEqual"/>
+      <import plugin="org.yaml.snakeyaml" version="1.14.0" match="greaterOrEqual"/>
+   </requires>
+
+   <plugin id="org.jboss.tools.community.central" download-size="8" install-size="13" version="2.0.1.Final-v20160401-1059-B103" unpack="false"/>
+
+</feature>

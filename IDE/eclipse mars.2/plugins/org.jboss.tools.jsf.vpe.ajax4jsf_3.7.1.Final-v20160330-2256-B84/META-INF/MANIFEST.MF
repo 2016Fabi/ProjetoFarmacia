@@ -1,0 +1,23 @@
+Manifest-Version: 1.0
+Bundle-SymbolicName: org.jboss.tools.jsf.vpe.ajax4jsf;singleton:=true
+Archiver-Version: Plexus Archiver
+Built-By: hudson
+Require-Bundle: org.jboss.tools.vpe,org.eclipse.ui;bundle-version="3.7
+ .0",org.eclipse.core.runtime;bundle-version="3.7.0",org.jboss.tools.j
+ st.web.ui,org.mozilla.xpcom,org.jboss.tools.jsf.vpe.richfaces,org.jbo
+ ss.tools.jsf.vpe.jsf,org.eclipse.jface.text;bundle-version="3.7.0"
+Bundle-ManifestVersion: 2
+Bundle-ActivationPolicy: lazy
+Bundle-RequiredExecutionEnvironment: JavaSE-1.6
+Eclipse-SourceReferences: scm:git:https://github.com/jbosstools/jbosst
+ ools-javaee.git;path="jsf/plugins/org.jboss.tools.jsf.vpe.ajax4jsf";c
+ ommitId=2d520a947a6ecd8022406477b17865307dddffb1
+Bundle-Vendor: %Bundle-Vendor.0
+Bundle-Name: %Bundle-Name.0
+Bundle-Version: 3.7.1.Final-v20160330-2256-B84
+Bundle-Localization: plugin
+Bundle-Activator: org.jboss.tools.jsf.vpe.ajax4jsf.Activator
+Created-By: Apache Maven 3.2.5
+Build-Jdk: 1.8.0_71
+Eclipse-BundleShape: dir
+

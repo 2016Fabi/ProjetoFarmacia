@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feature id="org.jboss.tools.jsf.feature" label="%featureName" version="3.7.1.Final-v20160330-2256-B84" provider-name="%featureProvider" image="jsf.jpg">
+
+   <description url="http://www.jboss.org/tools">
+      %description
+   </description>
+
+   <copyright>
+      %copyright
+   </copyright>
+
+   <license url="%licenseURL">
+      %license
+   </license>
+
+   <requires>
+      <import feature="org.jboss.tools.common.feature" version="3.6.0" match="greaterOrEqual"/>
+      <import feature="org.jboss.tools.jst.feature" version="3.6.0" match="greaterOrEqual"/>
+      <import feature="org.jboss.tools.vpe.feature" version="3.3.0" match="greaterOrEqual"/>
+      <import feature="org.eclipse.wst.web_ui.feature" version="3.3.2" match="greaterOrEqual"/>
+   </requires>
+
+   <plugin
+         id="org.jboss.tools.jsf"
+         download-size="840"
+         install-size="3988"
+         version="3.7.1.Final-v20160330-2256-B84"
+         unpack="false"/>
+
+   <plugin
+         id="org.jboss.tools.jsf.ui"
+         download-size="507"
+         install-size="1027"
+         version="3.7.1.Final-v20160330-2256-B84"
+         unpack="false"/>
+
+   <plugin
+         id="org.jboss.tools.jsf.verification"
+         download-size="20"
+         install-size="54"
+         version="3.7.1.Final-v20160330-2256-B84"
+         unpack="false"/>
+
+   <plugin
+         id="org.jboss.tools.jsf.text.ext"
+         download-size="94"
+         install-size="238"
+         version="3.7.1.Final-v20160330-2256-B84"
+         unpack="false"/>
+
+   <plugin
+         id="org.jboss.tools.jsf.text.ext.facelets"
+         download-size="7"
+         install-size="12"
+         version="3.7.1.Final-v20160330-2256-B84"
+         unpack="false"/>
+
+   <plugin
+         id="org.jboss.tools.jsf.text.ext.richfaces"
+         download-size="9"
+         install-size="46"
+         version="3.7.1.Final-v20160330-2256-B84"
+         unpack="false"/>
+
+   <plugin
+         id="org.jboss.tools.jsf.vpe.facelets"
+         download-size="14"
+         install-size="18"
+         version="3.7.1.Final-v20160330-2256-B84"/>
+
+   <plugin
+         id="org.jboss.tools.jsf.vpe.richfaces"
+         download-size="1431"
+         install-size="1948"
+         version="3.7.1.Final-v20160330-2256-B84"/>
+
+   <plugin
+         id="org.jboss.tools.jsf.vpe.ajax4jsf"
+         download-size="21"
+         install-size="52"
+         version="3.7.1.Final-v20160330-2256-B84"/>
+
+   <plugin
+         id="org.jboss.tools.jsf.vpe.jsf"
+         download-size="81"
+         install-size="184"
+         version="3.7.1.Final-v20160330-2256-B84"/>
+
+   <plugin
+         id="org.jboss.tools.jsf.vpe.myfaces"
+         download-size="9"
+         install-size="37"
+         version="3.7.1.Final-v20160330-2256-B84"/>
+
+   <plugin
+         id="org.jboss.tools.jsf.vpe.jbpm"
+         download-size="11"
+         install-size="25"
+         version="3.7.1.Final-v20160330-2256-B84"/>
+
+   <plugin
+         id="org.jboss.tools.jsf.vpe.jstl"
+         download-size="13"
+         install-size="24"
+         version="3.7.1.Final-v20160330-2256-B84"/>
+
+</feature>

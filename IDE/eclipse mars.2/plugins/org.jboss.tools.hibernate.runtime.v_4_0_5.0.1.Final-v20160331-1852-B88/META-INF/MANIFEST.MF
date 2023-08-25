@@ -1,0 +1,33 @@
+Manifest-Version: 1.0
+Bundle-SymbolicName: org.jboss.tools.hibernate.runtime.v_4_0;singleton
+ :=true
+Archiver-Version: Plexus Archiver
+Built-By: hudson
+Require-Bundle: org.apache.commons.collections;bundle-version="3.2.0",
+ org.hibernate.eclipse;bundle-version="5.0.0",org.jboss.tools.hibernat
+ e.libs.dom4j.v_1_6_1;bundle-version="5.0.0",org.jboss.tools.hibernate
+ .libs.antlr.v_2_7_7;bundle-version="5.0.0",org.jboss.tools.hibernate.
+ libs.jtidy.v_r8-20060801;bundle-version="5.0.0",org.jboss.tools.hiber
+ nate.libs.freemarker.v_2_3_8;bundle-version="5.0.0",org.jboss.tools.h
+ ibernate.runtime.spi;bundle-version="5.0.0",org.jboss.tools.hibernate
+ .runtime.common;bundle-version="5.0.0"
+Bundle-ManifestVersion: 2
+Bundle-RequiredExecutionEnvironment: JavaSE-1.7
+Eclipse-SourceReferences: scm:git:https://github.com/jbosstools/jbosst
+ ools-hibernate.git;path="plugins/org.jboss.tools.hibernate.runtime.v_
+ 4_0";commitId=40d70e779b0f4e3d2e423b65d799166dc1f0036b
+Bundle-Vendor: JBoss by Red Hat
+Bundle-Name: Hibernate 4.0 libraries
+Bundle-Version: 5.0.1.Final-v20160331-1852-B88
+Bundle-Localization: plugin
+Bundle-ClassPath: .,lib/commons-logging-1.1.1.jar,lib/hibernate-common
+ s-annotations-4.0.1.Final.jar,lib/hibernate-core-4.0.1.Final.jar,lib/
+ hibernate-entitymanager-4.0.1.Final.jar,lib/hibernate-jpa-2.0-api-1.0
+ .1.Final.jar,lib/hibernate-tools-4.0.0.Final.jar,lib/jboss-logging-3.
+ 1.0.CR2.jar,lib/jboss-transaction-api_1.1_spec-1.0.0.Final.jar,lib/ja
+ vassist-3.12.1.GA.jar,lib/log4j-1.2.15.jar,lib/slf4j-api-1.5.8.jar,li
+ b/slf4j-log4j12-1.5.8.jar
+Created-By: Apache Maven 3.2.5
+Build-Jdk: 1.8.0_71
+Eclipse-BundleShape: dir
+

@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feature version="6.5.0.201504121610"
+      id="net.sf.eclipsecs"
+      label="%feature.label"
+      provider-name="%feature.provider_name"
+      plugin="net.sf.eclipsecs.branding">
+
+   <description url="%description.url">
+      %description.text
+   </description>
+
+   <copyright>
+      %copyright.text
+   </copyright>
+
+   <license url="license.html">
+      %license.text
+   </license>
+
+   <url>
+      <update label="%updateSiteName" url="http://eclipse-cs.sf.net/update"/>
+   </url>
+
+   <requires>
+      <import plugin="org.eclipse.core.runtime" version="3.2.0" match="greaterOrEqual"/>
+      <import plugin="org.eclipse.core.resources"/>
+      <import plugin="org.eclipse.jdt.core"/>
+      <import plugin="org.eclipse.team.core"/>
+      <import plugin="org.eclipse.core.filebuffers"/>
+      <import plugin="org.eclipse.jface.text"/>
+      <import plugin="org.eclipse.jdt.ui"/>
+      <import plugin="org.eclipse.ui"/>
+      <import plugin="org.eclipse.ui.editors"/>
+      <import plugin="org.eclipse.ui.ide"/>
+      <import plugin="org.eclipse.ui.workbench.texteditor"/>
+   </requires>
+   
+   <plugin
+         id="net.sf.eclipsecs.branding"
+         download-size="3"
+         install-size="3"
+         version="6.5.0.201504121610"
+         unpack="false"/>
+
+   <plugin
+         id="net.sf.eclipsecs.core"
+         download-size="802"
+         install-size="1109"
+         version="6.5.0.201504121610"
+         unpack="true"/>
+
+   <plugin
+         id="net.sf.eclipsecs.doc"
+         download-size="3064"
+         install-size="4695"
+         version="6.5.0.201504121610"
+         unpack="false"/>
+
+   <plugin
+         id="net.sf.eclipsecs.checkstyle"
+         download-size="4302"
+         install-size="5032"
+         version="6.5.0.201504121610"/>
+
+   <plugin
+         id="net.sf.eclipsecs.ui"
+         download-size="2148"
+         install-size="2768"
+         version="6.5.0.201504121610"
+         unpack="true"/>
+
+</feature>

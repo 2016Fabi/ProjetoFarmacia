@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feature
+      id="org.eclipse.equinox.server.jetty"
+      label="%featureName"
+      version="1.2.2.v20160202-2102"
+      provider-name="%providerName">
+
+   <copyright>
+      %copyright
+   </copyright>
+
+   <license url="%licenseURL">
+      %license
+   </license>
+
+   <plugin
+         id="javax.servlet"
+         download-size="102"
+         install-size="202"
+         version="3.1.0.v201410161800"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.equinox.http.jetty"
+         download-size="26"
+         install-size="48"
+         version="3.1.2.v20160115-1350"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.equinox.http.servlet"
+         download-size="167"
+         install-size="385"
+         version="1.2.2.v20160202-2102"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.jetty.continuation"
+         download-size="22"
+         install-size="38"
+         version="9.2.13.v20150730"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.jetty.http"
+         download-size="113"
+         install-size="218"
+         version="9.2.13.v20150730"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.jetty.io"
+         download-size="117"
+         install-size="231"
+         version="9.2.13.v20150730"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.jetty.security"
+         download-size="104"
+         install-size="208"
+         version="9.2.13.v20150730"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.jetty.server"
+         download-size="430"
+         install-size="907"
+         version="9.2.13.v20150730"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.jetty.servlet"
+         download-size="122"
+         install-size="260"
+         version="9.2.13.v20150730"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.jetty.util"
+         download-size="371"
+         install-size="717"
+         version="9.2.13.v20150730"
+         unpack="false"/>
+
+</feature>

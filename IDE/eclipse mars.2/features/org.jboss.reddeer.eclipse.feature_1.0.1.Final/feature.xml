@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feature
+      id="org.jboss.reddeer.eclipse.feature"
+      label="%featureName"
+      version="1.0.1.Final"
+      provider-name="JBoss by Red Hat">
+
+   <description url="https://github.com/jboss-reddeer/reddeer/wiki">
+      RedDeer Eclipse feature provides functionality to work with Eclipse related features such as
+      projects, servers, views, preferences, dialogs and wizards and many more. 
+   </description>
+
+   <copyright>
+      JBoss, Home of Professional Open Source
+Copyright (c) Red Hat, Inc., and individual contributors as indicated
+by the @authors tag, 2012-2013. See the copyright.txt in the distribution
+for a full listing of individual contributors.
+   </copyright>
+
+   <license>
+      Red Hat, Inc. licenses these features and plugins to you under
+certain open source licenses (or aggregations of such licenses),
+which in a particular case may include the Eclipse Public License,
+the GNU Lesser General Public License, and/or certain other open
+source licenses. For precise licensing details, consult the corresponding
+source code, or contact Red Hat Legal Affairs, 1801 Varsity Drive,
+Raleigh NC 27606 USA.
+   </license>
+
+   <plugin
+         id="org.jboss.reddeer.swt"
+         download-size="149"
+         install-size="265"
+         version="1.0.1.Final"
+         unpack="false"/>
+
+   <plugin
+         id="org.jboss.reddeer.jface"
+         download-size="22"
+         install-size="35"
+         version="1.0.1.Final"
+         unpack="false"/>
+
+   <plugin
+         id="org.jboss.reddeer.workbench"
+         download-size="40"
+         install-size="68"
+         version="1.0.1.Final"
+         unpack="false"/>
+
+   <plugin
+         id="org.jboss.reddeer.uiforms"
+         download-size="17"
+         install-size="27"
+         version="1.0.1.Final"
+         unpack="false"/>
+
+   <plugin
+         id="org.jboss.reddeer.eclipse"
+         download-size="265"
+         install-size="441"
+         version="1.0.1.Final"
+         unpack="false"/>
+
+   <plugin
+         id="org.jboss.reddeer.gef"
+         download-size="49"
+         install-size="79"
+         version="1.0.1.Final"
+         unpack="false"/>
+
+   <plugin
+         id="org.jboss.reddeer.junit"
+         download-size="675"
+         install-size="799"
+         version="1.0.1.Final"
+         unpack="false"/>
+
+   <plugin
+         id="org.jboss.reddeer.direct"
+         download-size="7"
+         install-size="9"
+         version="1.0.1.Final"
+         unpack="false"/>
+	 
+   <plugin
+         id="org.jboss.reddeer.common"
+         download-size="35"
+         install-size="92"
+         version="1.0.1.Final"
+         unpack="false"/>
+
+   <plugin
+         id="org.jboss.reddeer.requirements"
+         download-size="37"
+         install-size="67"
+         version="1.0.1.Final"
+         unpack="false"/>
+
+   <plugin
+         id="org.jboss.reddeer.core"
+         download-size="321"
+         install-size="582"
+         version="1.0.1.Final"
+         unpack="false"/>
+   
+   <plugin
+         id="org.jboss.reddeer.go"
+         download-size="2"
+         install-size="3"
+         version="1.0.1.Final"
+         unpack="false"/>
+
+</feature>

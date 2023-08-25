@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feature id="org.jboss.tools.browsersim.feature" label="%featureName" version="3.7.1.Final-v20160331-0511-B89" provider-name="%providerName">
+
+	<description url="http://www.jboss.org/tools">
+      %description
+   </description>
+
+	<copyright>
+      %copyright
+   </copyright>
+
+	<license url="%licenseURL">
+      %license
+   </license>
+	
+   <plugin id="org.jboss.tools.browsersim.ui" download-size="1686" install-size="2599" version="3.7.1.Final-v20160331-0511-B89" unpack="false" />
+   <plugin id="org.jboss.tools.browsersim.browser" download-size="40" install-size="72" version="3.7.1.Final-v20160331-0511-B89" unpack="false" />
+   <plugin id="org.jboss.tools.browsersim.javafx.mock" download-size="15" install-size="14" version="3.7.1.Final-v20160331-0511-B89" unpack="false" />
+   <plugin id="org.jboss.tools.browsersim.eclipse" download-size="58" install-size="107" version="3.7.1.Final-v20160331-0511-B89" unpack="false"/>
+   <plugin id="org.jboss.tools.browsersim.debugger" download-size="1340" install-size="5599" version="3.7.1.Final-v20160331-0511-B89" unpack="false"/>
+</feature>

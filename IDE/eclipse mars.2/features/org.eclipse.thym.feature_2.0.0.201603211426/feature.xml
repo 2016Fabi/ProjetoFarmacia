@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feature
+      id="org.eclipse.thym.feature"
+      label="%featureName"
+      version="2.0.0.201603211426"
+      provider-name="%providerName">
+
+   <description>
+      %description
+   </description>
+
+   <copyright>
+      %copyright
+   </copyright>
+
+   <license url="%licenseURL">
+      %license
+   </license>
+
+   <plugin
+         id="org.eclipse.thym.core"
+         download-size="205"
+         install-size="410"
+         version="2.0.0.201603211426"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.thym.ios.core"
+         os="macosx"
+         download-size="95"
+         install-size="130"
+         version="2.0.0.201603211426"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.thym.ios.ui"
+         os="macosx"
+         download-size="23"
+         install-size="37"
+         version="2.0.0.201603211426"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.thym.ui"
+         download-size="6918"
+         install-size="7266"
+         version="2.0.0.201603211426"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.thym.android.core"
+         download-size="47"
+         install-size="90"
+         version="2.0.0.201603211426"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.thym.android.ui"
+         download-size="32"
+         install-size="56"
+         version="2.0.0.201603211426"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.thym.wp.core"
+         os="win32"
+         download-size="35"
+         install-size="62"
+         version="2.0.0.201603211426"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.thym.wp.ui"
+         os="win32"
+         download-size="32"
+         install-size="57"
+         version="2.0.0.201603211426"
+         unpack="false"/>
+
+</feature>

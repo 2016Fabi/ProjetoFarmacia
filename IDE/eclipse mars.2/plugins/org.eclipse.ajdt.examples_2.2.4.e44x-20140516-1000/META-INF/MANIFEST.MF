@@ -1,0 +1,62 @@
+Manifest-Version: 1.0
+Require-Bundle: org.eclipse.ui.ide,org.eclipse.core.runtime,org.eclips
+ e.core.resources,org.eclipse.ui,org.eclipse.jdt.core,org.eclipse.ajdt
+ .core
+Bundle-Vendor: %providerName
+Ant-Version: Apache Ant 1.9.2
+Bundle-ActivationPolicy: lazy
+Bundle-ClassPath: ajdtExamples.jar
+Bundle-Version: 2.2.4.e44x-20140516-1000
+Bundle-Name: AspectJ Examples
+Bundle-Localization: plugin
+Bundle-ManifestVersion: 2
+Bundle-Activator: org.eclipse.ajdt.examples.AspectJExamplePlugin
+Created-By: 1.7.0_55-b13 (Oracle Corporation)
+Bundle-SymbolicName: org.eclipse.ajdt.examples; singleton:=true
+Bundle-RequiredExecutionEnvironment: J2SE-1.4
+
+Name: archive/spacewar.jar
+SHA-256-Digest: bmU1E1CASZ5yprY9nCgEP8tFdQ8/0F/hQumzRNfwrHY=
+
+Name: META-INF/eclipse.inf
+SHA-256-Digest: G2hFTVPngfh5NUf96Pyy87A7XIE083udjEBFy4pUc/M=
+
+Name: archive/bean.jar
+SHA-256-Digest: u1N5Wlch7rIT3UD6GyDm7lf02eJ+n1LrjOnQfqHoXMI=
+
+Name: archive/introduction.jar
+SHA-256-Digest: A9tvgAmWmc6StBtTh/7TNK65KAg5CwudoHDDGUVT4Hg=
+
+Name: archive/tjp.jar
+SHA-256-Digest: 7UZJwIb/s6+5UfIuI/Gs67Wp+i0/GgFqsnj2ePamR/g=
+
+Name: plugin.properties
+SHA-256-Digest: SbFAegv/3qY6Rd3x+uLc9cf6V2QOPzRUYl034slvJPc=
+
+Name: schema/projectsetup.exsd
+SHA-256-Digest: nW+EYQPVuwIQAjbFHNwEQGU1aClTv2wVsQlqtxjz/mU=
+
+Name: plugin.xml
+SHA-256-Digest: Hwi7Xd5tcChXgfUHJCi7UDRgtYdkgILxr/fSApoWnGs=
+
+Name: about.html
+SHA-256-Digest: Zou0npn0qfCKRVjTOWfvcsgizJAClCvpMWgr81tFdag=
+
+Name: archive/tracing.jar
+SHA-256-Digest: v5ciK+aNbwHataKRMvIhdK4YXl4dse0PpQMho7WmsqY=
+
+Name: icons/newajprj_wiz.gif
+SHA-256-Digest: jsbep5zndMPmja67sidNHKiFS6wSkq0Xu3PPGf3C+Os=
+
+Name: ajdtExamples.jar
+SHA-256-Digest: vrL541hOxFGO/N9S4NDOEd6Tk5oD5FutzUeuyNHrNUw=
+
+Name: archive/telecom.jar
+SHA-256-Digest: OiCCjkjaBkx6u+f2urSLFR7yiaVvR2kKidBMIDk3RT4=
+
+Name: archive/observer.jar
+SHA-256-Digest: T2pbbMZ3kWZytg14RASqiozo1295rl8saxm+GhNfA38=
+
+Name: archive/org.eclipse.ajdt.examples.progressmon.jar
+SHA-256-Digest: pWgAAzxtx4hIbhVGAsKijAv6l6x8e9/1iNxILbKENUQ=
+

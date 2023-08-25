@@ -1,0 +1,24 @@
+Manifest-Version: 1.0
+Bundle-SymbolicName: org.jboss.tools.common.projecttemplates;singleton
+ :=true
+Archiver-Version: Plexus Archiver
+Built-By: hudson
+Require-Bundle: org.eclipse.core.runtime;bundle-version="3.7.0",org.ec
+ lipse.ui;bundle-version="3.7.0",org.jboss.tools.common
+Bundle-ManifestVersion: 2
+Bundle-ActivationPolicy: lazy
+Bundle-RequiredExecutionEnvironment: JavaSE-1.6
+Eclipse-SourceReferences: scm:git:https://github.com/jbosstools/jbosst
+ ools-base.git;path="common/plugins/org.jboss.tools.common.projecttemp
+ lates";commitId=5ebaaa33e370f793b5309f451cf07ed7a3037602
+Bundle-Vendor: %providerName
+Export-Package: org.jboss.tools.common.projecttemplates
+Bundle-Name: %pluginName
+Bundle-Version: 3.7.1.Final-v20160408-2358-B112
+Bundle-Localization: plugin
+Bundle-Activator: org.jboss.tools.common.projecttemplates.ProjectTempl
+ atesPlugin
+Created-By: Apache Maven 3.2.5
+Build-Jdk: 1.8.0_71
+Eclipse-BundleShape: dir
+

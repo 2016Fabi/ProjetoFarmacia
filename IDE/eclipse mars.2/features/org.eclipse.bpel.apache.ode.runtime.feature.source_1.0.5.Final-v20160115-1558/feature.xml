@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feature id="org.eclipse.bpel.apache.ode.runtime.feature.source" version="1.0.5.Final-v20160115-1558" label="%name" provider-name="%providerName">
+  <includes id="org.eclipse.bpel.apache.ode.runtime.feature" version="1.0.5.Final-v20160115-1558"/>
+  <description url="http://www.eclipse.org/bpel/">
+      %description
+   </description>
+  <copyright url="http://www.eclipse.org/legal/">
+      %copyright
+   </copyright>
+  <license url="%licenseURL">
+      %license
+   </license>
+  <plugin id="org.eclipse.bpel.apache.ode.runtime.source" version="1.0.5.Final-v20160115-1558" download-size="0" install-size="0" unpack="false"/>
+</feature>

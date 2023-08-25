@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+
+    Copyright (c) Red Hat, Inc., contributors and others 2004 - 2014. All rights reserved
+
+    Licensed under the Eclipse Public License version 1.0, available at
+    http://www.eclipse.org/legal/epl-v10.html
+
+-->
+<feature
+      id="org.jboss.tools.forge.m2e.feature"
+      label="%featureName"
+      version="2.0.2.Final-v20160331-1851-B95"
+      provider-name="%featureProvider"
+      plugin="org.jboss.tools.forge.m2e">
+
+   <description>
+      %description
+   </description>
+
+   <copyright>
+      %copyright
+   </copyright>
+
+   <license url="%licenseURL">
+      %license
+   </license>
+
+   <plugin
+         id="org.jboss.tools.forge.m2e"
+         download-size="5"
+         install-size="5"
+         version="2.0.2.Final-v20160331-1851-B95"
+         unpack="false"/>
+
+</feature>

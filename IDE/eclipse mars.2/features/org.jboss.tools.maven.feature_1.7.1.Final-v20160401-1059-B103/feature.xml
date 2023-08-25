@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feature
+      id="org.jboss.tools.maven.feature"
+      label="%featureName"
+      version="1.7.1.Final-v20160401-1059-B103"
+      provider-name="%providerName"
+      plugin="org.jboss.tools.maven.ui">
+
+   <description>
+      %description
+   </description>
+
+   <copyright>
+      %copyright
+   </copyright>
+
+   <license url="%licenseURL">
+      %license
+   </license>
+
+   <requires>
+      <import feature="org.eclipse.m2e.feature" version="1.5.0" match="greaterOrEqual"/>
+      <import feature="org.eclipse.m2e.wtp.feature" version="1.1.0" match="greaterOrEqual"/>
+
+      <!-- JBIDE-16574 : force m2eclipse-egit to be installed if available
+           Since it's not a real build requirement, we make it optional by tweaking p2.inf
+      -->
+      <import feature="org.sonatype.m2e.egit.feature" version="0.14.0" match="greaterOrEqual"/>
+   </requires>
+
+   <plugin
+         id="org.jboss.tools.maven.core"
+         download-size="174"
+         install-size="295"
+         version="1.7.1.Final-v20160401-1059-B103"
+         unpack="false"/>
+
+   <plugin
+         id="org.jboss.tools.maven.ui"
+         download-size="166"
+         install-size="320"
+         version="1.7.1.Final-v20160401-1059-B103"
+         unpack="false"/>
+
+   <plugin
+         id="org.jboss.tools.maven.conversion.ui"
+         download-size="80"
+         install-size="152"
+         version="1.7.1.Final-v20160401-1059-B103"
+         unpack="false"/>
+
+</feature>

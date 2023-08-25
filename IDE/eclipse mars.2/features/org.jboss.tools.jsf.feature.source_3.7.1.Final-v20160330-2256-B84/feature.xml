@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feature id="org.jboss.tools.jsf.feature.source" version="3.7.1.Final-v20160330-2256-B84" label="%featureName" provider-name="%featureProvider">
+  <includes id="org.jboss.tools.jsf.feature" version="3.7.1.Final-v20160330-2256-B84"/>
+  <description url="http://www.jboss.org/tools">
+      %description
+   </description>
+  <copyright>
+      %copyright
+   </copyright>
+  <license url="%licenseURL">
+      %license
+   </license>
+  <plugin id="org.jboss.tools.jsf.source" version="3.7.1.Final-v20160330-2256-B84" download-size="0" install-size="0" unpack="false"/>
+  <plugin id="org.jboss.tools.jsf.ui.source" version="3.7.1.Final-v20160330-2256-B84" download-size="0" install-size="0" unpack="false"/>
+  <plugin id="org.jboss.tools.jsf.verification.source" version="3.7.1.Final-v20160330-2256-B84" download-size="0" install-size="0" unpack="false"/>
+  <plugin id="org.jboss.tools.jsf.text.ext.source" version="3.7.1.Final-v20160330-2256-B84" download-size="0" install-size="0" unpack="false"/>
+  <plugin id="org.jboss.tools.jsf.text.ext.facelets.source" version="3.7.1.Final-v20160330-2256-B84" download-size="0" install-size="0" unpack="false"/>
+  <plugin id="org.jboss.tools.jsf.text.ext.richfaces.source" version="3.7.1.Final-v20160330-2256-B84" download-size="0" install-size="0" unpack="false"/>
+  <plugin id="org.jboss.tools.jsf.vpe.facelets.source" version="3.7.1.Final-v20160330-2256-B84" download-size="0" install-size="0" unpack="false"/>
+  <plugin id="org.jboss.tools.jsf.vpe.richfaces.source" version="3.7.1.Final-v20160330-2256-B84" download-size="0" install-size="0" unpack="false"/>
+  <plugin id="org.jboss.tools.jsf.vpe.ajax4jsf.source" version="3.7.1.Final-v20160330-2256-B84" download-size="0" install-size="0" unpack="false"/>
+  <plugin id="org.jboss.tools.jsf.vpe.jsf.source" version="3.7.1.Final-v20160330-2256-B84" download-size="0" install-size="0" unpack="false"/>
+  <plugin id="org.jboss.tools.jsf.vpe.myfaces.source" version="3.7.1.Final-v20160330-2256-B84" download-size="0" install-size="0" unpack="false"/>
+  <plugin id="org.jboss.tools.jsf.vpe.jbpm.source" version="3.7.1.Final-v20160330-2256-B84" download-size="0" install-size="0" unpack="false"/>
+  <plugin id="org.jboss.tools.jsf.vpe.jstl.source" version="3.7.1.Final-v20160330-2256-B84" download-size="0" install-size="0" unpack="false"/>
+</feature>

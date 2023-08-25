@@ -1,0 +1,32 @@
+Manifest-Version: 1.0
+Build-Jdk: 1.7.0_51
+Built-By: build
+Archiver-Version: Plexus Archiver
+Created-By: Apache Maven 3.0.5
+
+Name: META-INF/maven/org.eclipse.birt.features/org.eclipse.birt.chart/
+ pom.properties
+SHA1-Digest: Yfx91/c+TAAR+Kz1yJ2hGXYXSPg=
+
+Name: epl-v10.html
+SHA1-Digest: pTOyybcpEe+Y8lkSVUtarMleXqE=
+
+Name: META-INF/eclipse.inf
+SHA1-Digest: 09gN05tobgS/MdtqyTNQhOhB73M=
+
+Name: eclipse_update_120.jpg
+SHA1-Digest: xstAqMgs/a5AsQXQZSdDQ79veOA=
+
+Name: license.html
+SHA1-Digest: Z5WKoRSIDCgQNswUpOU/oSPE2a0=
+
+Name: META-INF/maven/org.eclipse.birt.features/org.eclipse.birt.chart/
+ pom.xml
+SHA1-Digest: mg2/gsEZmWe891bu267C0xZ2UdE=
+
+Name: feature.properties
+SHA1-Digest: av7GXvMAxt0z3F0mdU2EMg2dTp4=
+
+Name: feature.xml
+SHA1-Digest: iEIX5sq82XqrPDuvo/HL2p3I2ss=
+

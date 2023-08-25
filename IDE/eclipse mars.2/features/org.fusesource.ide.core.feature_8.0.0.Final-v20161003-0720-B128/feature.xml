@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feature
+      id="org.fusesource.ide.core.feature"
+      label="%featureName"
+      version="8.0.0.Final-v20161003-0720-B128"
+      provider-name="%providerName"
+      plugin="org.fusesource.ide.tooling">
+
+   <description url="http://tools.jboss.org/features/apachecamel.html">
+      %description
+   </description>
+
+   <copyright url="http://redhat.com/">
+      %copyright
+   </copyright>
+
+   <license url="%licenseURL">
+      %license
+   </license>
+
+   <url>
+      <discovery label="JBoss Tools Update Site" url="http://download.jboss.org/jbosstools/updates/development/mars/"/>
+   </url>
+
+   <requires>
+      <import plugin="org.eclipse.ui.cheatsheets" version="3.4.200" match="greaterOrEqual"/>
+      <import plugin="org.eclipse.core.runtime" version="3.7.0" match="greaterOrEqual"/>
+      <import plugin="org.eclipse.core.resources" version="3.7.100" match="greaterOrEqual"/>
+      <import plugin="org.eclipse.core.variables" version="3.2.800" match="greaterOrEqual"/>
+      <import plugin="org.eclipse.jface" version="3.10.0" match="greaterOrEqual"/>
+      <import plugin="org.eclipse.jface.text" version="3.9.0" match="greaterOrEqual"/>
+      <import plugin="org.eclipse.ui" version="3.7.0" match="greaterOrEqual"/>
+      <import plugin="org.eclipse.ui.ide" version="3.7.0" match="greaterOrEqual"/>
+      <import plugin="org.eclipse.ui.views" version="3.7.0" match="greaterOrEqual"/>
+      <import plugin="org.eclipse.help" version="3.6.0" match="greaterOrEqual"/>
+      <import plugin="org.eclipse.m2e.archetype.common" version="1.5.0" match="greaterOrEqual"/>
+      <import plugin="org.eclipse.m2e.core" version="1.5.0" match="greaterOrEqual"/>
+      <import plugin="org.eclipse.m2e.core.ui" version="1.5.0" match="greaterOrEqual"/>
+      <import plugin="org.eclipse.m2e.discovery" version="1.5.0" match="greaterOrEqual"/>
+      <import plugin="org.eclipse.m2e.editor" version="1.5.0" match="greaterOrEqual"/>
+      <import plugin="org.eclipse.m2e.editor.xml" version="1.5.0" match="greaterOrEqual"/>
+      <import plugin="org.eclipse.m2e.jdt" version="1.5.0" match="greaterOrEqual"/>
+      <import plugin="org.eclipse.m2e.launching" version="1.5.0" match="greaterOrEqual"/>
+      <import plugin="org.eclipse.m2e.lifecyclemapping.defaults" version="1.5.0" match="greaterOrEqual"/>
+      <import plugin="org.eclipse.m2e.maven.indexer" version="1.5.0" match="greaterOrEqual"/>
+      <import plugin="org.eclipse.m2e.model.edit" version="1.5.0" match="greaterOrEqual"/>
+      <import plugin="org.eclipse.m2e.refactoring" version="1.5.0" match="greaterOrEqual"/>
+      <import plugin="org.eclipse.m2e.scm" version="1.5.0" match="greaterOrEqual"/>
+      <import plugin="org.eclipse.draw2d" version="3.9.100" match="greaterOrEqual"/>
+      <import plugin="org.eclipse.zest.core" version="1.5.100" match="greaterOrEqual"/>
+      <import plugin="org.eclipse.zest.layouts" version="1.1.100" match="greaterOrEqual"/>
+      <import plugin="org.eclipse.osgi" version="3.10.0" match="greaterOrEqual"/>
+      <import plugin="org.eclipse.osgi.services" version="3.4.0" match="greaterOrEqual"/>
+      <import plugin="org.eclipse.core.databinding" version="1.4.1" match="greaterOrEqual"/>
+      <import plugin="org.eclipse.core.databinding.beans" version="1.2.200" match="greaterOrEqual"/>
+      <import plugin="org.eclipse.core.databinding.property" version="1.4.200" match="greaterOrEqual"/>
+      <import plugin="org.eclipse.jdt.core" version="3.10.0" match="greaterOrEqual"/>
+      <import plugin="org.eclipse.jface.databinding" version="1.6.200" match="greaterOrEqual"/>
+      <import plugin="org.eclipse.ui.views.properties.tabbed" version="3.6.0" match="greaterOrEqual"/>
+      <import plugin="org.eclipse.ui.navigator" version="3.5.400" match="greaterOrEqual"/>
+      <import plugin="org.apache.commons.io" version="2.0.1" match="greaterOrEqual"/>
+      <import plugin="org.jboss.tools.usage"/>
+      <import feature="org.jboss.tools.jmx.feature" version="1.6.0" match="greaterOrEqual"/>
+   </requires>
+
+   <plugin
+         id="org.fusesource.ide.foundation.core"
+         download-size="51"
+         install-size="91"
+         version="8.0.0.Final-v20161003-0720-B128"
+         unpack="false"/>
+
+   <plugin
+         id="org.fusesource.ide.foundation.ui"
+         download-size="245"
+         install-size="458"
+         version="8.0.0.Final-v20161003-0720-B128"
+         unpack="false"/>
+
+   <plugin
+         id="org.fusesource.ide.camel.model.service.core"
+         download-size="128"
+         install-size="260"
+         version="8.0.0.Final-v20161003-0720-B128"
+         unpack="false"/>
+
+   <plugin
+         id="org.fusesource.ide.camel.model.service.v2_15_1_redhat_621084"
+         download-size="3864"
+         install-size="5651"
+         version="8.0.0.Final-v20161003-0720-B128"
+         unpack="false"/>
+
+   <plugin
+         id="org.fusesource.ide.camel.model.service.v2_15_1_redhat_621117"
+         download-size="3868"
+         install-size="5660"
+         version="8.0.0.Final-v20161003-0720-B128"
+         unpack="false"/>
+
+   <plugin
+         id="org.fusesource.ide.camel.model.service.v2_17_0_redhat_630187"
+         download-size="4615"
+         install-size="7279"
+         version="8.0.0.Final-v20161003-0720-B128"
+         unpack="false"/>
+
+   <plugin
+         id="org.fusesource.ide.camel.model.service.v2_17_3"
+         download-size="4632"
+         install-size="7286"
+         version="8.0.0.Final-v20161003-0720-B128"
+         unpack="false"/>
+
+   <plugin
+         id="org.fusesource.ide.cheatsheets"
+         download-size="5"
+         install-size="6"
+         version="8.0.0.Final-v20161003-0720-B128"
+         unpack="false"/>
+
+   <plugin
+         id="org.fusesource.ide.graph"
+         download-size="27"
+         install-size="48"
+         version="8.0.0.Final-v20161003-0720-B128"
+         unpack="false"/>
+
+   <plugin
+         id="org.fusesource.ide.help"
+         download-size="57738"
+         install-size="66660"
+         version="8.0.0.Final-v20161003-0720-B128"
+         unpack="false"/>
+
+   <plugin
+         id="org.fusesource.ide.imports"
+         download-size="75"
+         install-size="148"
+         version="8.0.0.Final-v20161003-0720-B128"
+         unpack="false"/>
+
+   <plugin
+         id="org.fusesource.ide.maven"
+         download-size="4"
+         install-size="5"
+         version="8.0.0.Final-v20161003-0720-B128"
+         unpack="false"/>
+
+   <plugin
+         id="org.fusesource.ide.preferences"
+         download-size="8"
+         install-size="11"
+         version="8.0.0.Final-v20161003-0720-B128"
+         unpack="false"/>
+
+   <plugin
+         id="org.fusesource.ide.tooling"
+         download-size="4"
+         install-size="3"
+         version="8.0.0.Final-v20161003-0720-B128"
+         unpack="false"/>
+
+   <plugin
+         id="org.fusesource.ide.camel.validation"
+         download-size="24"
+         install-size="45"
+         version="8.0.0.Final-v20161003-0720-B128"
+         unpack="false"/>
+
+</feature>

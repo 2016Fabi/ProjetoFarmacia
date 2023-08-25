@@ -1,0 +1,20 @@
+Signature-Version: 1.0
+SHA-256-Digest-Manifest-Main-Attributes: +PIBUSs9VzbgMdN2TWwu2U2t+AyNB
+ EBoldXyDu5UNbs=
+SHA-256-Digest-Manifest: ZinDoFXuLVQyRQQ4WH7qxQsaCBOYmlYeO0ea9SAqzes=
+Created-By: 1.8.0_51 (Oracle Corporation)
+
+Name: feature.xml
+SHA-256-Digest: Ab3wNlROcVYUvtyA0M9P/K5sTSYcbVqPBPW8EgEtBYQ=
+
+Name: META-INF/maven/org.eclipse.bpmn2.modeler.features/org.eclipse.bp
+ mn2.modeler.runtime.jboss/pom.properties
+SHA-256-Digest: k0R2tLY3z2x0JfEm/3kSGs/L5s8uMBAr0y3s/wAPuxc=
+
+Name: META-INF/maven/org.eclipse.bpmn2.modeler.features/org.eclipse.bp
+ mn2.modeler.runtime.jboss/pom.xml
+SHA-256-Digest: xluwb8aVMf3Io0jeL3qqKolVltt/XjrNeSyGYI5NKeg=
+
+Name: feature.properties
+SHA-256-Digest: xJWru/paI237NvGIYWPlttpkf/0acnea1sEglr+oAMI=
+

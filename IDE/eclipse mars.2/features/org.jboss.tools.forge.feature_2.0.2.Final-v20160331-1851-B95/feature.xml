@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+
+    Copyright (c) Red Hat, Inc., contributors and others 2004 - 2014. All rights reserved
+
+    Licensed under the Eclipse Public License version 1.0, available at
+    http://www.eclipse.org/legal/epl-v10.html
+
+-->
+<feature
+      id="org.jboss.tools.forge.feature"
+      label="%featureName"
+      version="2.0.2.Final-v20160331-1851-B95"
+      provider-name="%featureProvider"
+      plugin="org.jboss.tools.forge.ui">
+
+   <description>
+      %description
+   </description>
+
+   <copyright>
+      %copyright
+   </copyright>
+
+   <license url="%licenseURL">
+      %license
+   </license>
+
+   <includes
+         id="org.jboss.tools.forge.m2e.feature"
+         version="2.0.2.Final-v20160331-1851-B95"/>
+
+   <plugin
+         id="org.jboss.tools.forge.ui"
+         download-size="284"
+         install-size="579"
+         version="2.0.2.Final-v20160331-1851-B95"
+         unpack="false"/>
+
+   <plugin
+         id="org.jboss.tools.forge.core"
+         download-size="60"
+         install-size="111"
+         version="2.0.2.Final-v20160331-1851-B95"
+         unpack="false"/>
+
+   <plugin
+         id="org.jboss.tools.forge.ui.notifications"
+         download-size="26"
+         install-size="36"
+         version="2.0.2.Final-v20160331-1851-B95"
+         unpack="false"/>
+
+   <plugin
+         id="org.jboss.tools.aesh.core"
+         download-size="33"
+         install-size="50"
+         version="2.0.2.Final-v20160331-1851-B95"
+         unpack="false"/>
+
+   <plugin
+         id="org.jboss.tools.aesh.runtime"
+         download-size="332"
+         install-size="370"
+         version="2.0.2.Final-v20160331-1851-B95"/>
+
+   <plugin
+         id="org.jboss.tools.aesh.ui"
+         download-size="27"
+         install-size="43"
+         version="2.0.2.Final-v20160331-1851-B95"
+         unpack="false"/>
+
+   <plugin
+         id="org.jboss.tools.forge.runtime"
+         download-size="47078"
+         install-size="52285"
+         version="2.0.2.Final-v20160331-1851-B95"/>
+
+</feature>

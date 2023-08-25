@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feature id="org.jboss.tools.maven.project.examples.feature.source" version="3.0.1.Final-v20160401-1059-B103" plugin="org.jboss.tools.maven.project.examples" label="%featureName" provider-name="%providerName">
+  <includes id="org.jboss.tools.maven.project.examples.feature" version="3.0.1.Final-v20160401-1059-B103"/>
+  <description>
+      %description
+   </description>
+  <copyright>
+      %copyright
+   </copyright>
+  <license url="%licenseURL">
+      %license
+   </license>
+  <plugin id="org.jboss.tools.maven.project.examples.source" version="3.0.1.Final-v20160401-1059-B103" download-size="0" install-size="0" unpack="false"/>
+</feature>

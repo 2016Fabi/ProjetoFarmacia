@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feature 
+   id="org.jboss.ide.eclipse.archives.feature" 
+   label="%featureName" 
+   version="3.6.1.Final-v20160409-0826-B118" 
+   provider-name="%providerName"
+   plugin="org.jboss.ide.eclipse.archives.ui">
+
+   <description url="http://www.jboss.org/tools">
+       %description
+   </description>
+   <copyright>
+       %copyright
+   </copyright>
+   <license url="%licenseURL">
+       %license
+   </license>
+
+	<requires>
+		<import plugin="org.apache.ant" />
+		<import plugin="org.eclipse.core.commands" />
+		<import plugin="org.eclipse.core.filesystem" />
+		<import plugin="org.eclipse.core.resources" />
+		<import plugin="org.eclipse.core.runtime" />
+		<import plugin="org.eclipse.core.variables" />
+		<import plugin="org.eclipse.jdt.core" />
+		<import plugin="org.eclipse.ui" />
+		<import plugin="org.eclipse.ui.ide" />
+		<import plugin="org.eclipse.jdt.ui" version="3.4.0" match="greaterOrEqual" />
+		<import plugin="org.eclipse.debug.ui" version="3.4.0" match="greaterOrEqual" />
+		<import plugin="org.eclipse.core.variables" version="3.2.100" match="greaterOrEqual" />
+		<import plugin="org.eclipse.ui.navigator" version="3.3.100" match="greaterOrEqual" />
+	</requires>
+
+
+	<includes id="org.jboss.tools.archives.scanner.feature" version="3.6.1.Final-v20160409-0826-B118"/>
+	<plugin id="org.jboss.ide.eclipse.archives.core" download-size="574" install-size="836" version="3.6.1.Final-v20160409-0826-B118" />
+	<plugin id="org.jboss.ide.eclipse.archives.ui" download-size="167" install-size="339" version="3.6.1.Final-v20160409-0826-B118" unpack="false" />
+	<plugin id="org.jboss.ide.eclipse.archives.jdt.integration" download-size="26" install-size="50" version="3.6.1.Final-v20160409-0826-B118" unpack="false" />
+</feature>

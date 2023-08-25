@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- 
+ ******************************************************************************
+ * Copyright (c) 2015 Oracle
+ * All rights reserved. This program and the accompanying materials
+ * are made available under the terms of the Eclipse Public License v1.0
+ * which accompanies this distribution, and is available at
+ * http://www.eclipse.org/legal/epl-v10.html
+ *
+ * Contributors:
+ *    Konstantin Komissarchik - initial implementation and ongoing maintenance
+ ******************************************************************************
+-->
+<feature
+      id="org.eclipse.sapphire"
+      label="%featureName"
+      version="9.0.4.201511201829"
+      provider-name="%providerName"
+      plugin="org.eclipse.sapphire.modeling">
+
+   <description>
+      %description
+   </description>
+
+   <copyright>
+      %copyright
+   </copyright>
+
+   <license url="%licenseURL">
+      %license
+   </license>
+
+   <plugin
+         id="org.eclipse.sapphire.modeling"
+         download-size="0"
+         install-size="0"
+         version="9.0.4.201511201829"
+         unpack="false"/>
+
+</feature>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feature id="org.drools.eclipse.feature.source" version="6.4.1.Final-v20160503-1355-B205" label="%featurename" provider-name="%providername">
+  <includes id="org.drools.eclipse.feature" version="6.4.1.Final-v20160503-1355-B205"/>
+  <description url="http://www.jboss.org/drools/">
+     %description
+   </description>
+  <copyright>
+      %copyright
+   </copyright>
+  <license url="%licenseURL">
+      %license
+   </license>
+  <plugin id="org.drools.eclipse.source" version="6.4.1.Final-v20160503-1355-B205" download-size="0" install-size="0" unpack="false"/>
+</feature>

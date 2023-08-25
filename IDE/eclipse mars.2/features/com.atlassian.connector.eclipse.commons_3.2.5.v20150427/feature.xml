@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feature
+      id="com.atlassian.connector.eclipse.commons"
+      label="%featureName"
+      version="3.2.5.v20150427"
+      provider-name="%providerName"
+      plugin="com.atlassian.connector.eclipse.branding.ui">
+
+   <description url="http://atlassian.com">
+      %description
+   </description>
+
+   <copyright>
+      %copyright
+   </copyright>
+
+   <license url="license.html">
+      %license
+   </license>
+
+   <includes
+         id="com.atlassian.connector.eclipse.monitor"
+         version="3.2.5.v20150427"
+         optional="true"/>
+
+   <plugin
+         id="com.atlassian.connector.eclipse.commons.core"
+         download-size="0"
+         install-size="0"
+         version="3.2.5.v20150427"
+         unpack="false"/>
+
+   <plugin
+         id="com.atlassian.connector.eclipse.commons.ui"
+         download-size="0"
+         install-size="0"
+         version="3.2.5.v20150427"
+         unpack="false"/>
+
+</feature>

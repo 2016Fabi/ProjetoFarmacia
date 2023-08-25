@@ -1,0 +1,279 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+/*******************************************************************************
+ * Copyright (c) 2005, 2010 Spring IDE Developers
+ * All rights reserved. This program and the accompanying materials
+ * are made available under the terms of the Eclipse Public License v1.0
+ * which accompanies this distribution, and is available at
+ * http://www.eclipse.org/legal/epl-v10.html
+ * 
+ * Contributors:
+ *     Spring IDE Developers - initial API and implementation
+ *******************************************************************************/
+ -->
+<feature
+      id="org.springframework.ide.eclipse.feature"
+      label="%featureName"
+      version="3.7.0.201506251244-RELEASE"
+      provider-name="%providerName"
+      plugin="org.springframework.ide.eclipse">
+
+   <description>
+      %description
+   </description>
+
+   <copyright>
+      %copyright
+   </copyright>
+
+   <license url="%licenseUrl">
+      %license
+   </license>
+
+   <requires>
+      <import feature="org.eclipse.wst.xml_ui.feature" match="greaterOrEqual"/>
+      <import feature="org.eclipse.jdt" version="3.3.0" match="greaterOrEqual"/>
+   </requires>
+
+   <plugin
+         id="org.springframework.ide.eclipse"
+         download-size="19"
+         install-size="41"
+         version="3.7.0.201506251244-RELEASE"
+         unpack="false"/>
+
+   <plugin
+         id="org.springframework.ide.eclipse.core"
+         download-size="1653"
+         install-size="2263"
+         version="3.7.0.201506251244-RELEASE"
+         unpack="false"/>
+
+   <plugin
+         id="org.springframework.ide.eclipse.doc"
+         download-size="11"
+         install-size="18"
+         version="3.7.0.201506251244-RELEASE"
+         unpack="false"/>
+
+   <plugin
+         id="org.springframework.ide.eclipse.ui"
+         download-size="187"
+         install-size="393"
+         version="3.7.0.201506251244-RELEASE"
+         unpack="false"/>
+
+   <plugin
+         id="org.springframework.ide.eclipse.beans.core"
+         download-size="469"
+         install-size="1103"
+         version="3.7.0.201506251244-RELEASE"
+         unpack="false"/>
+
+   <plugin
+         id="org.springframework.ide.eclipse.beans.core.metadata"
+         download-size="47"
+         install-size="108"
+         version="3.7.0.201506251244-RELEASE"
+         unpack="false"/>
+
+   <plugin
+         id="org.springframework.ide.eclipse.beans.ui"
+         download-size="417"
+         install-size="892"
+         version="3.7.0.201506251244-RELEASE"
+         unpack="false"/>
+
+   <plugin
+         id="org.springframework.ide.eclipse.beans.ui.graph"
+         download-size="91"
+         install-size="194"
+         version="3.7.0.201506251244-RELEASE"
+         unpack="false"/>
+
+   <plugin
+         id="org.springframework.ide.eclipse.beans.ui.livegraph"
+         download-size="71"
+         install-size="145"
+         version="3.7.0.201506251244-RELEASE"
+         unpack="false"/>
+
+   <plugin
+         id="org.springframework.ide.eclipse.beans.ui.editor"
+         download-size="292"
+         install-size="612"
+         version="3.7.0.201506251244-RELEASE"
+         unpack="false"/>
+
+   <plugin
+         id="org.springframework.ide.eclipse.beans.ui.search"
+         download-size="56"
+         install-size="118"
+         version="3.7.0.201506251244-RELEASE"
+         unpack="false"/>
+
+   <plugin
+         id="org.springframework.ide.eclipse.beans.ui.refactoring"
+         download-size="93"
+         install-size="211"
+         version="3.7.0.201506251244-RELEASE"
+         unpack="false"/>
+
+   <plugin
+         id="org.springframework.ide.eclipse.quickfix"
+         download-size="360"
+         install-size="850"
+         version="3.7.0.201506251244-RELEASE"
+         unpack="false"/>
+
+   <plugin
+         id="org.springframework.ide.eclipse.metadata"
+         download-size="121"
+         install-size="262"
+         version="3.7.0.201506251244-RELEASE"
+         unpack="false"/>
+
+   <plugin
+         id="org.springframework.ide.eclipse.bestpractices"
+         download-size="69"
+         install-size="151"
+         version="3.7.0.201506251244-RELEASE"
+         unpack="false"/>
+
+   <plugin
+         id="org.springframework.ide.eclipse.config.core"
+         download-size="138"
+         install-size="238"
+         version="3.7.0.201506251244-RELEASE"
+         unpack="false"/>
+
+   <plugin
+         id="org.springframework.ide.eclipse.config.graph"
+         download-size="232"
+         install-size="464"
+         version="3.7.0.201506251244-RELEASE"
+         unpack="false"/>
+
+   <plugin
+         id="org.springframework.ide.eclipse.config.ui"
+         download-size="1195"
+         install-size="2302"
+         version="3.7.0.201506251244-RELEASE"
+         unpack="false"/>
+
+   <plugin
+         id="org.springframework.ide.eclipse.wizard"
+         download-size="962"
+         install-size="1647"
+         version="3.7.0.201506251244-RELEASE"
+         unpack="false"/>
+
+   <plugin
+         id="org.springframework.aop"
+         download-size="377"
+         install-size="817"
+         version="4.1.4.20150106-RELEASE"
+         unpack="false"/>
+
+   <plugin
+         id="org.springframework.beans"
+         download-size="729"
+         install-size="1774"
+         version="4.1.4.20150106-RELEASE"
+         unpack="false"/>
+
+   <plugin
+         id="org.springframework.context"
+         download-size="1072"
+         install-size="2390"
+         version="4.1.4.20150106-RELEASE"
+         unpack="false"/>
+
+   <plugin
+         id="org.springframework.context.support"
+         download-size="188"
+         install-size="414"
+         version="4.1.4.20150106-RELEASE"
+         unpack="false"/>
+
+   <plugin
+         id="org.springframework.core"
+         download-size="1046"
+         install-size="2111"
+         version="4.1.4.20150106-RELEASE"
+         unpack="false"/>
+
+   <plugin
+         id="org.springframework.expression"
+         download-size="267"
+         install-size="577"
+         version="4.1.4.20150106-RELEASE"
+         unpack="false"/>
+
+   <plugin
+         id="org.springframework.jdbc"
+         download-size="446"
+         install-size="979"
+         version="4.1.4.20150106-RELEASE"
+         unpack="false"/>
+
+   <plugin
+         id="org.springframework.jms"
+         download-size="281"
+         install-size="682"
+         version="4.1.4.20150106-RELEASE"
+         unpack="false"/>
+
+   <plugin
+         id="org.springframework.orm"
+         download-size="391"
+         install-size="866"
+         version="4.1.4.20150106-RELEASE"
+         unpack="false"/>
+
+   <plugin
+         id="org.springframework.oxm"
+         download-size="88"
+         install-size="207"
+         version="4.1.4.20150106-RELEASE"
+         unpack="false"/>
+         
+   <plugin
+         id="org.springframework.transaction"
+         download-size="268"
+         install-size="582"
+         version="4.1.4.20150106-RELEASE"
+         unpack="false"/>
+
+   <!-- spring boot -->
+   
+   <plugin
+         id="org.springframework.ide.eclipse.boot"
+         download-size="323"
+         install-size="1619"
+         version="3.7.0.201506251244-RELEASE"
+         unpack="false"/>
+
+   <plugin
+         id="org.springframework.ide.eclipse.boot.launch"
+         download-size="105"
+         install-size="242"
+         version="3.7.0.201506251244-RELEASE"
+         unpack="false"/>
+
+   <plugin
+         id="org.springframework.ide.eclipse.boot.properties.editor"
+         download-size="247"
+         install-size="460"
+         version="3.7.0.201506251244-RELEASE"
+         unpack="false"/>
+         
+   <plugin
+         id="org.springframework.ide.eclipse.boot.properties.editor.yaml"
+         download-size="102"
+         install-size="248"
+         version="3.7.0.201506251244-RELEASE"
+         unpack="false"/>
+         
+
+</feature>

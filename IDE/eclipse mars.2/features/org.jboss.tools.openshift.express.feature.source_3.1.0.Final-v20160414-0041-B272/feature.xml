@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feature id="org.jboss.tools.openshift.express.feature.source" version="3.1.0.Final-v20160414-0041-B272" plugin="org.jboss.tools.openshift.express.client" label="%featureName" provider-name="%providerName">
+  <includes id="org.jboss.tools.openshift.express.feature" version="3.1.0.Final-v20160414-0041-B272"/>
+  <description url="%descriptionURL">
+      %description
+   </description>
+  <copyright>
+      %copyright
+   </copyright>
+  <license url="%licenseURL">
+      %license
+   </license>
+  <plugin id="org.jboss.tools.openshift.express.ui.source" version="3.1.0.Final-v20160414-0041-B272" download-size="0" install-size="0" unpack="false"/>
+  <plugin id="org.jboss.tools.openshift.express.core.source" version="3.1.0.Final-v20160414-0041-B272" download-size="0" install-size="0" unpack="false"/>
+  <plugin id="org.jboss.tools.openshift.express.client.source" version="3.1.0.Final-v20160414-0041-B272" download-size="0" install-size="0" unpack="false"/>
+  <plugin id="org.jboss.tools.openshift.common.core.source" version="3.1.0.Final-v20160414-0041-B272" download-size="0" install-size="0" unpack="false"/>
+  <plugin id="org.jboss.tools.openshift.common.ui.source" version="3.1.0.Final-v20160414-0041-B272" download-size="0" install-size="0" unpack="false"/>
+</feature>

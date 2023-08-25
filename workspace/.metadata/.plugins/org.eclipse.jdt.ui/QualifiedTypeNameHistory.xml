@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <qualifiedTypeNameHistroy>
-    <fullyQualifiedTypeName name="java.sql.Connection"/>
-    <fullyQualifiedTypeName name="java.sql.PreparedStatement"/>
-    <fullyQualifiedTypeName name="java.sql.ResultSet"/>
-    <fullyQualifiedTypeName name="br.com.Farmacia.factory.ConexaoFactory"/>
-    <fullyQualifiedTypeName name="org.junit.Test"/>
-    <fullyQualifiedTypeName name="org.junit.Ignore"/>
-    <fullyQualifiedTypeName name="java.sql.SQLException"/>
-    <fullyQualifiedTypeName name="br.com.Farmacia.domain.Produtos"/>
-    <fullyQualifiedTypeName name="br.com.Farmacia.domain.Fornecedores"/>
-    <fullyQualifiedTypeName name="br.com.Farmacia.DAO.ProdutoDAO"/>
-    <fullyQualifiedTypeName name="java.util.ArrayList"/>
-    <fullyQualifiedTypeName name="br.com.Farmacia.util.JSFUtil"/>
+<fullyQualifiedTypeName name="java.sql.Connection"/>
+<fullyQualifiedTypeName name="java.sql.PreparedStatement"/>
+<fullyQualifiedTypeName name="java.sql.ResultSet"/>
+<fullyQualifiedTypeName name="br.com.Farmacia.factory.ConexaoFactory"/>
+<fullyQualifiedTypeName name="org.junit.Test"/>
+<fullyQualifiedTypeName name="org.junit.Ignore"/>
+<fullyQualifiedTypeName name="java.sql.SQLException"/>
+<fullyQualifiedTypeName name="br.com.Farmacia.domain.Produtos"/>
+<fullyQualifiedTypeName name="br.com.Farmacia.domain.Fornecedores"/>
+<fullyQualifiedTypeName name="br.com.Farmacia.DAO.ProdutoDAO"/>
+<fullyQualifiedTypeName name="java.util.ArrayList"/>
+<fullyQualifiedTypeName name="br.com.Farmacia.util.JSFUtil"/>
 </qualifiedTypeNameHistroy>

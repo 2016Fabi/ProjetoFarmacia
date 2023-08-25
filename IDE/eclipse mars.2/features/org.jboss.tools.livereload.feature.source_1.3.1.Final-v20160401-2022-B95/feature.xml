@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feature id="org.jboss.tools.livereload.feature.source" version="1.3.1.Final-v20160401-2022-B95" label="%featureName" provider-name="%featureProvider">
+  <includes id="org.jboss.tools.livereload.feature" version="1.3.1.Final-v20160401-2022-B95"/>
+  <description>
+      %description
+   </description>
+  <copyright>
+      %copyright
+   </copyright>
+  <license url="%licenseURL">
+      %license
+   </license>
+  <plugin id="org.jboss.tools.livereload.core.source" version="1.3.1.Final-v20160401-2022-B95" download-size="0" install-size="0" unpack="false"/>
+  <plugin id="org.jboss.tools.livereload.ui.source" version="1.3.1.Final-v20160401-2022-B95" download-size="0" install-size="0" unpack="false"/>
+</feature>

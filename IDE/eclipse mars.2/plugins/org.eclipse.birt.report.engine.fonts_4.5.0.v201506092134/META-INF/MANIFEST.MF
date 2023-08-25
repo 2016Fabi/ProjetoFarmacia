@@ -1,0 +1,40 @@
+Manifest-Version: 1.0
+Bundle-Localization: plugin
+Bundle-RequiredExecutionEnvironment: JavaSE-1.6
+Built-By: build
+Bundle-SymbolicName: org.eclipse.birt.report.engine.fonts
+Bundle-Version: 4.5.0.v201506092134
+Build-Jdk: 1.7.0_51
+Bundle-Vendor: Eclipse BIRT Project
+Bundle-Name: BIRT Engine fonts
+Eclipse-BundleShape: dir
+Archiver-Version: Plexus Archiver
+Created-By: Apache Maven 3.0.5
+Bundle-ManifestVersion: 2
+
+Name: META-INF/maven/org.eclipse.birt/org.eclipse.birt.report.engine.f
+ onts/pom.xml
+SHA1-Digest: pWLfysjTgJIjhz6mLrXSi50QryA=
+
+Name: fontsConfig_pdf.xml
+SHA1-Digest: VT1U95sxhfwBZIbLF6QA1tVxONk=
+
+Name: META-INF/eclipse.inf
+SHA1-Digest: 09gN05tobgS/MdtqyTNQhOhB73M=
+
+Name: fontsConfig_linux.xml
+SHA1-Digest: 3//Jvtjq/MTD4jdqzAj+4A3yUdg=
+
+Name: META-INF/maven/org.eclipse.birt/org.eclipse.birt.report.engine.f
+ onts/pom.properties
+SHA1-Digest: C/mwxlWvE7VdsKNfS8XsgARmmyI=
+
+Name: fontsConfig_win32.xml
+SHA1-Digest: eQGilCbsKEKOpU19+lgSGNrsOvE=
+
+Name: about.html
+SHA1-Digest: ObsP47Fq6CSfBimdpGOcNnxQyPA=
+
+Name: fontsConfig.xml
+SHA1-Digest: dV71rDwNHHyuCRKO4M+EPFY4oA4=
+

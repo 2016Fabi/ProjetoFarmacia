@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feature
+      id="org.jboss.tools.arquillian.feature"
+      label="%featureName"
+      version="1.2.1.Final-v20160331-0142-B69"
+      provider-name="%providerName"
+      plugin="org.jboss.tools.arquillian.core">
+
+   <description>
+      %description
+   </description>
+
+   <copyright>
+      %copyright
+   </copyright>
+
+   <license url="%licenseURL">
+      %license
+   </license>
+
+   <requires>
+      <import feature="org.eclipse.sapphire" version="9.0.0.201505051659" match="greaterOrEqual"/>
+      <import feature="org.eclipse.sapphire.java" version="9.0.0.201505051659" match="greaterOrEqual"/>
+      <import feature="org.eclipse.sapphire.java.jdt" version="9.0.0.201505051659" match="greaterOrEqual"/>
+      <import feature="org.eclipse.sapphire.modeling.xml" version="9.0.0.201505051659" match="greaterOrEqual"/>
+      <import feature="org.eclipse.sapphire.osgi" version="9.0.0.201505051659" match="greaterOrEqual"/>
+      <import feature="org.eclipse.sapphire.platform" version="9.0.0.201505051659" match="greaterOrEqual"/>
+      <import feature="org.eclipse.sapphire.ui.swt.xml.editor" version="9.0.0.201505051659" match="greaterOrEqual"/>
+      <import feature="org.eclipse.sapphire.ui" version="9.0.0.201505051659" match="greaterOrEqual"/>
+      <import feature="org.eclipse.sapphire.ui.swt.gef" version="9.0.0.201505051659" match="greaterOrEqual"/>
+   </requires>
+
+   <plugin
+         id="org.jboss.tools.arquillian.core"
+         download-size="1051"
+         install-size="1373"
+         version="1.2.1.Final-v20160331-0142-B69"
+         unpack="false"/>
+
+   <plugin
+         id="org.jboss.tools.arquillian.ui"
+         download-size="381"
+         install-size="807"
+         version="1.2.1.Final-v20160331-0142-B69"
+         unpack="false"/>
+
+   <plugin
+         id="org.jboss.tools.arquillian.maven.configurator"
+         download-size="6"
+         install-size="8"
+         version="1.2.1.Final-v20160331-0142-B69"
+         unpack="false"/>
+
+</feature>

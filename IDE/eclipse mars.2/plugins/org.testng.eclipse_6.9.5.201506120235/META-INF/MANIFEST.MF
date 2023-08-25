@@ -1,0 +1,34 @@
+Manifest-Version: 1.0
+Export-Package: org.testng.eclipse,org.testng.eclipse.buildpath,org.te
+ stng.eclipse.launch,org.testng.eclipse.launch.components,org.testng.e
+ clipse.launch.tester,org.testng.eclipse.refactoring,org.testng.eclips
+ e.ui,org.testng.eclipse.ui.buildpath,org.testng.eclipse.ui.conversion
+ ,org.testng.eclipse.ui.preferences,org.testng.eclipse.ui.summary,org.
+ testng.eclipse.ui.tree,org.testng.eclipse.ui.util,org.testng.eclipse.
+ util,org.testng.eclipse.util.param,org.testng.eclipse.util.signature,
+ org.testng.eclipse.wizards
+Bundle-ActivationPolicy: lazy
+Bundle-ClassPath: .,lib/guava-base-r03.jar,lib/guava-collections-r03.j
+ ar,lib/testng.jar,lib/testng-sources.jar,lib/jcommander.jar,lib/snake
+ yaml.jar,lib/bsh-2.0b4.jar
+Built-By: cbeust
+Bundle-Name: %pluginName
+Bundle-Localization: plugin
+Created-By: Apache Maven 3.2.1
+Bundle-RequiredExecutionEnvironment: JavaSE-1.7
+Require-Bundle: org.eclipse.ui,org.eclipse.core.runtime,org.eclipse.co
+ re.expressions,org.eclipse.core.resources,org.eclipse.compare,org.ecl
+ ipse.debug.core,org.eclipse.debug.ui,org.eclipse.jface,org.eclipse.jf
+ ace.text,org.eclipse.jdt.core,org.eclipse.jdt.debug.ui,org.eclipse.jd
+ t.junit,org.eclipse.jdt.launching,org.eclipse.jdt.ui,org.eclipse.ui.i
+ de,org.eclipse.ui.workbench.texteditor,org.eclipse.search,org.eclipse
+ .ltk.core.refactoring,org.eclipse.ltk.ui.refactoring,org.eclipse.core
+ .variables,org.junit,org.eclipse.ui.editors
+Bundle-Vendor: %providerName
+Build-Jdk: 1.7.0_51
+Bundle-Version: 6.9.5.201506120235
+Bundle-ManifestVersion: 2
+Bundle-Activator: org.testng.eclipse.TestNGPlugin
+Bundle-SymbolicName: org.testng.eclipse; singleton:=true
+Archiver-Version: Plexus Archiver
+

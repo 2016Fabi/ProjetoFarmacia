@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feature id="org.jboss.ide.eclipse.as.serverAdapter.wtp.feature.source" version="3.1.1.Final-v20160409-0826-B118" label="%featureName" provider-name="%providerName">
+  <includes id="org.jboss.ide.eclipse.as.serverAdapter.wtp.feature" version="3.1.1.Final-v20160409-0826-B118"/>
+  <description url="http://www.jboss.org/tools">
+       %description
+   </description>
+  <copyright>
+       %copyright
+   </copyright>
+  <license url="%licenseURL">
+       %license
+   </license>
+  <plugin id="org.jboss.ide.eclipse.as.core.source" version="3.1.1.Final-v20160409-0826-B118" download-size="0" install-size="0" unpack="false"/>
+  <plugin id="org.jboss.ide.eclipse.as.management.core.source" version="3.1.1.Final-v20160409-0826-B118" download-size="0" install-size="0" unpack="false"/>
+  <plugin id="org.jboss.ide.eclipse.as.management.as7.source" version="3.1.1.Final-v20160409-0826-B118" download-size="0" install-size="0" unpack="false"/>
+  <plugin id="org.jboss.ide.eclipse.as.management.wildfly9.source" version="3.1.1.Final-v20160409-0826-B118" download-size="0" install-size="0" unpack="false"/>
+  <plugin id="org.jboss.ide.eclipse.as.ui.source" version="3.1.1.Final-v20160409-0826-B118" download-size="0" install-size="0" unpack="false"/>
+  <plugin id="org.jboss.ide.eclipse.as.classpath.core.source" version="3.1.1.Final-v20160409-0826-B118" download-size="0" install-size="0" unpack="false"/>
+  <plugin id="org.jboss.ide.eclipse.as.classpath.ui.source" version="3.1.1.Final-v20160409-0826-B118" download-size="0" install-size="0" unpack="false"/>
+  <plugin id="org.jboss.ide.eclipse.as.wtp.core.source" version="3.1.1.Final-v20160409-0826-B118" download-size="0" install-size="0" unpack="false"/>
+  <plugin id="org.jboss.ide.eclipse.as.wtp.ui.source" version="3.1.1.Final-v20160409-0826-B118" download-size="0" install-size="0" unpack="false"/>
+  <plugin id="org.jboss.ide.eclipse.as.dmr.source" version="3.1.1.Final-v20160409-0826-B118" download-size="0" install-size="0" unpack="false"/>
+</feature>

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feature
+      id="org.jboss.tools.openshift.egit.integration.feature"
+      label="%featureName"
+      version="3.1.0.Final-v20160414-0041-B272"
+      provider-name="%providerName"
+      plugin="org.jboss.tools.openshift.egit.ui">
+
+   <description url="%descriptionURL">
+      %description
+   </description>
+
+   <copyright>
+      %copyright
+   </copyright>
+
+   <license url="%licenseURL">
+      %license
+   </license>
+
+   <plugin
+         id="org.jboss.tools.openshift.egit.core"
+         download-size="27"
+         install-size="57"
+         version="3.1.0.Final-v20160414-0041-B272"
+         unpack="false"/>
+
+   <plugin
+         id="org.jboss.tools.openshift.egit.ui"
+         download-size="9"
+         install-size="11"
+         version="3.1.0.Final-v20160414-0041-B272"
+         unpack="false"/>
+
+</feature>

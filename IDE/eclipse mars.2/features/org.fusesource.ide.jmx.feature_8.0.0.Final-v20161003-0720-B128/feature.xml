@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feature
+      id="org.fusesource.ide.jmx.feature"
+      label="%featureName"
+      version="8.0.0.Final-v20161003-0720-B128"
+      provider-name="%providerName"
+      plugin="org.fusesource.ide.tooling">
+
+   <description url="http://tools.jboss.org/features/apachecamel.html">
+      %description
+   </description>
+
+   <copyright url="http://redhat.com/">
+      %copyright
+   </copyright>
+
+   <license url="%licenseURL">
+      %license
+   </license>
+
+   <url>
+      <discovery label="Gemini Update Site" url="http://download.jboss.org/jbosstools/updates/requirements/gemini/2.0.0.RELEASE/"/>
+      <discovery label="JBoss Tools Update Site" url="http://download.jboss.org/jbosstools/updates/development/mars/"/>
+   </url>
+
+   <requires>
+      <import feature="org.fusesource.ide.core.feature" version="8.0.0" match="greaterOrEqual"/>
+      <import feature="org.fusesource.ide.server.extensions.feature" version="8.0.0" match="greaterOrEqual"/>
+      <import plugin="org.jboss.tools.jmx.core" version="1.6.0" match="greaterOrEqual"/>
+      <import plugin="org.jboss.tools.jmx.ui" version="1.6.0" match="greaterOrEqual"/>
+      <import plugin="org.eclipse.jface" version="3.10.0" match="greaterOrEqual"/>
+      <import plugin="org.eclipse.ui.views" version="3.7.0" match="greaterOrEqual"/>
+      <import plugin="org.eclipse.osgi" version="3.10.0" match="greaterOrEqual"/>
+      <import plugin="org.eclipse.core.runtime" version="3.10.0" match="greaterOrEqual"/>
+      <import plugin="org.eclipse.ui.workbench" version="3.106.0" match="greaterOrEqual"/>
+      <import plugin="org.eclipse.core.filesystem" version="1.4.100" match="greaterOrEqual"/>
+      <import plugin="org.eclipse.ui.views.properties.tabbed" version="3.6.0" match="greaterOrEqual"/>
+      <import plugin="org.eclipse.core.resources" version="3.9.0" match="greaterOrEqual"/>
+      <import plugin="org.eclipse.ui.navigator" version="3.5.400" match="greaterOrEqual"/>
+      <import plugin="org.eclipse.ui.ide" version="3.10.0" match="greaterOrEqual"/>
+      <import plugin="org.eclipse.gemini.management" version="2.0.0.RELEASE" match="greaterOrEqual"/>
+      <import plugin="org.eclipse.ui" version="3.106.0" match="greaterOrEqual"/>
+      <import plugin="org.eclipse.draw2d" version="3.9.100" match="greaterOrEqual"/>
+      <import plugin="org.eclipse.zest.core" version="1.5.100" match="greaterOrEqual"/>
+      <import plugin="org.eclipse.ui.forms" version="3.6.100" match="greaterOrEqual"/>
+      <import plugin="org.eclipse.jdt.debug" version="3.9.0" match="greaterOrEqual"/>
+      <import plugin="org.jboss.tools.common.jdt.debug"/>
+   </requires>
+
+   <plugin
+         id="org.fusesource.ide.jmx.activemq"
+         download-size="11376"
+         install-size="12676"
+         version="8.0.0.Final-v20161003-0720-B128"/>
+
+   <plugin
+         id="org.fusesource.ide.jmx.camel"
+         download-size="771"
+         install-size="918"
+         version="8.0.0.Final-v20161003-0720-B128"/>
+
+   <plugin
+         id="org.fusesource.ide.jmx.karaf"
+         download-size="126"
+         install-size="214"
+         version="8.0.0.Final-v20161003-0720-B128"
+         unpack="false"/>
+
+   <plugin
+         id="org.fusesource.ide.jmx.commons"
+         download-size="85"
+         install-size="146"
+         version="8.0.0.Final-v20161003-0720-B128"
+         unpack="false"/>
+
+   <plugin
+         id="org.fusesource.ide.jmx.diagram.view"
+         download-size="19"
+         install-size="38"
+         version="8.0.0.Final-v20161003-0720-B128"
+         unpack="false"/>
+
+</feature>

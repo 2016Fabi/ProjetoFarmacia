@@ -1,0 +1,49 @@
+Signature-Version: 1.0
+SHA1-Digest-Manifest: OsR9SAy/5ZFIo2flwezKzH2LSYY=
+Created-By: 1.6.0 (IBM Corporation)
+SHA1-Digest-Manifest-Main-Attributes: QudVX3M3gj8qsXK9mkEF/akjhKk=
+
+Name: META-INF/maven/org.eclipse.birt/org.eclipse.birt.integration.wtp
+ .ui/pom.properties
+SHA1-Digest: 74VPCzmQM+ZKUZuutpbw3nW1MTI=
+
+Name: icons/web_module.gif
+SHA1-Digest: zBCwMQRvd8Z+rTLK/4CcpJovTUw=
+
+Name: META-INF/eclipse.inf
+SHA1-Digest: QdryQvJlVywlE0MGLuwYCkmkyWk=
+
+Name: runtime/readme.txt
+SHA1-Digest: s7Gl1RO5mD1ucemTNa5BuDme2rA=
+
+Name: META-INF/maven/org.eclipse.birt/org.eclipse.birt.integration.wtp
+ .ui/pom.xml
+SHA1-Digest: GG0mqiS/Ze0ZFg7ovCalFNSlKWo=
+
+Name: about.html
+SHA1-Digest: sp+MJJREp1IOiZdau8mgdyqxZuo=
+
+Name: plugin.properties
+SHA1-Digest: AHrqNqqIt8yXNS7hcDpkL5veAug=
+
+Name: templates/jspbirt-templates.xml
+SHA1-Digest: 9nj+D8lRY2c0F77HJ44e9amS/iM=
+
+Name: schema/birtResourcesDefinition.exsd
+SHA1-Digest: 11K9RBXVATzvSaOXgX9o5k8nSeY=
+
+Name: icons/create_project_wizard.gif
+SHA1-Digest: lD7ExY4FCy/2jPViBJtNisesP0o=
+
+Name: icons/create_project_wizbanner.gif
+SHA1-Digest: 0DOIAViAww0yJCHDkskhJnL12U0=
+
+Name: birtwtp.jar
+SHA1-Digest: +KFOnKiEDxyFVoyh/QTQYR3I0CM=
+
+Name: templates/jspbirt-templates.properties
+SHA1-Digest: /xds+bIZgbWxyvkXsapbSUfRTnE=
+
+Name: plugin.xml
+SHA1-Digest: LR6Vco0pe1/gTPP+jP4cr/Un/9E=
+

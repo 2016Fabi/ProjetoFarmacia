@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feature id="org.jboss.tools.arquillian.feature.source" version="1.2.1.Final-v20160331-0142-B69" plugin="org.jboss.tools.arquillian.core" label="%featureName" provider-name="%providerName">
+  <includes id="org.jboss.tools.arquillian.feature" version="1.2.1.Final-v20160331-0142-B69"/>
+  <description>
+      %description
+   </description>
+  <copyright>
+      %copyright
+   </copyright>
+  <license url="%licenseURL">
+      %license
+   </license>
+  <plugin id="org.jboss.tools.arquillian.core.source" version="1.2.1.Final-v20160331-0142-B69" download-size="0" install-size="0" unpack="false"/>
+  <plugin id="org.jboss.tools.arquillian.ui.source" version="1.2.1.Final-v20160331-0142-B69" download-size="0" install-size="0" unpack="false"/>
+  <plugin id="org.jboss.tools.arquillian.maven.configurator.source" version="1.2.1.Final-v20160331-0142-B69" download-size="0" install-size="0" unpack="false"/>
+</feature>

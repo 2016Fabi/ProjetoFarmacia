@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feature
+      id="org.eclipse.contribution.xref"
+      label="%featureName"
+      version="2.2.4.e44x-20140516-1000"
+      provider-name="%providerName">
+
+   <description>
+      %description
+   </description>
+
+   <copyright>
+      %copyright
+   </copyright>
+
+   <license url="%licenseURL">
+      %license
+   </license>
+
+   <url>
+      <update label="%updateLabel" url="http://download.eclipse.org/tools/ajdt/34/update"/>
+   </url>
+
+   <includes
+         id="org.eclipse.contribution.xref.source"
+         version="0.0.0" 
+         name=""
+         optional="true"/>
+
+
+   <requires>
+      <import plugin="org.eclipse.core.runtime"/>
+      <import plugin="org.eclipse.jdt.core"/>
+      <import plugin="org.eclipse.ui"/>
+      <import plugin="org.eclipse.core.resources"/>
+      <import plugin="org.eclipse.jdt.ui"/>
+      <import plugin="org.eclipse.core.commands"/>
+      <import plugin="org.eclipse.jface.text"/>
+      <import plugin="org.eclipse.ui.editors"/>
+      <import plugin="org.eclipse.ui.workbench.texteditor"/>
+      <import plugin="org.eclipse.ui.ide"/>
+      <import plugin="org.eclipse.ui.views"/>
+      <import plugin="org.eclipse.help"/>
+      <import plugin="org.eclipse.core.expressions"/>
+   </requires>
+
+   <plugin
+         id="org.eclipse.contribution.xref.core"
+         download-size="0"
+         install-size="0"
+         version="2.2.4.e44x-20140516-1000"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.contribution.xref.ui"
+         download-size="0"
+         install-size="0"
+         version="2.2.4.e44x-20140516-1000"
+         unpack="false"/>
+
+   <plugin
+         id="org.aspectj.runtime"
+         download-size="0"
+         install-size="0"
+         version="1.8.1.20140516080300"
+         unpack="false"/>
+
+</feature>

@@ -1,0 +1,286 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE checkstyle-metadata PUBLIC
+"-//eclipse-cs//DTD Check Metadata 1.1//EN"
+"http://eclipse-cs.sourceforge.net/dtds/checkstyle-metadata_1_1.dtd">
+<checkstyle-metadata>
+    <rule-group-metadata name="%Javadoc.group" priority="100">
+
+        <rule-metadata name="%JavadocPackage.name" internal-name="JavadocPackage" parent="Checker">
+            <alternative-name internal-name="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocPackageCheck"/>
+            <description>%JavadocPackage.desc</description>
+            <property-metadata name="allowLegacy" datatype="Boolean" default-value="false">
+                <description>%JavadocPackage.allowLegacy</description>
+            </property-metadata>
+            <message-key key="javadoc.legacyPackageHtml"/>
+            <message-key key="javadoc.packageInfo"/>
+        </rule-metadata>
+
+        <rule-metadata name="%JavadocMethod.name" internal-name="JavadocMethod" parent="TreeWalker">
+            <alternative-name internal-name="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocMethodCheck"/>
+            <alternative-name internal-name="com.puppycrawl.tools.checkstyle.checks.JavadocMethodCheck"/>
+            <description>%JavadocMethod.desc</description>
+            <property-metadata name="minLineCount" datatype="Integer" default-value="-1">
+                <description>%JavadocMethod.minLineCount</description>
+            </property-metadata>
+            <property-metadata name="allowedAnnotations" datatype="String">
+                <description>%JavadocMethod.allowedAnnotations</description>
+            </property-metadata>
+            <property-metadata name="validateThrows" datatype="Boolean" default-value="false">
+                <description>%JavadocMethod.validateThrows</description>
+            </property-metadata>
+            <property-metadata name="scope" datatype="SingleSelect" default-value="private">
+                <description>%JavadocMethod.scope</description>
+                <enumeration option-provider="com.puppycrawl.tools.checkstyle.api.Scope"/>
+            </property-metadata>
+            <property-metadata name="excludeScope" datatype="SingleSelect" default-value="nothing">
+                <description>%JavadocMethod.excludeScope</description>
+                <enumeration option-provider="com.puppycrawl.tools.checkstyle.api.Scope"/>
+            </property-metadata>
+            <property-metadata name="allowUndeclaredRTE" datatype="Boolean" default-value="false">
+                <description>%JavadocMethod.allowUndeclaredRTE</description>
+            </property-metadata>
+            <property-metadata name="allowThrowsTagsForSubclasses" datatype="Boolean" default-value="false">
+                <description>%JavadocMethod.allowThrowsTagsForSubclasses</description>
+            </property-metadata>
+            <property-metadata name="allowMissingParamTags" datatype="Boolean" default-value="false">
+                <description>%JavadocMethod.allowMissingParamTags</description>
+            </property-metadata>
+            <property-metadata name="allowMissingThrowsTags" datatype="Boolean" default-value="false">
+                <description>%JavadocMethod.allowMissingThrowsTags</description>
+            </property-metadata>
+            <property-metadata name="allowMissingReturnTag" datatype="Boolean" default-value="false">
+                <description>%JavadocMethod.allowMissingReturnTag</description>
+            </property-metadata>
+            <property-metadata name="allowMissingJavadoc" datatype="Boolean" default-value="false">
+                <description>%JavadocMethod.allowMissingJavadoc</description>
+            </property-metadata>
+            <property-metadata name="allowMissingPropertyJavadoc" datatype="Boolean" default-value="false">
+                <description>%JavadocMethod.allowMissingPropertyJavadoc</description>
+            </property-metadata>
+            <property-metadata name="logLoadErrors" datatype="Boolean" default-value="true">
+                <description>%JavadocMethod.logLoadErrors</description>
+            </property-metadata>
+            <property-metadata name="suppressLoadErrors" datatype="Boolean" default-value="false"
+                override-default-value="true">
+                <description>%JavadocMethod.suppressLoadErrors</description>
+            </property-metadata>
+            <property-metadata name="tokens" datatype="MultiCheck" default-value="METHOD_DEF,CTOR_DEF">
+                <description>%JavadocMethod.tokens</description>
+                <enumeration>
+                    <property-value-option value="METHOD_DEF"/>
+                    <property-value-option value="CTOR_DEF"/>
+                </enumeration>
+            </property-metadata>
+            <property-metadata name="ignoreMethodNamesRegex" datatype="Regex">
+                <description>%JavadocMethod.ignoreMethodNamesRegex</description>
+            </property-metadata>
+            <message-key key="javadoc.missing"/>
+            <message-key key="javadoc.classInfo"/>
+            <message-key key="javadoc.unusedTagGeneral"/>
+            <message-key key="javadoc.invalidInheritDoc"/>
+            <message-key key="javadoc.unusedTag"/>
+            <message-key key="javadoc.expectedTag"/>
+            <message-key key="javadoc.duplicateTag"/>
+            <message-key key="javadoc.return.expected"/>
+        </rule-metadata>
+
+        <rule-metadata name="%JavadocStyle.name" internal-name="JavadocStyle" parent="TreeWalker">
+            <alternative-name internal-name="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocStyleCheck"/>
+            <description>%JavadocStyle.desc</description>
+            <property-metadata name="scope" datatype="SingleSelect" default-value="private">
+                <description>%JavadocStyle.scope</description>
+                <enumeration option-provider="com.puppycrawl.tools.checkstyle.api.Scope"/>
+            </property-metadata>
+            <property-metadata name="excludeScope" datatype="SingleSelect" default-value="nothing">
+                <description>%JavadocStyle.excludeScope</description>
+                <enumeration option-provider="com.puppycrawl.tools.checkstyle.api.Scope"/>
+            </property-metadata>
+            <property-metadata name="checkEmptyJavadoc" datatype="Boolean" default-value="false">
+                <description>%JavadocStyle.checkEmptyJavadoc</description>
+            </property-metadata>
+            <property-metadata name="checkFirstSentence" datatype="Boolean" default-value="true">
+                <description>%JavadocStyle.checkFirstSentence</description>
+            </property-metadata>
+            <property-metadata name="endOfSentenceFormat" datatype="Regex"
+                default-value="([.?!][ \t\n\r\f&lt;])|([.?!]$)">
+                <description>%JavadocStyle.endOfSentenceFormat</description>
+            </property-metadata>
+            <property-metadata name="checkHtml" datatype="Boolean" default-value="true">
+                <description>%JavadocStyle.checkHtml</description>
+            </property-metadata>
+            <property-metadata name="tokens" datatype="MultiCheck"
+                default-value="INTERFACE_DEF,CLASS_DEF,METHOD_DEF,CTOR_DEF,VARIABLE_DEF">
+                <description>%JavadocStyle.tokens</description>
+                <enumeration>
+                    <property-value-option value="INTERFACE_DEF"/>
+                    <property-value-option value="CLASS_DEF"/>
+                    <property-value-option value="METHOD_DEF"/>
+                    <property-value-option value="CTOR_DEF"/>
+                    <property-value-option value="VARIABLE_DEF"/>
+                </enumeration>
+            </property-metadata>
+            <message-key key="javadoc.missing"/>
+            <message-key key="javadoc.noperiod"/>
+            <message-key key="javadoc.empty"/>
+            <message-key key="javadoc.incompleteTag"/>
+            <message-key key="javadoc.extrahtml"/>
+            <message-key key="javadoc.unclosedhtml"/>
+        </rule-metadata>
+
+        <rule-metadata name="%JavadocType.name" internal-name="JavadocType" parent="TreeWalker">
+            <alternative-name internal-name="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocTypeCheck"/>
+            <alternative-name internal-name="com.puppycrawl.tools.checkstyle.checks.JavadocTypeCheck"/>
+            <description>%JavadocType.desc</description>
+            <property-metadata name="excludeScope" datatype="SingleSelect" default-value="nothing">
+                <description>%JavadocType.excludeScope</description>
+                <enumeration option-provider="com.puppycrawl.tools.checkstyle.api.Scope"/>
+            </property-metadata>
+            <property-metadata name="scope" datatype="SingleSelect" default-value="private">
+                <description>%JavadocType.scope</description>
+                <enumeration option-provider="com.puppycrawl.tools.checkstyle.api.Scope"/>
+            </property-metadata>
+            <property-metadata name="authorFormat" datatype="Regex">
+                <description>%JavadocType.authorFormat</description>
+            </property-metadata>
+            <property-metadata name="versionFormat" datatype="Regex">
+                <description>%JavadocType.versionFormat</description>
+            </property-metadata>
+            <property-metadata name="allowUnknownTags" datatype="Boolean" default-value="false">
+                <description>%JavadocType.allowUnknownTags</description>
+            </property-metadata>
+            <property-metadata name="tokens" datatype="MultiCheck" default-value="CLASS_DEF,INTERFACE_DEF">
+                <description>%JavadocType.tokens</description>
+                <enumeration>
+                    <property-value-option value="CLASS_DEF"/>
+                    <property-value-option value="INTERFACE_DEF"/>
+                </enumeration>
+            </property-metadata>
+
+            <message-key key="javadoc.missing"/>
+            <message-key key="type.tagFormat"/>
+            <message-key key="type.missingTag"/>
+            <message-key key="javadoc.unusedTag"/>
+            <message-key key="javadoc.unusedTagGeneral"/>
+        </rule-metadata>
+
+        <rule-metadata name="%JavadocVariable.name" internal-name="JavadocVariable" parent="TreeWalker">
+            <alternative-name internal-name="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocVariableCheck"/>
+            <alternative-name internal-name="com.puppycrawl.tools.checkstyle.checks.JavadocVariableCheck"/>
+            <description>%JavadocVariable.desc</description>
+            <property-metadata name="excludeScope" datatype="SingleSelect" default-value="nothing">
+                <description>%JavadocVariable.excludeScope</description>
+                <enumeration option-provider="com.puppycrawl.tools.checkstyle.api.Scope"/>
+            </property-metadata>
+            <property-metadata name="scope" datatype="SingleSelect" default-value="private">
+                <description>%JavadocVariable.scope</description>
+                <enumeration option-provider="com.puppycrawl.tools.checkstyle.api.Scope"/>
+            </property-metadata>
+            <property-metadata name="ignoreNamePattern" datatype="Regex">
+                <description>%JavadocVariable.ignoreNamePattern</description>
+            </property-metadata>
+            <message-key key="javadoc.missing"/>
+        </rule-metadata>
+
+        <rule-metadata name="%WriteTag.name" internal-name="WriteTag" parent="TreeWalker">
+            <alternative-name internal-name="com.puppycrawl.tools.checkstyle.checks.javadoc.WriteTagCheck"/>
+            <description>%WriteTag.desc</description>
+            <property-metadata name="tag" datatype="String">
+                <description>%WriteTag.tag</description>
+            </property-metadata>
+            <property-metadata name="tagFormat" datatype="Regex">
+                <description>%WriteTag.tagFormat</description>
+            </property-metadata>
+            <property-metadata name="tagSeverity" datatype="SingleSelect" default-value="info">
+                <description>%WriteTag.tagSeverity</description>
+                <enumeration>
+                    <property-value-option value="error"/>
+                    <property-value-option value="warning"/>
+                    <property-value-option value="info"/>
+                    <property-value-option value="ignore"/>
+                </enumeration>
+            </property-metadata>
+            <message-key key="type.missingTag"/>
+            <message-key key="type.tagFormat"/>
+            <message-key key="javadoc.writeTag"/>
+        </rule-metadata>
+
+        <rule-metadata name="%NonEmptyAtclauseDescription.name" internal-name="NonEmptyAtclauseDescription"
+            parent="TreeWalker">
+            <alternative-name
+                internal-name="com.puppycrawl.tools.checkstyle.checks.javadoc.NonEmptyAtclauseDescriptionCheck"/>
+            <description>%NonEmptyAtclauseDescription.desc</description>
+            <property-metadata name="tokens" datatype="MultiCheck"
+                default-value="PARAM_LITERAL,RETURN_LITERAL,THROWS_LITERAL,DEPRECATED_LITERAL">
+                <description>%NonEmptyAtclauseDescription.tokens</description>
+                <enumeration>
+                    <property-value-option value="PARAM_LITERAL"/>
+                    <property-value-option value="RETURN_LITERAL"/>
+                    <property-value-option value="THROWS_LITERAL"/>
+                    <property-value-option value="DEPRECATED_LITERAL"/>
+                </enumeration>
+            </property-metadata>
+            <message-key key="non.empty.atclause"/>
+        </rule-metadata>
+
+        <rule-metadata name="%JavadocTagContinuationIndentation.name" internal-name="JavadocTagContinuationIndentation"
+            parent="TreeWalker">
+            <alternative-name
+                internal-name="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocTagContinuationIndentationCheck"/>
+            <description>%JavadocTagContinuationIndentation.desc</description>
+            <property-metadata name="offset" datatype="Integer" default-value="4">
+                <description>%JavadocTagContinuationIndentation.offset</description>
+            </property-metadata>
+            <message-key key="tag.continuation.indent"/>
+        </rule-metadata>
+
+        <rule-metadata name="%SummaryJavadoc.name" internal-name="SummaryJavadoc" parent="TreeWalker">
+            <alternative-name internal-name="com.puppycrawl.tools.checkstyle.checks.javadoc.SummaryJavadocCheck"/>
+            <description>%SummaryJavadoc.desc</description>
+            <property-metadata name="forbiddenSummaryFragments" datatype="Regex" default-value="^$">
+                <description>%SummaryJavadoc.forbiddenSummaryFragments</description>
+            </property-metadata>
+            <property-metadata name="period" datatype="String" default-value=".">
+                <description>%SummaryJavadoc.period</description>
+            </property-metadata>
+            <message-key key="summary.first.sentence"/>
+            <message-key key="summary.javaDoc"/>
+        </rule-metadata>
+
+        <rule-metadata name="%AtclauseOrder.name" internal-name="AtclauseOrder" parent="TreeWalker">
+            <alternative-name internal-name="com.puppycrawl.tools.checkstyle.checks.javadoc.AtclauseOrderCheck"/>
+            <description>%AtclauseOrder.desc</description>
+            <property-metadata name="target" datatype="MultiCheck"
+                default-value="CLASS_DEF,INTERFACE_DEF,ENUM_DEF,METHOD_DEF,CTOR_DEF,VARIABLE_DEF">
+                <description>%AtclauseOrder.target</description>
+                <enumeration>
+                    <property-value-option value="CLASS_DEF"/>
+                    <property-value-option value="INTERFACE_DEF"/>
+                    <property-value-option value="ENUM_DEF"/>
+                    <property-value-option value="METHOD_DEF"/>
+                    <property-value-option value="CTOR_DEF"/>
+                    <property-value-option value="VARIABLE_DEF"/>
+                </enumeration>
+            </property-metadata>
+            <property-metadata name="tagOrder" datatype="String"
+                default-value="@author,@version,@param,@return,@throws,@exception,@see,@since,@serial,@serialField,@serialData,@deprecated">
+                <description>%AtclauseOrder.tagOrder</description>
+            </property-metadata>
+            <message-key key="at.clause.order"/>
+        </rule-metadata>
+
+        <rule-metadata name="%JavadocParagraph.name" internal-name="JavadocParagraph" parent="TreeWalker">
+            <alternative-name internal-name="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocParagraphCheck"/>
+            <description>%JavadocParagraph.desc</description>
+            <message-key key="javadoc.paragraph.tag.after"/>
+            <message-key key="javadoc.paragraph.redundant.paragraph"/>
+            <message-key key="javadoc.paragraph.line.before"/>
+        </rule-metadata>
+
+        <rule-metadata name="%SingleLineJavadoc.name" internal-name="SingleLineJavadoc" parent="TreeWalker">
+            <alternative-name internal-name="com.puppycrawl.tools.checkstyle.checks.javadoc.SingleLineJavadocCheck"/>
+            <description>%SingleLineJavadoc.desc</description>
+            <message-key key="singleline.javadoc"/>
+        </rule-metadata>
+
+    </rule-group-metadata>
+</checkstyle-metadata>

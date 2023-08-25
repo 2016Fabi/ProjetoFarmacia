@@ -1,0 +1,130 @@
+Signature-Version: 1.0
+SHA1-Digest-Manifest: K+ymJfevMMMDSCnIC4MF/Qzab94=
+Created-By: 1.6.0 (IBM Corporation)
+SHA1-Digest-Manifest-Main-Attributes: kmOp0kJOcQGvNxCP4cz9Rg/rzfQ=
+
+Name: templates/crosstab.gif
+SHA1-Digest: C6wT2UHTZQIoJL7IEV8Bt48RhRQ=
+
+Name: templates/sidebyside_chart_listing.rpttemplate
+SHA1-Digest: y0nmxXtZcQfpBMo3ppwz6wk3seI=
+
+Name: templates/letter.rptdesign
+SHA1-Digest: YgZkW6Tqk0sacOC+FUfAxSS+kRI=
+
+Name: templates/my_first_report.rpttemplate
+SHA1-Digest: 6Xlv55KNk6YThHwG6EBqXNtPbbI=
+
+Name: templates/dual_column_chart_listing.rpttemplate
+SHA1-Digest: QpIBhqldEGyJJDqKMB4qfpzNUjA=
+
+Name: templates/TOCDefaultValue.xml
+SHA1-Digest: FYNDdVgWDjF+QHeA0625memVPKI=
+
+Name: plugin.properties
+SHA1-Digest: ZQV0jXukMX3XbgcGjaitLl1r6eA=
+
+Name: templates/simple_listing.rpttemplate
+SHA1-Digest: WfereoDPVIcaYiZA+Iy4FGui4lo=
+
+Name: templates/grouped_listing.rpttemplate
+SHA1-Digest: 8QcRY1qak/G27I31jGcVfA32weU=
+
+Name: templates/chart_listing.rpttemplate
+SHA1-Digest: 3BxEY7Hc24ynjuEzmvJIN/fRmOM=
+
+Name: templates/mailing_labels.rptdesign
+SHA1-Digest: 5ofh/ZvLOuzC3rcCWjlNYREqTLU=
+
+Name: templates/freeformat.gif
+SHA1-Digest: zOtNntbexCKmaMlpKo32WtjrzcA=
+
+Name: templates/first_report.gif
+SHA1-Digest: 331a4R8HIcrVO4Fz4eVN74wQxT4=
+
+Name: templates/dual_column_listing.xml
+SHA1-Digest: rTNsXtGOsS5FC3LS6bDgFpyNlHc=
+
+Name: templates/letter.gif
+SHA1-Digest: 0HfQ7Hdg8U5RNKsKeEjUZD8QG4Q=
+
+Name: templates/dashboard.gif
+SHA1-Digest: BPWYMrUSOMo7SEWAlOPn2diuV2I=
+
+Name: templates/crosstab.xml
+SHA1-Digest: TAjYuIg8tB1BlkHp7kDrqMR0U1w=
+
+Name: templates/sidebyside_chart_listing.gif
+SHA1-Digest: zkLcvf4svagU/SPnorXrSw5Plyw=
+
+Name: templates/blank_report.rpttemplate
+SHA1-Digest: 4vA+6ikgpDAp1ziFMpgjro2u/mQ=
+
+Name: plugin.xml
+SHA1-Digest: rglLMqEyp/CKFfhqKf2p5vYqw58=
+
+Name: templates/dual_column_chart_listing.gif
+SHA1-Digest: LRn5LvrqPcXXtX7EBNIAOdS4Qqg=
+
+Name: templates/mailing_labels.gif
+SHA1-Digest: WxERgD/RMZR6Dxh0XDy8nTsfoH4=
+
+Name: templates/simple_listing.gif
+SHA1-Digest: JoA+HkIG2XhZrX6G6+LuhhVs2Fk=
+
+Name: templates/chart_listing.gif
+SHA1-Digest: ZAxjDODa+kDC5fdm3ERKT390z3I=
+
+Name: templates/grouped_listing.gif
+SHA1-Digest: +KuO8DSEMHh6HePbyQgEhpcprRU=
+
+Name: META-INF/eclipse.inf
+SHA1-Digest: QdryQvJlVywlE0MGLuwYCkmkyWk=
+
+Name: templates/sidebyside_chart_listing.xml
+SHA1-Digest: axS0duOg+cAVKejLTSO+KtV6GR8=
+
+Name: templates/my_first_report.xml
+SHA1-Digest: XQ2EMTul9NvWMG1Cm2sUxHajAnE=
+
+Name: templates/dual_column_listing.rpttemplate
+SHA1-Digest: SRU7lC+lZoFIKw8wz2N6gGgCWRQ=
+
+Name: templates/blank_report.gif
+SHA1-Digest: AunZpcUmikkhUaTMlS9QxHGFdmE=
+
+Name: about.html
+SHA1-Digest: sp+MJJREp1IOiZdau8mgdyqxZuo=
+
+Name: templates/crosstab.rpttemplate
+SHA1-Digest: M6qvM5SNq1VxPiphejEsOcK/Z7o=
+
+Name: templates/dual_column_chart_listing.xml
+SHA1-Digest: v3MpLXA78XUeOdt9iTZ6MKpJ95I=
+
+Name: META-INF/maven/org.eclipse.birt/org.eclipse.birt.resources/pom.x
+ ml
+SHA1-Digest: BsIIgYJm4CEvPrVnP1vVSwPIb2I=
+
+Name: templates/chart_listing.xml
+SHA1-Digest: DW2KPRrMrTIMtfQ5dgjfwMPVYqU=
+
+Name: templates/grouped_listing.xml
+SHA1-Digest: FU+J1YbL0eNN6weDKjkbWrw1WoA=
+
+Name: templates/simple_listing.xml
+SHA1-Digest: Ao4sIYEWOf3rNgF3qsQtOTQHB1w=
+
+Name: META-INF/maven/org.eclipse.birt/org.eclipse.birt.resources/pom.p
+ roperties
+SHA1-Digest: un1cJiTgAwbIo++UUFIZgviQ+Ag=
+
+Name: templates/blank_library.rpttemplate
+SHA1-Digest: d/aEbz+T9uvALwGsFkvymmvO5sE=
+
+Name: templates/dual_column_listing.gif
+SHA1-Digest: Dj10se7yANy6bOU387qEtjafCx0=
+
+Name: templates/freeformat.rptdesign
+SHA1-Digest: Ma/i99uSi4z8bL3SAFwZYIZZKlk=
+

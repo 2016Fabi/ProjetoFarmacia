@@ -1,0 +1,34 @@
+Signature-Version: 1.0
+SHA1-Digest-Manifest: 2tO+1W/Uk5yhHMPFBpmnmuE2dxE=
+Created-By: 1.6.0 (IBM Corporation)
+SHA1-Digest-Manifest-Main-Attributes: 4RiUl513jtthYqc3e850+2n7bM4=
+
+Name: .options
+SHA1-Digest: Gq+oBeoe3MY44KwtI8t6DhX72XU=
+
+Name: db/BirtSample.jar
+SHA1-Digest: jUnOFBbtUaaMwpmjjKBPfKWzAgU=
+
+Name: META-INF/eclipse.inf
+SHA1-Digest: QdryQvJlVywlE0MGLuwYCkmkyWk=
+
+Name: sampledb.jar
+SHA1-Digest: cMPvmG9q1yEbBxv3Gr7XLO5GTsA=
+
+Name: META-INF/maven/org.eclipse.birt/org.eclipse.birt.report.data.oda
+ .sampledb/pom.xml
+SHA1-Digest: puozl6ud74bgreNyLFu/swxIgpA=
+
+Name: META-INF/maven/org.eclipse.birt/org.eclipse.birt.report.data.oda
+ .sampledb/pom.properties
+SHA1-Digest: svrek/Y0V3B+dSf39Y6RtJ4KEtQ=
+
+Name: plugin.xml
+SHA1-Digest: QZD2RxD9b4HWhlglNnIewdlyeuw=
+
+Name: about.html
+SHA1-Digest: sp+MJJREp1IOiZdau8mgdyqxZuo=
+
+Name: plugin.properties
+SHA1-Digest: S+rL2L9flB3FJYOF+XDs7wOwPdk=
+

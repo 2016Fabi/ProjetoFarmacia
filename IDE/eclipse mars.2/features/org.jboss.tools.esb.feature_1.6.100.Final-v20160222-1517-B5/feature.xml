@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feature
+      id="org.jboss.tools.esb.feature"
+      label="%featureName"
+      version="1.6.100.Final-v20160222-1517-B5"
+      provider-name="%providerName"
+      plugin="org.jboss.tools.esb.ui">
+
+   <description>
+      %description
+   </description>
+
+   <copyright>
+      %copyright
+   </copyright>
+
+   <license url="%licenseURL">
+      %license
+   </license>
+
+   <plugin
+         id="org.jboss.tools.esb.core"
+         download-size="177"
+         install-size="1094"
+         version="1.6.100.Final-v20160222-1517-B5"
+         unpack="false"/>
+
+   <plugin
+         id="org.jboss.tools.esb.ui"
+         download-size="63"
+         install-size="79"
+         version="1.6.100.Final-v20160222-1517-B5"/>
+
+   <plugin
+         id="org.jboss.tools.esb.project.core"
+         download-size="56"
+         install-size="117"
+         version="1.6.100.Final-v20160222-1517-B5"
+         unpack="false"/>
+
+   <plugin
+         id="org.jboss.tools.esb.project.ui"
+         download-size="1713"
+         install-size="2027"
+         version="1.6.100.Final-v20160222-1517-B5"
+         unpack="false"/>
+
+   <plugin
+         id="org.jboss.tools.esb.validator"
+         download-size="24"
+         install-size="46"
+         version="1.6.100.Final-v20160222-1517-B5"
+         unpack="false"/>
+
+   <plugin
+         id="org.jboss.tools.esb.examples"
+         download-size="4"
+         install-size="4"
+         version="1.6.100.Final-v20160222-1517-B5"
+         unpack="false"/>
+
+</feature>

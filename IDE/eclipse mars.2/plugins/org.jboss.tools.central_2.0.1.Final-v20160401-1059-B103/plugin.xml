@@ -1,0 +1,337 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?eclipse version="3.4"?>
+<plugin>
+
+   <extension-point id="configurators" name="Red Hat Central Configurator" schema="schema/configurators.exsd"/>
+   <extension-point id="proxyWizard" name="Proxy Wizard" schema="schemas/org.jboss.tools.central.proxyWizard.exsd"/>
+   <extension-point id="iuFamilies" name="iuFamilies" schema="schemas/iuFamilies.exsd"/>
+
+   <extension
+         point="org.eclipse.ui.editors">
+      <editor
+            name="Red Hat Central"
+            icon="icons/shadowman.png"
+            contributorClass="org.jboss.tools.central.editors.JBossCentralEditorContributor"
+            class="org.jboss.tools.central.editors.JBossCentralEditor"
+            id="org.jboss.tools.central.editors.JBossCentralEditor">
+      </editor>
+   </extension>
+
+   <extension
+         point="org.eclipse.ui.startup">
+      <startup class="org.jboss.tools.central.ShowJBossCentral">
+      </startup>
+   </extension>
+
+   <extension
+        point="org.eclipse.ui.preferencePages">
+     <page
+           category="org.jboss.tools.common.model.ui.MainPreferencePage"
+           class="org.jboss.tools.central.preferences.JBossCentralPreferencePage"
+           id="org.jboss.tools.central.preferences.JBossCentralPreferencePage"
+           name="Red Hat Central"/>
+   </extension>
+	<extension
+		point="org.eclipse.ui.menus">
+    <menuContribution
+          locationURI="toolbar:org.eclipse.ui.main.toolbar?after=org.eclipse.ui.workbench.help">
+       <toolbar
+             id="org.jboss.tools.central.toolbar">
+          <command
+                commandId="org.jboss.tools.central.show"
+                disabledIcon="$nl$/icons/shadowman.png"
+                icon="$nl$/icons/shadowman.png"
+                id="org.jboss.tools.central.actions.ShowJBossCentralHandler"
+                style="push"
+                label="%jboss.central.menu.name"
+                tooltip="%jboss.central.menu.name">
+              <visibleWhen checkEnabled="false" />
+          </command>
+       </toolbar>
+    </menuContribution>
+	<menuContribution
+          locationURI="menu:help?before=group.intro">
+       <command
+             commandId="org.jboss.tools.central.show"
+             disabledIcon="$nl$/icons/shadowman.png"
+             icon="$nl$/icons/shadowman.png"
+             id="org.jboss.tools.central.actions.ShowJBossCentralHandler"
+             label="%jboss.central.menu.name"
+             style="push"
+             tooltip="%jboss.central.menu.name">
+           <visibleWhen checkEnabled="false" />
+       </command>
+    </menuContribution>
+</extension>
+   <extension
+         point="org.eclipse.ui.commands">
+      <command
+      		defaultHandler="org.jboss.tools.central.actions.ShowJBossCentralHandler"
+            name="Red Hat Central"
+            id="org.jboss.tools.central.show">
+      </command>
+      <command
+      		defaultHandler="org.jboss.tools.central.actions.OpenJBossToolsHomeHandler"
+            name="JBoss Tools Home"
+            id="org.jboss.tools.central.openJBossToolsHome">
+      </command>
+
+      <command
+      		defaultHandler="org.jboss.tools.central.actions.OpenJBossBuzzHandler"
+            name="JBoss Buzz"
+            id="org.jboss.tools.central.openJBossBuzz">
+      </command>
+
+      <command
+      		defaultHandler="org.jboss.tools.central.actions.RefreshJBossTutorialsHandler"
+            name="Refresh"
+            id="org.jboss.tools.central.refreshJBossTutorials">
+      </command>
+
+      <command
+      		defaultHandler="org.jboss.tools.central.actions.RefreshJBossBuzzHandler"
+            name="Refresh"
+            id="org.jboss.tools.central.refreshJBossBuzz">
+      </command>
+      <command
+      		defaultHandler="org.jboss.tools.central.actions.RefreshDiscoveryHandler"
+            name="Refresh"
+            id="org.jboss.tools.central.refreshDiscovery">
+      </command>
+
+      <command
+      		defaultHandler="org.jboss.tools.central.actions.NewProjectExamplesWizardHandler"
+            name="Project Examples Wizard"
+            id="org.jboss.tools.central.newProjectExamplesWizard">
+      </command>
+
+      <command
+      		defaultHandler="org.jboss.tools.central.actions.FavoriteAtEclipseMarketplaceHandler"
+            name="Favorite this @ Eclipse Marketplace"
+            id="org.jboss.tools.central.favoriteAtEclipseMarketplace">
+      </command>
+
+      <command
+      		defaultHandler="org.jboss.tools.central.actions.JBossCentralPreferencesHandler"
+            name="Preferences"
+            id="org.jboss.tools.central.preferences">
+      </command>
+
+      <command
+      		defaultHandler="org.jboss.tools.central.actions.JBossRuntimeDetectionPreferencesHandler"
+            name="JBoss Runtime Detection"
+            id="org.jboss.tools.runtime.preferences">
+      </command>
+
+      <command
+      		defaultHandler="org.jboss.tools.central.actions.WTPRuntimePreferencesHandler"
+            name="WTP Runtime Preferences"
+            id="org.jboss.tools.wtp.runtime.preferences">
+      </command>
+      <command
+      		name="Warning"
+            id="org.jboss.tools.central.buzzWarning">
+      </command>
+
+   </extension>
+
+   <extension
+         point="org.eclipse.ui.commandImages">
+      <image
+            commandId="org.jboss.tools.central.openJBossToolsHome"
+            icon="icons/jbosstools_icon16.png">
+      </image>
+      <image
+            commandId="org.jboss.tools.central.openJBossBuzz"
+            icon="icons/buzz.gif">
+      </image>
+      <image
+            commandId="org.jboss.tools.central.refreshJBossBuzz"
+            icon="icons/refresh.gif">
+      </image>
+      <image
+            commandId="org.jboss.tools.central.refreshJBossTutorials"
+            icon="icons/refresh.gif">
+      </image>
+      <image
+            commandId="org.jboss.tools.central.refreshDiscovery"
+            icon="icons/refresh.gif">
+      </image>
+      <image
+            commandId="org.jboss.tools.central.favoriteAtEclipseMarketplace"
+            icon="icons/star.png">
+      </image>
+      <image
+            commandId="org.jboss.tools.central.preferences"
+            icon="icons/preferences.gif">
+      </image>
+      <image
+            commandId="org.jboss.tools.runtime.preferences"
+            icon="icons/search_local.png">
+      </image>
+
+      <image
+            commandId="org.jboss.tools.wtp.runtime.preferences"
+            icon="icons/wtp_server.gif">
+      </image>
+
+      <image
+            commandId="org.jboss.tools.central.newProjectExamplesWizard"
+            icon="icons/examples_wiz.gif">
+      </image>
+   </extension>
+
+   <!-- new wizards -->
+   <extension
+         point="org.eclipse.ui.newWizards">
+      <category
+            id="org.jboss.tools.central.ui.wizard.category"
+            name="Red Hat Central">
+      </category>
+      <wizard
+            category="org.jboss.tools.central.ui.wizard.category"
+            id="org.jboss.tools.central.wizards.NewJavaeeWarProjectWizard"
+            class="org.jboss.tools.central.wizards.NewJavaeeWarProjectWizard"
+            icon="icons/newwebprj_wiz.gif"
+            name="Java EE Web Project"
+            project="true">
+      </wizard>
+      <wizard
+            category="org.jboss.tools.central.ui.wizard.category"
+            id="org.jboss.tools.central.wizards.NewJavaeeEarProjectWizard"
+            class="org.jboss.tools.central.wizards.NewJavaeeEarProjectWizard"
+            icon="icons/ear-wiz-icon.gif"
+            name="Java EE EAR Project"
+            project="true">
+      </wizard>
+      <wizard
+            category="org.jboss.tools.central.ui.wizard.category"
+            id="org.jboss.tools.central.wizards.NewHtml5ProjectWizard"
+            class="org.jboss.tools.central.wizards.NewHtml5ProjectWizard"
+            icon="icons/html5.png"
+            name="HTML5 Project"
+            project="true">
+      </wizard>
+      <wizard
+            category="org.jboss.tools.central.ui.wizard.category"
+            id="org.jboss.tools.central.wizards.NewRichfacesProjectWizard"
+            class="org.jboss.tools.central.wizards.NewRichfacesProjectWizard"
+            icon="icons/rf_logo.png"
+            name="RichFaces Project"
+            project="true">
+      </wizard>
+      <wizard
+            category="org.jboss.tools.central.ui.wizard.category"
+            id="org.jboss.tools.central.wizards.NewSpringMvcProjectWizard"
+            class="org.jboss.tools.central.wizards.NewSpringMvcProjectWizard"
+            icon="icons/spring_wiz.gif"
+            name="Spring MVC Project"
+            project="true">
+      </wizard>
+      <wizard
+            category="org.jboss.tools.central.ui.wizard.category"
+            id="org.jboss.tools.central.wizards.NewForgeProjectWizard"
+            class="org.jboss.tools.central.wizards.NewForgeProjectWizard"
+            icon="icons/jbossforge_icon_16px.png"
+            name="AngularJS with Forge Project"
+            project="true">
+      </wizard>
+
+   </extension>
+
+   <extension
+		point="org.eclipse.ui.perspectiveExtensions">
+		<perspectiveExtension
+			targetID="org.jboss.tools.common.ui.JBossPerspective">
+			<newWizardShortcut id="org.jboss.tools.central.wizards.NewJavaeeWarProjectWizard" />
+			<newWizardShortcut id="org.jboss.tools.central.wizards.NewJavaeeEarProjectWizard"/>
+			<newWizardShortcut id="org.jboss.tools.central.wizards.NewHtml5ProjectWizard"/>
+		</perspectiveExtension>
+   </extension>
+
+   <!-- for offline access to the wizards -->
+    <extension point="org.jboss.tools.central.proxyWizard">
+      <proxyWizard
+          id="html5.wizard"
+          description="%html5.wizard.description"
+          label="HTML5 Project"
+          priority="1"
+          iconPath="icons/html5.png"
+          wizardId="org.jboss.tools.central.wizards.NewHtml5ProjectWizard"
+          >
+      </proxyWizard>
+      <proxyWizard
+          id="javaee.wizard"
+          description="%javaeeweb.wizard.description"
+          label="Java EE Web Project"
+          priority="5"
+          iconPath="icons/newwebprj_wiz.gif"
+          wizardId="org.jboss.tools.central.wizards.NewJavaeeWarProjectWizard"
+          >
+      </proxyWizard>
+
+      <proxyWizard
+          id="forge.wizard"
+          description="%forge.wizard.description"
+          label="AngularJS Forge"
+          priority="4"
+          iconPath="icons/jbossforge_icon_16px.png"
+          wizardId="org.jboss.tools.central.wizards.NewForgeProjectWizard"
+          requiredPluginIds="org.jboss.tools.forge.ui"
+          requiredComponentIds="forge-tools-feature"
+          >
+      </proxyWizard>
+      <proxyWizard
+          id="openshift.wizard"
+          description="%openshift.wizard.description"
+          label="OpenShift Application"
+          priority="2"
+          iconPath="icons/openshift-logo-white-icon.png"
+          wizardId="org.jboss.ide.eclipse.as.openshift.express.ui.wizard.createNewApplicationWizard"
+          requiredComponentIds="org.jboss.tools.openshift.feature">
+      </proxyWizard>
+      <proxyWizard
+          id="hybrid.mobile.wizard"
+          description="%hybrid.mobile.wizard.description"
+          label="Hybrid Mobile Project"
+          priority="6"
+          iconPath="icons/newcordovaprj_wiz.png"
+          requiredComponentIds="org.jboss.tools.aerogear.hybrid"
+          wizardId="org.eclipse.thym.ui.NewHybridProjectWizard">
+      </proxyWizard>
+      <proxyWizard
+          id="maven.wizard"
+          description="%maven.wizard.description"
+          label="Maven Project"
+          priority="5"
+          iconPath="icons/new_m2_project.gif"
+          wizardId="org.eclipse.m2e.core.wizards.Maven2ProjectWizard"
+          requiredComponentIds="org.eclipse.m2e.feature">
+      </proxyWizard>
+    </extension>
+    <extension
+          point="org.eclipse.ui.installationPages">
+       <page
+             class="org.jboss.tools.central.installation.CentralInstallationPage"
+             id="org.jboss.tools.central.installation.centralInstallationPage"
+             name="Red Hat Central">
+       </page>
+    </extension>
+
+  <extension
+         point="org.eclipse.help.ui.searchEngine">
+	<engine
+	      enabled="true"
+	      engineTypeId="org.jboss.tools.foundation.help.ui.search.SearchiskoSearchEngine"
+	      id="org.jboss.tools.developer.search"
+	      label="JBoss Developer Search">
+	      <description>
+	        Searches blog posts, articles, web pages and solutions on JBoss Community and Red Hat websites.
+	      </description>
+	      <param
+      			name="url"
+      			value="http://dcp.jboss.org/v1/rest/search?query={expression}+AND+sys_type%3A(blogpost+article+webpage+solution)&amp;size=100">
+      	  </param>
+	</engine>
+  </extension>
+</plugin>

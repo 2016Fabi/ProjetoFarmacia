@@ -1,0 +1,34 @@
+Manifest-Version: 1.0
+Ant-Version: Apache Ant 1.8.2
+Created-By: 1.5.0_22-b03 (Sun Microsystems Inc.)
+Bundle-Name: Jersey
+Bundle-ClassPath: jersey-multipart-1.5.jar,jersey-apache-client-1.5.ja
+ r,jersey-json-1.5.jar,jersey-core-1.5.jar,jersey-client-1.5.jar
+Bundle-RequiredExecutionEnvironment: J2SE-1.5
+Bundle-Vendor: Sun
+Bundle-ManifestVersion: 2
+Bundle-SymbolicName: com.sun.jersey
+Require-Bundle: org.apache.commons.httpclient;bundle-version="3.1.0",o
+ rg.codehaus.jettison;bundle-version="1.0.0"
+Export-Package: com.sun.jersey.api.client,com.sun.jersey.api.client.as
+ ync,com.sun.jersey.api.client.config,com.sun.jersey.api.client.filter
+ ,com.sun.jersey.api.json,com.sun.jersey.api.representation,com.sun.je
+ rsey.api.uri,com.sun.jersey.client.apache,com.sun.jersey.client.apach
+ e.config,com.sun.jersey.client.impl,com.sun.jersey.client.impl.async,
+ com.sun.jersey.client.osgi,com.sun.jersey.client.proxy,com.sun.jersey
+ .client.urlconnection,com.sun.jersey.core.header,com.sun.jersey.core.
+ header.reader,com.sun.jersey.core.impl.provider.entity,com.sun.jersey
+ .core.impl.provider.header,com.sun.jersey.core.impl.provider.xml,com.
+ sun.jersey.core.osgi,com.sun.jersey.core.provider,com.sun.jersey.core
+ .provider.jaxb,com.sun.jersey.core.reflection,com.sun.jersey.core.spi
+ .component,com.sun.jersey.core.spi.component.ioc,com.sun.jersey.core.
+ spi.factory,com.sun.jersey.core.spi.scanning,com.sun.jersey.core.spi.
+ scanning.uri,com.sun.jersey.core.util,com.sun.jersey.impl,com.sun.jer
+ sey.json.impl,com.sun.jersey.json.impl.provider.entity,com.sun.jersey
+ .json.impl.reader,com.sun.jersey.json.impl.writer,com.sun.jersey.loca
+ lization,com.sun.jersey.multipart,com.sun.jersey.multipart.file,com.s
+ un.jersey.multipart.impl,com.sun.jersey.spi,com.sun.jersey.spi.inject
+ ,com.sun.jersey.spi.service,com.sun.ws.rs.ext,javax.ws.rs,javax.ws.rs
+ .core,javax.ws.rs.ext
+Bundle-Version: 1.5.0
+

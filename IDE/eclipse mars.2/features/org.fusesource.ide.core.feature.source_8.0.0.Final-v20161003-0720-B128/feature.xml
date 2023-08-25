@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feature id="org.fusesource.ide.core.feature.source" version="8.0.0.Final-v20161003-0720-B128" plugin="org.fusesource.ide.tooling" label="%featureName" provider-name="%providerName">
+  <includes id="org.fusesource.ide.core.feature" version="8.0.0.Final-v20161003-0720-B128"/>
+  <description url="http://tools.jboss.org/features/apachecamel.html">
+      %description
+   </description>
+  <copyright url="http://redhat.com/">
+      %copyright
+   </copyright>
+  <license url="%licenseURL">
+      %license
+   </license>
+  <plugin id="org.fusesource.ide.foundation.core.source" version="8.0.0.Final-v20161003-0720-B128" download-size="0" install-size="0" unpack="false"/>
+  <plugin id="org.fusesource.ide.foundation.ui.source" version="8.0.0.Final-v20161003-0720-B128" download-size="0" install-size="0" unpack="false"/>
+  <plugin id="org.fusesource.ide.camel.model.service.core.source" version="8.0.0.Final-v20161003-0720-B128" download-size="0" install-size="0" unpack="false"/>
+  <plugin id="org.fusesource.ide.camel.model.service.v2_15_1_redhat_621084.source" version="8.0.0.Final-v20161003-0720-B128" download-size="0" install-size="0" unpack="false"/>
+  <plugin id="org.fusesource.ide.camel.model.service.v2_15_1_redhat_621117.source" version="8.0.0.Final-v20161003-0720-B128" download-size="0" install-size="0" unpack="false"/>
+  <plugin id="org.fusesource.ide.camel.model.service.v2_17_0_redhat_630187.source" version="8.0.0.Final-v20161003-0720-B128" download-size="0" install-size="0" unpack="false"/>
+  <plugin id="org.fusesource.ide.camel.model.service.v2_17_3.source" version="8.0.0.Final-v20161003-0720-B128" download-size="0" install-size="0" unpack="false"/>
+  <plugin id="org.fusesource.ide.cheatsheets.source" version="8.0.0.Final-v20161003-0720-B128" download-size="0" install-size="0" unpack="false"/>
+  <plugin id="org.fusesource.ide.graph.source" version="8.0.0.Final-v20161003-0720-B128" download-size="0" install-size="0" unpack="false"/>
+  <plugin id="org.fusesource.ide.help.source" version="8.0.0.Final-v20161003-0720-B128" download-size="0" install-size="0" unpack="false"/>
+  <plugin id="org.fusesource.ide.imports.source" version="8.0.0.Final-v20161003-0720-B128" download-size="0" install-size="0" unpack="false"/>
+  <plugin id="org.fusesource.ide.maven.source" version="8.0.0.Final-v20161003-0720-B128" download-size="0" install-size="0" unpack="false"/>
+  <plugin id="org.fusesource.ide.preferences.source" version="8.0.0.Final-v20161003-0720-B128" download-size="0" install-size="0" unpack="false"/>
+  <plugin id="org.fusesource.ide.tooling.source" version="8.0.0.Final-v20161003-0720-B128" download-size="0" install-size="0" unpack="false"/>
+  <plugin id="org.fusesource.ide.camel.validation.source" version="8.0.0.Final-v20161003-0720-B128" download-size="0" install-size="0" unpack="false"/>
+</feature>

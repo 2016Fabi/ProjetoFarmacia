@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feature id="org.jboss.tools.portlet.feature.source" version="1.6.0.Final-v20141209-0339-B20" plugin="org.jboss.tools.portlet.ui" label="%featureName" provider-name="%providerName">
+  <includes id="org.jboss.tools.portlet.feature" version="1.6.0.Final-v20141209-0339-B20"/>
+  <description>
+      %description
+   </description>
+  <copyright>
+      %copyright
+   </copyright>
+  <license url="%licenseURL">
+      %license
+   </license>
+  <plugin id="org.jboss.tools.portlet.core.source" version="1.6.0.Final-v20141209-0339-B20" download-size="0" install-size="0" unpack="false"/>
+  <plugin id="org.jboss.tools.portlet.ui.source" version="1.6.0.Final-v20141209-0339-B20" download-size="0" install-size="0" unpack="false"/>
+</feature>

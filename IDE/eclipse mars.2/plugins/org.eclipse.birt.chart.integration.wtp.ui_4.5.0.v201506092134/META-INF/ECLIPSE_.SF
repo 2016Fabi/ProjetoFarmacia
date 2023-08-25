@@ -1,0 +1,46 @@
+Signature-Version: 1.0
+SHA1-Digest-Manifest: F3zaG6xtEHqGJeFQ3WmKSIVqB/A=
+Created-By: 1.6.0 (IBM Corporation)
+SHA1-Digest-Manifest-Main-Attributes: F0/N6TkXU4fDNrePhByqt+yRY/0=
+
+Name: chartwtp.jar
+SHA1-Digest: zAM5nw1X2iemDC2pR/a/Em6EfKw=
+
+Name: META-INF/eclipse.inf
+SHA1-Digest: QdryQvJlVywlE0MGLuwYCkmkyWk=
+
+Name: runtime/readme.txt
+SHA1-Digest: UkpUU7NiRc+TO1E4JoITC1PgWlM=
+
+Name: about.html
+SHA1-Digest: sp+MJJREp1IOiZdau8mgdyqxZuo=
+
+Name: plugin.properties
+SHA1-Digest: yrHER/IWMRQg6cCCkC5+yy+0BWI=
+
+Name: META-INF/maven/org.eclipse.birt/org.eclipse.birt.chart.integrati
+ on.wtp.ui/pom.properties
+SHA1-Digest: XEspZjDHxlzU/mW1aKpRdpvO2QI=
+
+Name: templates/jspbirtchart-templates.properties
+SHA1-Digest: 1oEWDJDQyoT3oW9drwsFbljUPKo=
+
+Name: schema/birtResourcesDefinition.exsd
+SHA1-Digest: 4WGHmisSQJ6njNzur+qfhxR9lsk=
+
+Name: icons/create_project_wizard.gif
+SHA1-Digest: 5WbKFPOcfoppO7AZpGtxY7nzQ48=
+
+Name: icons/create_project_wizbanner.gif
+SHA1-Digest: 0DOIAViAww0yJCHDkskhJnL12U0=
+
+Name: templates/jspbirtchart-templates.xml
+SHA1-Digest: MMU2r8hWnlYKArUiX0nAEjWCwJc=
+
+Name: META-INF/maven/org.eclipse.birt/org.eclipse.birt.chart.integrati
+ on.wtp.ui/pom.xml
+SHA1-Digest: jdziUtneOSklpqFpuRP6KoyZyQg=
+
+Name: plugin.xml
+SHA1-Digest: cbFgDmCqSi4hoNV1D4YfiL6oIsY=
+

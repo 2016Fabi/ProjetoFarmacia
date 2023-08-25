@@ -1,0 +1,5 @@
+configDescList=org.jboss.tools.wtp.server.launchbar.ModuleDescriptorType\:/faces/pages/fornecedores.xhtml,org.eclipse.launchbar.core.descriptorType.default\:ConexaoFactory,org.eclipse.launchbar.core.descriptorType.default\:FornecedoresDAO,org.eclipse.launchbar.core.descriptorType.default\:ProdutoDAOTeste,org.eclipse.launchbar.core.descriptorType.default\:Tomcat v7.0 Server at localhost,org.jboss.tools.wtp.server.launchbar.ModuleDescriptorType\:Farmacia
+eclipse.preferences.version=1
+org.eclipse.launchbar.core.descriptorType.default\:ConexaoFactory/activeLaunchTarget=org.eclipse.remote.LocalServices\:Local
+org.jboss.tools.wtp.server.launchbar.ModuleDescriptorType\:Farmacia/activeLaunchMode=run
+org.jboss.tools.wtp.server.launchbar.ModuleDescriptorType\:Farmacia/activeLaunchTarget=org.jboss.tools.wtp.server.launchbar.connection\:Tomcat v7.0 Server at localhost

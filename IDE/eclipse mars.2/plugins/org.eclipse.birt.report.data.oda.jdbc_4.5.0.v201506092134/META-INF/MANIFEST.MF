@@ -1,0 +1,63 @@
+Manifest-Version: 1.0
+Bundle-Localization: plugin
+Bundle-RequiredExecutionEnvironment: JavaSE-1.6
+Built-By: build
+Bundle-SymbolicName: org.eclipse.birt.report.data.oda.jdbc;singleton:=
+ true
+Bundle-Activator: org.eclipse.birt.report.data.oda.plugin.OdaJdbcPlugi
+ n
+Require-Bundle: org.eclipse.core.runtime;bundle-version="[3.2.0,5.0.0)
+ ",org.eclipse.datatools.connectivity.oda;bundle-version="[3.2.0,4.0.0
+ )",org.junit;bundle-version="3.8.1";resolution:=optional,org.apache.d
+ erby.core;bundle-version="[10.1.2,11.0.0)";resolution:=optional,org.e
+ clipse.datatools.connectivity.oda.profile;bundle-version="[3.0.7,4.0.
+ 0)";resolution:=optional,org.eclipse.birt.report.data.bidi.utils;bund
+ le-version="[2.5.1,5.0.0)",org.eclipse.birt.core;bundle-version="[2.3
+ .0,5.0.0)"
+Bundle-Version: 4.5.0.v201506092134
+Export-Package: org.eclipse.birt.report.data.oda.i18n;x-friends:="org.
+ eclipse.birt.report.data.oda.jdbc.tests",org.eclipse.birt.report.data
+ .oda.jdbc,org.eclipse.birt.report.data.oda.jdbc.utils,org.eclipse.bir
+ t.report.data.oda.plugin
+Build-Jdk: 1.7.0_51
+Bundle-ClassPath: oda-jdbc.jar,derby.jar
+Bundle-ActivationPolicy: lazy
+Bundle-Vendor: Eclipse BIRT Project
+Bundle-Name: BIRT ODA-JDBC Bridge Driver
+Eclipse-BundleShape: dir
+Archiver-Version: Plexus Archiver
+Created-By: Apache Maven 3.0.5
+Bundle-ManifestVersion: 2
+
+Name: .options
+SHA1-Digest: kJDRbjkLrF+gXnry3h6Yw8XJHko=
+
+Name: META-INF/maven/org.eclipse.birt/org.eclipse.birt.report.data.oda
+ .jdbc/pom.properties
+SHA1-Digest: qz5Tqb06eOVIoTKsyjYNiP4eU+8=
+
+Name: META-INF/eclipse.inf
+SHA1-Digest: 09gN05tobgS/MdtqyTNQhOhB73M=
+
+Name: drivers/readme.txt
+SHA1-Digest: 2YWd8F4fkVGg2ZAKCFe0DYmE25s=
+
+Name: META-INF/maven/org.eclipse.birt/org.eclipse.birt.report.data.oda
+ .jdbc/pom.xml
+SHA1-Digest: dy/xAV5Wbygwf3ZHw/yvAR5fW88=
+
+Name: oda-jdbc.jar
+SHA1-Digest: r92+QrCohonJrGUHp3u+4gn3crI=
+
+Name: about.html
+SHA1-Digest: ObsP47Fq6CSfBimdpGOcNnxQyPA=
+
+Name: plugin.xml
+SHA1-Digest: Es6lwBUnU2d//eK/VoBtxUfD+R0=
+
+Name: plugin.properties
+SHA1-Digest: viTIkQaXQdC+eA9UTO4jVHtukQ0=
+
+Name: schema/driverinfo.exsd
+SHA1-Digest: 932cXk5ClynY+Wl8OuzCTwFfYzk=
+

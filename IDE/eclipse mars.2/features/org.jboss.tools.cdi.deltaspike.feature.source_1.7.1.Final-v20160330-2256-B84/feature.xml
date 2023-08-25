@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feature id="org.jboss.tools.cdi.deltaspike.feature.source" version="1.7.1.Final-v20160330-2256-B84" label="%featureName" provider-name="%featureProvider">
+  <includes id="org.jboss.tools.cdi.deltaspike.feature" version="1.7.1.Final-v20160330-2256-B84"/>
+  <description>
+		  %description
+	</description>
+  <copyright>
+ 		  %copyright
+ 	</copyright>
+  <license url="%licenseURL">
+      %license
+  </license>
+  <plugin id="org.jboss.tools.cdi.deltaspike.core.source" version="1.7.1.Final-v20160330-2256-B84" download-size="0" install-size="0" unpack="false"/>
+</feature>

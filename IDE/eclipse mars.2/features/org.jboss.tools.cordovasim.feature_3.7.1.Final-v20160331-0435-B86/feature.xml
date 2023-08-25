@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feature
+      id="org.jboss.tools.cordovasim.feature"
+      label="%featureName"
+      version="3.7.1.Final-v20160331-0435-B86"
+      provider-name="%providerName">
+
+   <description url="http://www.jboss.org/tools">
+      %description
+   </description>
+
+   <copyright>
+      %copyright
+   </copyright>
+
+   <license url="%licenseURL">
+      %license
+   </license>
+
+   <plugin
+         id="org.jboss.tools.cordovasim"
+         download-size="71"
+         install-size="113"
+         version="3.7.1.Final-v20160331-0435-B86"
+         unpack="false"/>
+
+   <plugin
+         id="org.jboss.tools.cordovasim.eclipse"
+         download-size="84"
+         install-size="155"
+         version="3.7.1.Final-v20160331-0435-B86"
+         unpack="false"/>
+
+   <plugin
+         id="org.jboss.tools.cordovasim.ripple"
+         download-size="972"
+         install-size="3068"
+         version="3.7.1.Final-v20160331-0435-B86"
+         unpack="false"/>
+
+</feature>

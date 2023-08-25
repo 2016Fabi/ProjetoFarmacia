@@ -1,0 +1,37 @@
+Signature-Version: 1.0
+SHA1-Digest-Manifest: Dq7ljA9xozdFKP/fIrmg7+rJ+hc=
+Created-By: 1.6.0 (IBM Corporation)
+SHA1-Digest-Manifest-Main-Attributes: gUcZFM9kTftLKPnH/4UmVlS7eZI=
+
+Name: .options
+SHA1-Digest: G1XbJ/CbyIRpRCWJUaHayqNB9/g=
+
+Name: META-INF/maven/org.eclipse.birt/org.eclipse.birt.report.data.oda
+ .jdbc/pom.properties
+SHA1-Digest: R1NsJNHhYPYfkUEv0Ewt1zXHNuo=
+
+Name: drivers/readme.txt
+SHA1-Digest: Ad8TLpXkErunayuXVW2UR0Ekcc8=
+
+Name: META-INF/eclipse.inf
+SHA1-Digest: QdryQvJlVywlE0MGLuwYCkmkyWk=
+
+Name: META-INF/maven/org.eclipse.birt/org.eclipse.birt.report.data.oda
+ .jdbc/pom.xml
+SHA1-Digest: g7sYgZnaPz77blCaUumLkomzzlA=
+
+Name: oda-jdbc.jar
+SHA1-Digest: lo8bPMAE/PZ9TvMKcX6JmVQCJNM=
+
+Name: plugin.xml
+SHA1-Digest: 0F+Zt/2R+5ZC5Uz0ooAENNlTagk=
+
+Name: about.html
+SHA1-Digest: sp+MJJREp1IOiZdau8mgdyqxZuo=
+
+Name: schema/driverinfo.exsd
+SHA1-Digest: zT07VaPm/8uJvrZSQ01idyBORsE=
+
+Name: plugin.properties
+SHA1-Digest: IbZsc9PeP6ALnpsLXAQH71OcguY=
+

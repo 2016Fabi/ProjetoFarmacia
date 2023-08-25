@@ -1,0 +1,20 @@
+Signature-Version: 1.0
+SHA-256-Digest-Manifest-Main-Attributes: yeUBQJ2MJTO7H8HNhN9mQTUx3YZ5Z
+ 9vDec8Sgdn72Zo=
+SHA-256-Digest-Manifest: DiTR1Zmm3upYEPCoopVE6Zv4Cx/tx0Vltmg2R8mJis8=
+Created-By: 1.8.0_51 (Oracle Corporation)
+
+Name: META-INF/maven/org.eclipse.bpel.features/org.eclipse.bpel.common
+ .feature/pom.xml
+SHA-256-Digest: DN4/XEM7v6nj4zb8oPqEH+jN4E6vtDjZknxQJn6KKWM=
+
+Name: feature.xml
+SHA-256-Digest: maCCjJTOVWxn2d+Rn0Hlx/ODTQpIfGiR3ns97NzT70Q=
+
+Name: feature.properties
+SHA-256-Digest: zGwG/dHDkDj2sa3h3eR5YLbonyDkY6JvLKi/ILtPu/0=
+
+Name: META-INF/maven/org.eclipse.bpel.features/org.eclipse.bpel.common
+ .feature/pom.properties
+SHA-256-Digest: wUtiYId2DQNztvrN7OmPARuvghoMZqMjNDw7DOxQZwI=
+

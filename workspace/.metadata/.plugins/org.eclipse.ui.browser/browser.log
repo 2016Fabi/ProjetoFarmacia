@@ -50,3 +50,19 @@ ago. 18, 2023 19:39:11.20 [Parent 13296, IPC I/O Parent] WARNING: DuplicateHandl
 ago. 18, 2023 19:39:11.21 [GPU 17160, IPC I/O Child] WARNING: pipe error: 232: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:443
 ago. 18, 2023 19:39:11.21 [Parent 13296, IPC I/O Parent] WARNING: DuplicateHandle failed for handle 0 in TransferHandles: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:621
 ago. 18, 2023 19:39:11.22 [GPU 17160, IPC I/O Child] WARNING: pipe error: 232: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:443
+
+ago. 22, 2023 19:16:47.551 NEW SESSION
+ago. 22, 2023 19:16:47.551 [GFX1-]: shader-cache: Timed out before finishing loads
+ago. 22, 2023 19:16:47.696 [ERROR webrender_bindings::program_cache] shader-cache: Timed out before finishing loads
+ago. 22, 2023 19:17:03.988 [Parent 13432, IPC I/O Parent] WARNING: DuplicateHandle failed for handle 0 in TransferHandles: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:621
+ago. 22, 2023 19:17:03.989 [GPU 22504, IPC I/O Child] WARNING: pipe error: 232: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:443
+ago. 22, 2023 19:17:04.232 [Parent 13432, IPC I/O Parent] WARNING: DuplicateHandle failed for handle 0 in TransferHandles: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:621
+ago. 22, 2023 19:17:04.233 [GPU 22504, IPC I/O Child] WARNING: pipe error: 232: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:443
+ago. 22, 2023 19:17:04.680 [Parent 13432, IPC I/O Parent] WARNING: DuplicateHandle failed for handle 0 in TransferHandles: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:621
+ago. 22, 2023 19:17:04.680 [GPU 22504, IPC I/O Child] WARNING: pipe error: 232: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:443
+ago. 22, 2023 19:17:04.683 [Parent 13432, IPC I/O Parent] WARNING: DuplicateHandle failed for handle 0 in TransferHandles: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:621
+ago. 22, 2023 19:17:04.684 [GPU 22504, IPC I/O Child] WARNING: pipe error: 232: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:443
+ago. 22, 2023 19:17:04.686 [Parent 13432, IPC I/O Parent] WARNING: DuplicateHandle failed for handle 0 in TransferHandles: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:621
+ago. 22, 2023 19:17:04.686 [GPU 22504, IPC I/O Child] WARNING: pipe error: 232: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:443
+ago. 22, 2023 19:17:04.688 [Parent 13432, IPC I/O Parent] WARNING: DuplicateHandle failed for handle 0 in TransferHandles: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:621
+ago. 22, 2023 19:17:04.688 [GPU 22504, IPC I/O Child] WARNING: pipe error: 232: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:443

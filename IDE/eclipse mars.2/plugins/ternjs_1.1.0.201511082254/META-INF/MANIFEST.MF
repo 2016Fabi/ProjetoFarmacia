@@ -1,0 +1,17 @@
+Manifest-Version: 1.0
+Bundle-SymbolicName: ternjs;singleton:=true
+Archiver-Version: Plexus Archiver
+Built-By: pascalleclercq
+Bundle-ManifestVersion: 2
+Bundle-RequiredExecutionEnvironment: JavaSE-1.6
+Bundle-Vendor: %providerName
+Import-Package: org.osgi.framework
+Export-Package: ternjs
+Bundle-Name: %pluginName
+Bundle-Version: 1.1.0.201511082254
+Bundle-Localization: plugin
+Bundle-Activator: ternjs.Activator
+Created-By: Apache Maven 3.2.5
+Build-Jdk: 1.8.0_40
+Eclipse-BundleShape: dir
+

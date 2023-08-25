@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feature id="org.jboss.tools.esb.feature.source" version="1.6.100.Final-v20160222-1517-B5" plugin="org.jboss.tools.esb.ui" label="%featureName" provider-name="%providerName">
+  <includes id="org.jboss.tools.esb.feature" version="1.6.100.Final-v20160222-1517-B5"/>
+  <description>
+      %description
+   </description>
+  <copyright>
+      %copyright
+   </copyright>
+  <license url="%licenseURL">
+      %license
+   </license>
+  <plugin id="org.jboss.tools.esb.core.source" version="1.6.100.Final-v20160222-1517-B5" download-size="0" install-size="0" unpack="false"/>
+  <plugin id="org.jboss.tools.esb.ui.source" version="1.6.100.Final-v20160222-1517-B5" download-size="0" install-size="0" unpack="false"/>
+  <plugin id="org.jboss.tools.esb.project.core.source" version="1.6.100.Final-v20160222-1517-B5" download-size="0" install-size="0" unpack="false"/>
+  <plugin id="org.jboss.tools.esb.project.ui.source" version="1.6.100.Final-v20160222-1517-B5" download-size="0" install-size="0" unpack="false"/>
+  <plugin id="org.jboss.tools.esb.validator.source" version="1.6.100.Final-v20160222-1517-B5" download-size="0" install-size="0" unpack="false"/>
+  <plugin id="org.jboss.tools.esb.examples.source" version="1.6.100.Final-v20160222-1517-B5" download-size="0" install-size="0" unpack="false"/>
+</feature>

@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feature
+      id="org.guvnor.tools.feature"
+      label="%featurename"
+      version="6.4.1.Final-v20160503-1355-B205"
+      provider-name="%providername">
+
+   <description url="http://www.jboss.org/drools/">
+      %description
+   </description>
+
+   <copyright>
+      %copyright
+   </copyright>
+
+   <license url="%licenseURL">
+      %license
+   </license>
+
+   <requires>
+      <import plugin="org.eclipse.osgi"/>
+      <import plugin="org.eclipse.ui"/>
+      <import plugin="org.eclipse.ui.ide"/>
+      <import plugin="org.eclipse.core.resources"/>
+      <import plugin="org.eclipse.core.runtime"/>
+      <import plugin="org.eclipse.compare"/>
+   </requires>
+
+   <plugin
+         id="org.guvnor.eclipse.webdav"
+         download-size="221"
+         install-size="408"
+         version="6.4.1.Final-v20160503-1355-B205"
+         unpack="false"/>
+
+   <plugin
+         id="org.guvnor.tools"
+         download-size="185"
+         install-size="353"
+         version="6.4.1.Final-v20160503-1355-B205"
+         unpack="false"/>
+
+</feature>

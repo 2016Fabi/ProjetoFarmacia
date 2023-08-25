@@ -1,0 +1,26 @@
+Manifest-Version: 1.0
+Archiver-Version: Plexus Archiver
+Built-By: genie.egit
+Build-Jdk: 1.7.0_80
+Created-By: Apache Maven 3.0.5
+
+Name: META-INF/maven/org.eclipse.mylyn.github/org.eclipse.mylyn.github
+ .feature/pom.properties
+SHA-256-Digest: ODseoc8x+yoJmQiu6+/Mk/1NW7xBi9IlmskryOK/snQ=
+
+Name: epl-v10.html
+SHA-256-Digest: T9ZK7tNA1ipkqNpLNx7+D20NdF9NLb76y6hsZG02vHI=
+
+Name: META-INF/maven/org.eclipse.mylyn.github/org.eclipse.mylyn.github
+ .feature/pom.xml
+SHA-256-Digest: WC60k1b51IQiqWRh9Y3FTOqfg0eJBFvl8aivJFnh7I0=
+
+Name: feature.xml
+SHA-256-Digest: vps5pL9Q6MIuS422dN51ZBSmY5CDruYSRAKMtg6KESM=
+
+Name: feature.properties
+SHA-256-Digest: HkpG4Ehw+4R7EmNLkoINib+9r4IAWqLVZGkhyYRAgvY=
+
+Name: license.html
+SHA-256-Digest: L9lcMep7cPSEoTF8QEO+hWeO/y/YZjysIWrpVkdKsIk=
+

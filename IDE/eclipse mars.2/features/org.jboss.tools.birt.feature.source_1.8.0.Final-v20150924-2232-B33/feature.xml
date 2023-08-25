@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feature id="org.jboss.tools.birt.feature.source" version="1.8.0.Final-v20150924-2232-B33" plugin="org.jboss.tools.birt.oda.ui" label="%featureName" provider-name="%providerName">
+  <includes id="org.jboss.tools.birt.feature" version="1.8.0.Final-v20150924-2232-B33"/>
+  <description>
+      %description
+   </description>
+  <copyright>
+      %copyright
+   </copyright>
+  <license url="%licenseURL">
+      %license
+   </license>
+  <plugin id="org.jboss.tools.birt.oda.source" version="1.8.0.Final-v20150924-2232-B33" download-size="0" install-size="0" unpack="false"/>
+  <plugin id="org.jboss.tools.birt.oda.ui.source" version="1.8.0.Final-v20150924-2232-B33" download-size="0" install-size="0" unpack="false"/>
+  <plugin id="org.jboss.tools.birt.core.source" version="1.8.0.Final-v20150924-2232-B33" download-size="0" install-size="0" unpack="false"/>
+</feature>

@@ -1,0 +1,17 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?compositeArtifactRepository version='1.0.0'?>
+<repository name='Eclipse Mars.2' type='org.eclipse.equinox.internal.p2.artifact.repository.CompositeArtifactRepository' version='1.0.0'>
+    <children size='15'>
+        <child location='../eclipse-4.5.2'/>
+        <child location='../eclipse-wtp-3.7.2'/>
+        <child location='../eclipse-dtp-1.12'/>
+        <child location='../eclipse-emf-2.11.2'/>
+        <child location='../eclipse-gef-3.10.1'/>
+        <child location='../eclipse-egit-4.1.1'/>
+        <child location='../eclipse-mylyn-3.18'/>
+        <child location='../eclipse-mpc-1.4.2'/>
+        <child location='../eclipse-m2e-1.6.2'/>
+        <child location='../eclipse-m2e-wtp-1.2.1'/>
+        <child location='../eclipse-orbit-R20151221205849'/>
+    </children>
+</repository>

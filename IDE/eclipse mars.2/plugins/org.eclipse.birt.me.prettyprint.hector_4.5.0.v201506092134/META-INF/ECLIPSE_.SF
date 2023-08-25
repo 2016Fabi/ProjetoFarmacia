@@ -1,0 +1,25 @@
+Signature-Version: 1.0
+SHA1-Digest-Manifest: /0EHoJ4l4ECUUWki0d8P6koJoNE=
+Created-By: 1.6.0 (IBM Corporation)
+SHA1-Digest-Manifest-Main-Attributes: w1NUSSYfKGEE3JIXJdae24J7FqE=
+
+Name: META-INF/eclipse.inf
+SHA1-Digest: QdryQvJlVywlE0MGLuwYCkmkyWk=
+
+Name: lib/README.txt
+SHA1-Digest: b7/2JsAp01cjRcbfZJLwQuRR90E=
+
+Name: plugin.xml
+SHA1-Digest: TKKW22c7CEN9RRSpzhOIqLPIxs0=
+
+Name: about.html
+SHA1-Digest: sp+MJJREp1IOiZdau8mgdyqxZuo=
+
+Name: META-INF/maven/org.eclipse.birt/org.eclipse.birt.me.prettyprint.
+ hector/pom.xml
+SHA1-Digest: /VZ8wMjJ3m0QX7ZGgp0Q7xL3E3w=
+
+Name: META-INF/maven/org.eclipse.birt/org.eclipse.birt.me.prettyprint.
+ hector/pom.properties
+SHA1-Digest: NBS/0dJemubdtvZoH34lC6bKAKU=
+

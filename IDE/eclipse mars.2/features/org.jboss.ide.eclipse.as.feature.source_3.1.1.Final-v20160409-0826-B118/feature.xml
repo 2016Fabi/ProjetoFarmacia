@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feature id="org.jboss.ide.eclipse.as.feature.source" version="3.1.1.Final-v20160409-0826-B118" plugin="org.jboss.ide.eclipse.as.ui" label="%featureName" provider-name="%providerName">
+  <includes id="org.jboss.ide.eclipse.as.feature" version="3.1.1.Final-v20160409-0826-B118"/>
+  <description url="http://www.jboss.org/tools">
+       %description
+   </description>
+  <copyright>
+       %copyright
+   </copyright>
+  <license url="%licenseURL">
+       %license
+   </license>
+  <plugin id="org.jboss.tools.as.catalog.source" version="3.1.1.Final-v20160409-0826-B118" download-size="0" install-size="0" unpack="false"/>
+  <plugin id="org.jboss.ide.eclipse.as.ui.mbeans.source" version="3.1.1.Final-v20160409-0826-B118" download-size="0" install-size="0" unpack="false"/>
+  <plugin id="org.jboss.tools.as.runtimes.integration.source" version="3.1.1.Final-v20160409-0826-B118" download-size="0" install-size="0" unpack="false"/>
+  <plugin id="org.jboss.ide.eclipse.as.doc.user.source" version="3.1.1.Final-v20160409-0826-B118" download-size="0" install-size="0" unpack="false"/>
+  <includes id="org.jboss.ide.eclipse.as.archives.integration.feature.source" version="3.1.1.Final-v20160409-0826-B118"/>
+  <includes id="org.jboss.ide.eclipse.as.jmx.integration.feature.source" version="3.1.1.Final-v20160409-0826-B118"/>
+  <includes id="org.jboss.ide.eclipse.as.server.rse.integration.feature.source" version="3.1.1.Final-v20160409-0826-B118"/>
+  <includes id="org.jboss.ide.eclipse.as.serverAdapter.wtp.feature.source" version="3.1.1.Final-v20160409-0826-B118"/>
+</feature>
